@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Abhoth2</Author>
+  <LastAuthor>Abhoth2</LastAuthor>
+  <Created>2019-09-17T09:27:58Z</Created>
+  <LastSaved>2019-09-09T16:03:55Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>3360</WindowHeight>
+  <WindowWidth>14370</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s38" ss:Name="Accent1">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#4472C4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26" ss:Name="Good">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m213100856">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s79" ss:Parent="s38">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s82" ss:Parent="s26">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s83" ss:Parent="s26">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s84">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#333333"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C3:R1C4"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="133" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:AutoFitWidth="0" ss:Width="213.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="171.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="430.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="364.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="160.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s64">
+    <Cell><Data ss:Type="String">To be translated</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ORIGINAL TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">TRANSLATED TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell ss:Index="2" ss:MergeAcross="2" ss:StyleID="m213100856"><Data
+      ss:Type="String">SARISEL DIALOGUES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">This character is not rude or directly insulting. Says this on seeing player for first time</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_sariseldialog_charger_p1_1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Fight with honor, impure one.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_sariseldialog_charger_p1_2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Halt! In the name of Sarisel, you must die.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_sariseldialog_charger_p1_3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Hail mortal, prepare to fight!</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_sariseldialog_charger_p1_4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Tainted mortal, I challenge you.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_sariseldialog_charger_p1_5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">A promising foe! I hope you are prepared.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_sariseldialog_charger_p2_1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Stand and deliver, mortal.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_charger_p2_2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Prove your worth, feeble one.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_charger_p2_3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Righteous zeal trumps any corruption!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_charger_p2_4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Beacon of Purity, guide my lance!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_charger_p2_5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Prepare to be impaled!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_charger_p3_1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Behold, my true potential!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_charger_p3_2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">You are good, but I am better!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_charger_p3_3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">You want a real fight, I'll give you my best!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_charger_p3_4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">An excellent bout, but you are still doomed to fail.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_charger_p3_5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">You have proven your worth, now submit!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">This character does not directly speak to the player until the fight gets harder. Says this on seeing player for first time</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_eviscerator_p1_1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">A creature of malice enters my domain.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_eviscerator_p1_2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Another stain on creation to be cleansed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_eviscerator_p1_3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">A diversion. I suppose I can spare the time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_eviscerator_p1_4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">How it gawks with such ignorance. A pitiful creature.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_eviscerator_p1_5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">So many points of vulnerability, which one to choose...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_eviscerator_p2_1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Such feeble quarry, a waste of my time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell><Data ss:Type="String">ui_sariseldialog_eviscerator_p2_2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Clumsy, predictable... Worthless.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_eviscerator_p2_3</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Sever the neck, preserve the head.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_eviscerator_p2_4</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">An unseen predator, I strike!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_eviscerator_p2_5</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Incapacitate, then execute.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_eviscerator_p3_1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">You dare resist the hand of Purity?! Foul demon, you will be culled!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Folly = foolishness, lack of skill, overconfidence Says this when fight gets harder</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_eviscerator_p3_2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Another misstep, your folly will be your demise!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_eviscerator_p3_3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">A foolish decision, you lost your right to a swift death.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_eviscerator_p3_4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">The audacity of this one! Accept your fate, pathetic demonspawn!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_eviscerator_p3_5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">I will cut your skin into ribbons and sharpen my blades on your bones!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">This character speaks like someone who can see the future, a calm, slow, evil voice. Says this on seeing player for first time</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p1_1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">As was forseen, the impure one stands before me.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p1_2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Conflicted wanderer, what do you live for?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p1_3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">The stench of your spirit is inexcusable.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p1_4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">As was foreseen, a wretched mutation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this on seeing player for first time</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p1_5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">A vestige of corruption, malformed and conflicted.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p2_1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Submit to your destiny, your fate is sealed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p2_2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">In your heart, darkness holds dominion, does it not?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p2_3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Your mind is burdened with impure thoughts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p2_4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Come to me, and be cleansed of your profanity.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this as fight begins</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p2_5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Like the others of your kind, you shall return to dust.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p3_1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Your sins against creation weigh you down.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p3_2</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Your efforts have revealed your potential, and exposed your weaknesses.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p3_3</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">A resilient spirit, you will be remembered in death.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p3_4</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Your death is... inevitable.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s79"><Data ss:Type="String" x:Ticked="1">Says this when fight gets harder</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_sariseldialog_tracker_p3_5</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">My gaze pierces your every intention, you are condemned to eternal rest.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:Index="2" ss:StyleID="s84"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s84"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s84"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s84"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="5"/>
+   <Row ss:Index="60" ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="24"/>
+   <Row ss:Index="86" ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="12"/>
+   <Row ss:Index="101" ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="104" ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="109" ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s75">
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="23"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.51181102362204722"
+     x:Data="&amp;LTime restriction sample script"/>
+    <Footer x:Margin="0.51181102362204722" x:Data="Page &amp;P"/>
+    <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0"
+     x:Top="0.98425196850393704"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>70</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>80</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

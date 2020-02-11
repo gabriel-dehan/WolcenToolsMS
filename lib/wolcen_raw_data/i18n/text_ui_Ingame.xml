@@ -1,0 +1,1785 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>Audio script template</Title>
+  <Author>Maëlenn Lumineau</Author>
+  <LastAuthor>Abhoth2</LastAuthor>
+  <LastPrinted>2003-10-30T09:38:41Z</LastPrinted>
+  <Created>2002-06-17T19:14:00Z</Created>
+  <LastSaved>2019-09-24T08:14:21Z</LastSaved>
+  <Company>Electronic Arts</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path>\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\Copy of Dialog_Asset_List_Final_edit.xls</Path>
+   <SheetName>DropDown</SheetName>
+   <SheetName>Conversations</SheetName>
+   <Xct>
+    <Count>-2</Count>
+    <SheetIndex>0</SheetIndex>
+    <Crn>
+     <Row>6</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>4</ColLast>
+     <Text>clean</Text>
+     <Text>TV</Text>
+     <Text>radio (disturbed) </Text>
+     <Text>radio (low)</Text>
+     <Text>radio (heavy)</Text>
+    </Crn>
+    <Crn>
+     <Row>9</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>41</ColLast>
+     <Text>Player</Text>
+     <Text>Barnes</Text>
+     <Text>Hawker</Text>
+     <Text>Sykes</Text>
+     <Text>Johnson</Text>
+     <Text>Cortez</Text>
+     <Text>Beck</Text>
+     <Text>Miller</Text>
+     <Text>Baxter</Text>
+     <Text>American scientist</Text>
+     <Text>Shark</Text>
+     <Text>Chia</Text>
+     <Text>Kirovski</Text>
+     <Text>Michaels</Text>
+     <Text>Chang</Text>
+     <Text>Marine Soldier a</Text>
+     <Text>Marine Soldier b</Text>
+     <Text>Chinese Soldier a</Text>
+     <Text>Chinese Soldier b</Text>
+     <Text>Chinese Soldier c</Text>
+     <Text>Chinese Soldier d</Text>
+     <Text>Chinese Soldier e</Text>
+     <Text>Chinese Soldier f</Text>
+     <Text>Chinese Officer a</Text>
+     <Text>Chinese Officer b</Text>
+     <Text>Chinese Scientist a</Text>
+     <Text>Chinese Scientist b</Text>
+     <Text>Chinese Scientist Female a</Text>
+     <Text>Chinese Scientist Female b</Text>
+     <Text>Filmcrew Member</Text>
+     <Text>Morrison</Text>
+     <Text>C17 Pilot a</Text>
+     <Text>C17 Pilot b</Text>
+     <Text>Submarine Commander Davis</Text>
+     <Text>Pilot (camera)</Text>
+     <Text>Bridge officer 1</Text>
+     <Text>Bridge officer 2</Text>
+     <Text>Carrier deck guide</Text>
+     <Text>Jet Pilot</Text>
+     <Text>VTOL Pilot</Text>
+     <Text>Commander (camera)</Text>
+     <Text>Team Two (camera)</Text>
+    </Crn>
+   </Xct>
+  </SupBook>
+  <WindowHeight>12225</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <TabRatio>274</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s40" ss:Name="40&#160;% - Accent1">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#BDD7EE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s26" ss:Name="Satisfaisant">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m241419552" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m241419572">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s90" ss:Parent="s26">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s97">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s99">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s100">
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#333333"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s101" ss:Parent="s26">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s102" ss:Parent="s26">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s104" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#333333"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="characters"
+   ss:RefersTo="='\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\[Copy of Dialog_Asset_List_Final_edit.xls]DropDown'!R10C1:R10C42"/>
+  <NamedRange ss:Name="type"
+   ss:RefersTo="='\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\[Copy of Dialog_Asset_List_Final_edit.xls]DropDown'!R7C1:R7C5"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C2:R1C3"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="579" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="13.3125">
+   <Column ss:Width="336.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="370.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="329.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="160.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s63">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ORIGINAL TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">TRANSLATED TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="2" ss:StyleID="m241419552"><Data ss:Type="String">MAIN USER INTERFACE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_PlayerChest_UnlockCost</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unlock for %1 gold</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_BlockedHit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Blocked</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_inv_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Inventory</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="2" ss:StyleID="m241419572"><Data ss:Type="String">ON-SCREEN MESSAGES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_party_leader_is_choosing_adventure</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The Party Leader is Choosing an Adventure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cannot_start_quest_adventure_because_dungeon_adventure</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">A Mandate can't be accepted during an ongoing Expedition.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cannot_start_dungeon_adventure_because_quest_adventure</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">An Expedition can't be launched during an ongoing Mandate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_quest_adventure_already_active</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">A Mandate is already ongoing.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_dungeon_adventure_already_active</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">An Expedition is already ongoing.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">not_enough_gold</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Not enough gold.</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">not_enough_room_in_inventory</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Not enough room in inventory.</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Info_TeleportToFriend_TargetIsInADifferentGameplayArea</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't Teleport to your Ally while in different Areas during an Expedition.</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_not_enough_room_in_chest</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Not enough room in this chest panel.</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_you_cannot_replace_default_skills</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You cannot replace default spells.</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_unable_to_equip_item_while_using_skill</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't equip an item while using a spell.</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_no_town_portal_here</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't use a town portal here.</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_pst_not_available</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The Passive Skill Tree is disabled.</Data></Cell>
+    <Cell ss:StyleID="s86"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_NotEnoughMana</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Not enough Willpower!</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_NotEnoughRage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Not enough Rage!</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_NotEnoughStamina</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Not enough Stamina!</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_NotEnoughStacks</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Not enough charges!</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_not_enough_knowledge</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Not enough Primordial Affinity.</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_StrReqNotMatching_Text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Your Ferocity is too low to equip this item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_DexReqNotMatching_Text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Your Agility is too low to equip this item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_PowReqNotMatching_Text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Your Wisdom is too low to equip this item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ConReqNotMatching_Text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Your Toughness is too low to equip this item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_LevelReqNotMatching_Text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Your level is too low to equip this item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_inventory_cannotequiphere</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't equip this item in this slot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cannot_replace_used_skill</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't move a spell during its cooldown.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cant_equip_unique_twice</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't equip the same unique item twice.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_SpellAlreadyKnown_Text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You already know this spell.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_require_target</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">This spell requires a valid target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_skill_already_max_lvl</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">This spell is already at maximum level.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_can_not_sell_item_to_archivist</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can not sell this item to the Archivist.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_locked_chest_panel</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">This inventory panel is locked.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cantswapitems</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't swap these items.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_stance_not_available_yet</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">This weapons combination is not available yet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_gem_socketnotempty</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">This gem socket is not empty.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_gem_cantsocketbasicinunique</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't put a basic gem into a Unique socket.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_gem_cantsocketuniqueinbasic</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't put a Unique gem into a basic socket.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_gem_levelprereqnotsatisfied</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The level of this item is too low for this gem.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_message_RequestTeleportToWaypoint_PlayerCannotTeleportRightNow</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't teleport right now.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_message_RequestTeleportToWaypoint_TooCloseToTargetWaypoint</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You are too close to that Waypoint to teleport there.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_message_RequestTeleportToWaypoint_WaypointIsLocked</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">This Waypoint has not been unlocked.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_no_town_portal_here</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't use your portal from here.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_no_teleport_to_friend_here</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't teleport to your friend from here.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_unable_to_unequip_item_while_using_skill</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't unequip an item while using a skill.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_title_adventure_failed</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Adventure Failed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_content_adventure_failed</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Your party has been defeated.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_potion_notenoughcharge</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Not enough potion charges.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_title_inactivity</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Inactivity warning.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_content_inactivity</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You will be kicked from the game for inactivity in %1 seconds.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_title_restartRequired</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Restart required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_content_restartRequired</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Please restart the game to apply your changes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cannot_revive_when_nemesis_is_alive</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You cannot revive while a Nemesis is alive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_title_sarisel_selection_warning</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Wrath of Sarisel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_content_sarisel_selection_warning</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Warning! You are entering the Wrath of Sarisel. This game mode is best enjoyed as a multiplayer experience. Once you enter, you may not cancel the challenge. Are you ready?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_waypoint_is_locked</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">This Waypoint has not been unlocked.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ARCHIVIST</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_knowledge</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Primordial Affinity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_archivist_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Archivist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_level_up</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Level up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_skill_levelup</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Skill Level up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_archivist_header</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can sell your Enneract to the Archivist and earn Primordial Affinity. \nPrimordial Affinity can be used to increase your Skills' level.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">JEWELER</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_jeweler_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Jeweler</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_jeweler_itemhasnosocket</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">This item does not have a gem socket.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_jeweler_itemhasnogem</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">There is no gem to remove from this item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_jeweler_unsocketCost</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Gem removal cost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_jeweler_unsocket</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Remove gem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_jeweler_header</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can remove the gems from your items at the Jeweler's workshop.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">VOTING + EVENTS + SARISEL MODE</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_reset_sarisel_adventure_popup_title</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Confirm Reset</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_reset_sarisel_adventure_popup_content</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Are you sure you want to reset the expedition? All items on the ground will disappear.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_reset_sarisel_adventure_title</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Confirm Reset</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_reset_sarisel_adventure_warning</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">All items on the ground will disappear.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_reset_sarisel_adventure_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Are you sure you want to reset the expedition?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_eviscerator_impale_other_player</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Your ally is trapped by an Untainted Shadowblade!\nAttack it to save them!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_eviscerator_impale_local_player</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You are trapped by an Untainted Shadowblade!\nAllies must attack it to save you!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_charger_killspawns</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">An Untainted Zealot has appeared!\nKill the clones to defeat it!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Adventure_SariselMode_RewardChest_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">A Reward Well-Earned</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Adventure_SariselMode_RewardChest_StepLabel</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Open the Chest!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_LeaveTheCoast_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Friendly Fire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_LeaveTheCoast_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">As you ascend toward the surface, you hear the echoes of a nearby battle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_SvriirRaid_1_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The Last Stand</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_SvriirRaid_1_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The ground shakes as an enormous horde of Svriirs approaches the last Stormfall barricade that protects the way to the refugee camp. Sandor and his men are preparing for their final battle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BossFight_Sirkis_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The Bane of the Storm</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BossFight_Sirkis_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Despite the surrounding Soul Surges that chill the air, there is a very clear stream of warmth that emanates from this cave.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BossFight_StormfallInn_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">A Warm Welcome</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BossFight_StormfallInn_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Nothing like resting at the luxury inn of the Palace District to meet Valeria. The Laughing Sea Gal' knows how to welcome its customers, even in a city on the brink of chaos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BossFight_Naarlog_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Battleborns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BossFight_Naarlog_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You and Edric are almost through the Flayers' territory. Smoke rises from the Brotherhood of Dawn's camp; the Purifier's army shouldn't be far now.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_UmbraRelay_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Whispers from Within</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_UmbraRelay_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">A majestic chamber lies ahead. What appears to be a dead end. As you approach, something ominous starts to stir from the depths of your consciousness.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_TPS_EdricAmbush_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">No Matter the Odds</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_TPS_EdricAmbush_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You finally reached the tainted Core of Anankis. Now you will have to find a way to stop it if Stormfall is to be saved.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BossFight_Yudai_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Fear No Evil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BossFight_Yudai_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The clash against Yudaï is now unavoidable. He wishes to use you as a new vessel for his powers. This is no longer about heroism, the strength you must gather to prevail will have to come from the sheer will to survive.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BanditOutpost_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Familiar Face</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BanditOutpost_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Flayers Wildlings are mobilizing in the distance. Something is chasing after them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_MeetHeimlock_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The Plea</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_MeetHeimlock_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The Purifiers camp shouldn't be far now. There is little doubt that Maëlys is already on the way to 'welcome' you and Edric. You must reach Grand Inquisitor Heimlock and plead your case to cease the infighting about your supposed 'witchcraft'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BossFight_Vheguaad_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Frozen Bones</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_ACT1_BossFight_Vheguaad_text</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sinister voices echo from the depths, chanting in unison. Doesn't sound like good news.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_warning</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Warning! All party members will be teleported to the event area.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_launch_vote</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Launch Event</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_vote_decline</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Decline</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">OBJECTS AND ALTARS</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s93"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_shrine_tooltip</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Defeat a wave of enemies to gain their buff: </Data></Cell>
+    <Cell ss:StyleID="s94"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cursed_chest</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Cursed Chest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_kill_all_monsters</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Defeat all enemies to receive a reward.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ui_ExplosiveBarrel_ClassName</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Explosive Barrel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">AREA MODIFIER ALTAR UI</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_map_modifier</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Area Modifiers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_map_modifier_altar</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can choose to add random modifiers to this area, increasing the difficulty. If you complete the area under these conditions, your loot drops will be more frequent and of higher rarity.\n\nDo you accept the challenge?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_map_modifier_selection</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Modifiers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_infuse_cost</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Lure Untainteds for %1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_map_modifier_desc</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can choose to add random modifiers to this expedition, increasing the difficulty. If you complete it under these conditions, your loot drops will be more frequent and of higher rarity.\n\nDo you accept the challenge?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_map_modifier_bonuses</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Loot Bonuses from Modifiers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_map_modifier_consumable</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Coming soon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_map_modifier_choose</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Choose an Area Modifier to add</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_item_rarity</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">%1 Magic Find</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_item_quantity</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">%1 Item Quantity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_modifier_accept</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Accept</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_modifier_refuse</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Refuse</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_title_altar_refuse</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Altar Confirmation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_content_altar_refuse</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Are you sure you want to refuse the area modifiers? You can not revert this decision.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_unknown_modifier</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unknown Modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_title_modifiers_quit_warning</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Modifier Confirmation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_popup_content_modifiers_quit_warning</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">If you leave the Area Modifier menu, you will not accept any area modifiers. You will not be able to access this again. Are you sure you want to leave?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_something_is_lurking</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Untainted Halfbreeds lurk in the shadows</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_infuse_map_cost</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Lure Untainteds for %1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_infuse_desc</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">If you accept multiple Area Modifiers, you have the option to take on the Wrath of Sarisel, allowing Untainteds to challenge you during the expedition. You will be rewarded at the end of the expedition instead of receiving loot drops.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_modifier_cost</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Pay %1 for modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_modifier_next</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Accept</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_roll_modifiers</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Roll Area Modifiers: %1 Gold</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_maximum_modifiers</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Cannot add more modifiers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_target_monsters</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enemies have %1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_target_players</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Players have %1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">AREA MODIFIERS</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_desc</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">You can choose to add random modifiers to this expedition, increasing the difficulty. If you complete it under these conditions, your loot drops will be more frequent and of higher rarity.\n\nDo you accept the challenge?</Data></Cell>
+    <Cell ss:StyleID="s97"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterBossMod</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">All Elite and Lieutenant tier Enemies receive an additional Boss Modifier.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_explosiononplayer</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">At regular intervals, you will be chased by deadly explosions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_soulexplosion</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have a chance to explode on death, after a short amount of time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_randomExplosion</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">While in combat, deadly explosions will appear randomly.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_resurectSimilar</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have a chance to spawn weak enemies from their biome on death.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistFire</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Fire Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistFrost</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Frost Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistLighting</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Lightning Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistElemental</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Elemental Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistUmbra</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Aether Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistSacred</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Sacred Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistShadow</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Shadow Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistOccult</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Occult Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistRend</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Rend Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistToxic</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Toxic Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistPhysical</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Physical Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterResistMaterial</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies have %1 Material Resistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterDamageFire</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies deal %1 additional Damage as Fire Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterDamageFrost</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies deal %1 additional Damage as Frost Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterDamageLighting</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies deal %1 additional Damage as Lightning Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterDamageUmbra</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies deal %1 additional Damage as Aether Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterDamageSacred</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies deal %1 additional Damage as Sacred Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterDamageShadow</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies deal %1 additional Damage as Shadow Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterDamageRend</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies deal %1 additional Damage as Rend Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterDamageToxic</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies deal %1 additional Damage as Toxic Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterDamagePhysical</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies deal %1 additional Damage as Physical Damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_lessManaRegen</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String" x:Ticked="1">%1 Willpower Regeneration</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_lessStaminaRegen</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String" x:Ticked="1">%1 Stamina Regeneration</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_lessRageGen</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String" x:Ticked="1">%1 Rage Regeneration</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterCriticalResistance</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies take %1 Damage from Critical Hits</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterDotResistance</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Enemies take %1 Damage from Ailments</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_projDamageDistance</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">All Projectiles Damage is reduced over distance by up to %1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monstersSpeed</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enemies are %1 faster</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monstersHealth</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enemies have %1 Health</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monstersLessCC</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Crowd Control Effects are %1 less effective</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterBurnOnHit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enemies have %1 chance to inflict Burn on hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterShockOnHit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enemies have %1 chance to inflict Shock on hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterPoisonOnHit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enemies have %1 chance to inflict Poison on hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterBleedOnHit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enemies have %1 chance to inflict Bleed on hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterWeaknessOnHit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enemies have %1 chance to inflict Weakness on hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterCurseOnHit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enemies have %1 chance to inflict Cursed on hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_modifier_monsterStasisOnHit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enemies have %1 chance to inflict Stasis on hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">SARISEL MODE VICTORY SCREEN</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_BuffAppliedCountPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Buffs Given</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_close</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Close</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_DamageDealtPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Damage Dealt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_DamageTakenPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Actual Damage Taken</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_details</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">More Details</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_less_details</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Fewer Details</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_HealToOthersPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Healing Done to Others</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_HighestHitPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Highest Hit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_NumberOfDeathsPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Deaths</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_NumberOfFriendlyRevivesPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Revives Given</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_NumberOfMonstersKilled</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enemies Killed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_NumberOfSariselKilled</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Untainteds Killed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_NumberOfTimesInDBNOPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Times Downed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_OverallHealPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Total Healing Done</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_playtime_field</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">%1m %2s</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_PlaytimeInSeconds</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Playtime</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_rank</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Rank Earned</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_RawDamageTakenPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Raw Damage Taken</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_rewards</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Rewards Earned</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_SelfHealPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Self-Healing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_SkillUsedCountPerPlayer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Number of Skills Used</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_TotalDeath</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Total Deaths</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_victory</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">VICTORY!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ui_victory_screen_advanced_stats</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Advanced Stats</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">TRADING INTERFACE</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_notif_TradeInvitation</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Trade Invitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_notif_WantsToTrade</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">wants to trade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_not_enough_room_in_trade</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Your trade window is already full</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_trading_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Trading</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_trading_YourOffer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Your Offer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_trading_OtherOffer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">%1's Offer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_trading_TradeRequestSentTo</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Trade request sent to %1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_trading_YouAreAlreadyTrading</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You are already trading with %1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_trading_RecipientAlreadyTrading</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">%1 is already trading with someone else</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_trading_RecipientRequestTooFar</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">%1 is too far away to trade with</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_trading_RefusedTradeRequest</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">%1 refused the trade request</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_trading_SendTradeRequest</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Send trade request</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_trading_TradeCanceledTooFar</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Trade cancelled because you are too far away from %1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_trading_SenderRequestDead</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Error: You may not send a trade request while dead</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ui_trading_RecipientRequestDead</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Error: You may not send a trade request to a dead player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">MERCHANT TOOLTIPS</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s89"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ic_click_to_buy</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Click to buy this item</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ic_right_click_to_sell</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Right-click to sell</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ic_right_click_to_retrieve_item</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Left-click to pick up this item</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ic_right_click_to_store_item</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Right-click to store this item</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ic_right_click_to_learn_skill</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Right-click to learn this skill</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ic_right_click_to_equip</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Right-click to equip this item</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ic_right_click_to_unsocket</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Right-click to remove gems from this item</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ic_right_click_to_sell_skill_for_knowledge</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Right-click to trade this Enneract for Primordial Affinity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ic_drop_on_item_to_socket</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Drag this gem to an item with an empty socket</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">WEAPON TOOLTIPS</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s93"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_elementalDamage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Elemental</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_materialDamage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Material</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_occultDamage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Occult</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_quality</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Quality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_tooltip_damage_fire</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">%1 Fire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_tooltip_damage_frost</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">%1 Frost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_tooltip_damage_lightning</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">%1 Lightning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_tooltip_damage_physical</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">%1 Physical</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_tooltip_damage_rend</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">%1 Rend</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_tooltip_damage_sacred</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">%1 Sacred</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_tooltip_damage_shadow</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">%1 Shadow</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_tootip_total_damage</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Total Damage : %1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_tooltip_damage_toxic</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">%1 Toxic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_tooltip_damage_umbra</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">%1 Aether</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">MISC / UNSORTED / REFACTORING IN PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s93"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">level_up</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Level up</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ui_xp_at_level</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">XP at level</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ui_damagereduction</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Damage reduction</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">You_have_reach_level</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">LEVEL</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">dodge</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">Dodge</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_no_belt_slot_available</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="String">No belt slot available</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_seconds</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">seconds</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Level</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Level</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_level</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Level</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_mana</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Willpower</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_rage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Rage</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_stamina</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Stamina</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Equipped</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Equipped</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Requierement</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Requirements</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_unlock</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unlock</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_health</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Health</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Objectives</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Objectives</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_OK</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">OK</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_XPReward</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Experience</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_GoldReward</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Gold</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_gold</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Gold</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Reclaims</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Reclaims</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Weapons</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Weapons</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Consumables</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Consumables</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Mutations</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Mutations</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Mercenaries</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Mercenaries</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_PassiveSkills</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Passive Skills</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ActiveSkills</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Active Skills</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Damage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Damage</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AttackSpeed</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Attack Speed</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_DodgeChance</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Dodge</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_critical_damage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Critical Damage</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Critical</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Critical Chance</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_fire_resistance</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Fire Resistance</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_frost_resistance</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Frost Resistance</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_lightning_resistance</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Lightning Resistance</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MagicFind</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Magic Find</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_GoldFind</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Gold Find</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_character</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Character</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Attributes</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Attributes</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Strength</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Ferocity</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Dexterity</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Agility</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Power</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Wisdom</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Constitution</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Toughness</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_remaining_points</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Remaining Points</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_health_regen</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Health Regeneration</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_mana_regen</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Willpower Regeneration</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_stamina_regeneration</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Stamina Regeneration</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_durability</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Durability</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_mana_cost</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Willpower Cost</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_mana_generation</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Willpower Generation</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_rage_cost</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Rage Cost</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_rage_generation</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Rage Generation</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_stamina_cost</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Stamina Cost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_LevelUp</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Level Up!</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_startBounty</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Start Bounty!</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_BountyCraft</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Bounty</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_you_are_dead</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You Are Dead</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_revive_in_town</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Return to town</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_revive_here</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Respawn</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_revive</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Return to last checkpoint</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_cannot_revive_while_in_combat</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't Revive while Allies are in Combat</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_exit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Exit Wolcen</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_attack_speed</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Attack Speed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_range</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Range</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">skill_unlocked</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Skill unlocked</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ui_HoldToSkipCutscene</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Hold Space to skip cutscene</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ui_non_critical_damage_percent</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">%1 Non-Critical Damage dealt</Data></Cell>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ui_non_dot_damage_percent</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">%1 Non-Ailment Damage dealt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s104"><Data ss:Type="String">ui_no_effect</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Invulnerable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s104"><Data ss:Type="String">ui_kill</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Kill</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ui_revive_at_checkpoint</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Revive at Checkpoint</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="327" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="33"/>
+   <Row ss:Index="361" ss:AutoFitHeight="0" ss:Height="18"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="366" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="369" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="373" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="376" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="380" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="383" ss:AutoFitHeight="0" ss:Height="15" ss:Span="13"/>
+   <Row ss:Index="397" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="51"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25" ss:Span="1"/>
+   <Row ss:Index="402" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="406" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="410" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="47.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="51"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="419" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="422" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="426" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="85.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="440" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="442" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="449" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="4"/>
+   <Row ss:Index="454" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="458" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="3"/>
+   <Row ss:Index="462" ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="464" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="467" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="471" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="473" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25" ss:Span="1"/>
+   <Row ss:Index="477" ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="480" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="6"/>
+   <Row ss:Index="487" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="490" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="6"/>
+   <Row ss:Index="499" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="6"/>
+   <Row ss:Index="506" ss:AutoFitHeight="0" ss:Height="15" ss:Span="73"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.51181102362204722"
+     x:Data="&amp;LTime restriction sample script"/>
+    <Footer x:Margin="0.51181102362204722" x:Data="Page &amp;P"/>
+    <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0"
+     x:Top="0.98425196850393704"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>70</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>26</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>Audio script template</Title>
+  <Author>Maëlenn Lumineau</Author>
+  <LastAuthor>Abhoth_</LastAuthor>
+  <LastPrinted>2003-10-30T09:38:41Z</LastPrinted>
+  <Created>2002-06-17T19:14:00Z</Created>
+  <LastSaved>2019-06-21T14:25:05Z</LastSaved>
+  <Company>Electronic Arts</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path>\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\Copy of Dialog_Asset_List_Final_edit.xls</Path>
+   <SheetName>DropDown</SheetName>
+   <SheetName>Conversations</SheetName>
+   <Xct>
+    <Count>-2</Count>
+    <SheetIndex>0</SheetIndex>
+    <Crn>
+     <Row>6</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>4</ColLast>
+     <Text>clean</Text>
+     <Text>TV</Text>
+     <Text>radio (disturbed) </Text>
+     <Text>radio (low)</Text>
+     <Text>radio (heavy)</Text>
+    </Crn>
+    <Crn>
+     <Row>9</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>41</ColLast>
+     <Text>Player</Text>
+     <Text>Barnes</Text>
+     <Text>Hawker</Text>
+     <Text>Sykes</Text>
+     <Text>Johnson</Text>
+     <Text>Cortez</Text>
+     <Text>Beck</Text>
+     <Text>Miller</Text>
+     <Text>Baxter</Text>
+     <Text>American scientist</Text>
+     <Text>Shark</Text>
+     <Text>Chia</Text>
+     <Text>Kirovski</Text>
+     <Text>Michaels</Text>
+     <Text>Chang</Text>
+     <Text>Marine Soldier a</Text>
+     <Text>Marine Soldier b</Text>
+     <Text>Chinese Soldier a</Text>
+     <Text>Chinese Soldier b</Text>
+     <Text>Chinese Soldier c</Text>
+     <Text>Chinese Soldier d</Text>
+     <Text>Chinese Soldier e</Text>
+     <Text>Chinese Soldier f</Text>
+     <Text>Chinese Officer a</Text>
+     <Text>Chinese Officer b</Text>
+     <Text>Chinese Scientist a</Text>
+     <Text>Chinese Scientist b</Text>
+     <Text>Chinese Scientist Female a</Text>
+     <Text>Chinese Scientist Female b</Text>
+     <Text>Filmcrew Member</Text>
+     <Text>Morrison</Text>
+     <Text>C17 Pilot a</Text>
+     <Text>C17 Pilot b</Text>
+     <Text>Submarine Commander Davis</Text>
+     <Text>Pilot (camera)</Text>
+     <Text>Bridge officer 1</Text>
+     <Text>Bridge officer 2</Text>
+     <Text>Carrier deck guide</Text>
+     <Text>Jet Pilot</Text>
+     <Text>VTOL Pilot</Text>
+     <Text>Commander (camera)</Text>
+     <Text>Team Two (camera)</Text>
+    </Crn>
+   </Xct>
+  </SupBook>
+  <WindowHeight>12315</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <TabRatio>274</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="40&#160;% - Accent1">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#BDD7EE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Neutre">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#993300"/>
+   <Interior ss:Color="#FFEB9C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m533664256" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Italic="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83" ss:Parent="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Italic="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s88" ss:Parent="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s90" ss:Parent="s63">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s91" ss:Parent="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s92" ss:Parent="s63">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s93" ss:Parent="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s94" ss:Parent="s63">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s95" ss:Parent="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+   </Borders>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="characters"
+   ss:RefersTo="='\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\[Copy of Dialog_Asset_List_Final_edit.xls]DropDown'!R10C1:R10C42"/>
+  <NamedRange ss:Name="type"
+   ss:RefersTo="='\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\[Copy of Dialog_Asset_List_Final_edit.xls]DropDown'!R7C1:R7C5"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C2:R1C3"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="676" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="13.3125">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="196.5"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="430.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="555"/>
+   <Column ss:AutoFitWidth="0" ss:Width="160.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5" ss:StyleID="s66">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ORIGINAL TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">TRANSLATED TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="2" ss:StyleID="m533664256"><Data ss:Type="String">QUESTS/STEPS LABELS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="96">
+    <Cell><Data ss:Type="String">ui_TutoDialogs0_p1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 1/14] Soldier of Fortune mode: Mandates&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;In this game mode you will have to work with the Host of the Purple Phoenix to handle Mandates and Expeditions as a bounty hunter. Talk to “Dashing” Eugene on the right of the screen, he will get you started on your first mandate and reward you upon quest completion.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="166.5">
+    <Cell><Data ss:Type="String">ui_TutoDialogs1_p1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 2/14] Core Combat Mechanics&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Weapon combos:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; There is a different attack combo per weapon type&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Melee-dash:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Melee characters can automatically dash on a foe every 5s. Toggled via the HUD (F)&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Use skills:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Up to 5 abilities can be and added to the skill bar (1, 2, 3, 4, and RIGHT CLICK)&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="93.75">
+    <Cell><Data ss:Type="String">ui_TutoDialogs1_p2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 3/14] Health Management&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Health:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; If your health pool reaches 0 you are out of combat&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Potions:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Use one of your two potions to help you in combat (Q W). Replenish them by killing foes&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Potion types:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; There are Health, Rage and Willpower potions&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="113.25">
+    <Cell><Data ss:Type="String">ui_TutoDialogs2_p1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 4/14] Leveling up in Wolcen&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Basic progression:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Each level grants you 1 of each attribute, max health and health regeneration&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Customize attributes:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; You earn 10 more points to distribute in the Character Sheet (C)&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Passive skills:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; And 1 passive point to spend in the Passive Skill Tree (P)&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="114.75">
+    <Cell><Data ss:Type="String">ui_TutoDialogs3_p1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 5/14] Dodge Rolling&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Dodge roll:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Allows you to evade dangerous attacks in the cursor direction (SPACE BAR)&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Stamina points:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; A roll consumes a stamina point. A character starts with 4 points&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Stamina regeneration:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Stamina points regenerate quickly over time&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="114.75">
+    <Cell><Data ss:Type="String">ui_TutoDialogs3_p2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 6/14] Resource Opposition System&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Resources:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Spells consume Willpower while Attacks skills use Rage&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Opposition:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; When Willpower is used it is transferred over time to the Rage amount and vice-versa&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Transfer Time:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Resources are unusable for a short time while they transfer&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="108">
+    <Cell><Data ss:Type="String">ui_TutoDialogs4_p1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 7/14] New Combat Skills&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Loot new skills:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Kill foes and loot items containing skills. They are called Enneracts&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Learning:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; In the inventory (I) use the Enneract to learn its skill (RIGHT CLICK on it)&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Buying skill levels:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Sell them to Demetra and gain Primordial Affinity to level up your skills&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="119.25">
+    <Cell><Data ss:Type="String">ui_TutoDialogs4_p2</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 8/14] Skills upgrades&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Skill experience:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Skills in your action bar will gain experience when you do&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;New effects:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Every five skill levels, you unlock a new talent option for it&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Skill customization:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Adapt your skills to fit your playstyle and try new combos.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="122.25">
+    <Cell><Data ss:Type="String">ui_TutoDialogs5_p1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 9/14] Status Ailments&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Damage types:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; All damage types except Physical have a chance to inflict an additional effect&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Status ailment chance:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Increase the chances with the Wisdom attribute, passives and gear&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Status ailment resistance:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Likewise, enemies can inflict these same effects on you&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105.75">
+    <Cell><Data ss:Type="String">ui_TutoDialogs6_p1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 10/14] Unlocked “Expedition mode” with Alexander Ivakin&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Full random:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; In this mode, environments and foes are totally shuffled. Beware of new synergies&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Six levels challenge:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Increased difficulty from level to level, each finishing with a boss fight&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Limited town portal:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Defeat a level boss to have the option to stop the expedition for a reward&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105.75">
+    <Cell><Data ss:Type="String">ui_TutoDialogs7_Title</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 11/14] Character Sheet&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Stats bundles:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Each Attribute groups bonuses useful for most playstyles&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Damage bonuses:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Your three main attributes give bonus damage according to their ranking&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Detailed Character Sheet:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Click on “Show details” to know more about in-depth statistics&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120.75">
+    <Cell><Data ss:Type="String">ui_TutoDialogs8_Title</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="196.5">
+    <Cell><Data ss:Type="String">ui_TutoDialogs8_Content</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;35&quot; &gt;&lt;b&gt;[Tips 12/14] Passive Skill Tree&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;33&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Class freedom:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;33&quot; color=&quot;##dddddd&quot;&gt; Create your own path starting from the center&lt;/Font&gt;\n&lt;Font Size=&quot;33&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Points allocation:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;33&quot; color=&quot;##dddddd&quot;&gt; If you have points to spend, permanently select one node to gain its effect(s)&lt;/Font&gt;\n&lt;Font Size=&quot;33&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Major nodes:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;33&quot; color=&quot;##dddddd&quot;&gt; These offer stronger effects that can change the game rules permanently. Try to fetch as many as possible&lt;/Font&gt;\n\n&lt;Font Size=&quot;35&quot; &gt;&lt;b&gt;[Tips 13/14] Rotating Circles&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;33&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Multiple starts:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;33&quot; color=&quot;##dddddd&quot;&gt; You are free to start back from the tree center and explore different paths simultaneously&lt;/Font&gt;\n&lt;Font Size=&quot;33&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Rotate rings to create new paths:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;33&quot; color=&quot;##dddddd&quot;&gt; Click on a ring on the left panel and rotate it with arrows to reveal new possibilities&lt;/Font&gt;\n&lt;Font Size=&quot;33&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Connected nodes:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;33&quot; color=&quot;##dddddd&quot;&gt; Eligible nodes must always be connected to the center or to an already chosen node. Non-eligible nodes that result from a ring rotation will be temporarily turned off until they are connected again&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">ui_TutoDialogs9_p1</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;[Tips 14/14] Active Skill Tree&lt;/b&gt;&lt;/Font&gt;\n\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Skill improvement:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Every 5 skill levels you unlock a new effect that you can activate&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Additional effect:&lt;/b&gt;&lt;/Font&gt; &lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; When your skill reaches level 15 you can activate up to two skill effects&lt;/Font&gt;\n&lt;Font Size=&quot;11&quot; color=&quot;#ccb270&quot;&gt;&lt;b&gt;Freedom to try:&lt;/b&gt;&lt;/Font&gt;&lt;Font Size=&quot;11&quot; color=&quot;##dddddd&quot;&gt; Skill points can be reallocated on the fly at no cost&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Beginner Tutorial</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">(Not Formatted)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Prologue_Tuto_0_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;Basic Movement&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Prologue_Tuto_0_p1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;Left-Click&lt;/font&gt; to walk around. Head North and &lt;font color=&quot;#c5b14d&quot;&gt;left-click&lt;/font&gt; on the ladder to climb up the cliff.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.0625">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Prologue_Tuto_1_Title</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;Basic Attacks&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Prologue_Tuto_1_p1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Watch out, there are dangerous enemies up ahead. &#10;&#10;To defeat them, &lt;font color=&quot;#c5b14d&quot;&gt;Left-Click&lt;/font&gt;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Prologue_Tuto_2_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;Dodging&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Prologue_Tuto_2_p1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Press &lt;font color=&quot;#c5b14d&quot;&gt;Space&lt;/font&gt; to dodge roll.\n\nUse dodge rolls to avoid taking damage and re-position.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Prologue_Tuto_2_p2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Dodge rolls require &lt;font color=&quot;#9cba7b&quot;&gt;stamina points&lt;/font&gt;, which are recovered over time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_0_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;Items&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_0_p1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;Right-Click&lt;/font&gt; to pick up items.\n\nCheck out your inventory by pressing&lt;font color=&quot;#c5b14d&quot;&gt;I&lt;/font&gt;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_0_p2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;RIGHT-CLICK&lt;/font&gt; to pick up items. Check out your inventory by pressing&lt;font color=&quot;#c5b14d&quot;&gt;I&lt;/font&gt;.\n\nEquip new weapons and armor by dragging it to its respective slot.\n\nCompare new items with equipped items by hovering over the new item. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_1_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;Potions&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_1_p1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Low on health? Press &lt;font color=&quot;#c5b14d&quot;&gt;Q&lt;/font&gt; to use your &lt;font color=&quot;#b22023&quot;&gt;Health&lt;/font&gt; Potion.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_1_p2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Potions refill as you defeat enemies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_2_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;Skills&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_2_p1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">To use a skill, &lt;font color=&quot;#c5b14d&quot;&gt;Right-Click&lt;/font&gt;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_2_p2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Skills require either &lt;font color=&quot;#948ec6&quot;&gt;Willpower&lt;/font&gt; or &lt;font color=&quot;#cb5316&quot;&gt;Rage&lt;/font&gt; to be cast.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_3_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;Types of Skills&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_3_p1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">The types of skills you can cast are based on the weapon you are wielding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_3_p2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Consult your Active Skills by pressing &lt;font color=&quot;#c5b14d&quot;&gt;S&lt;/font&gt;.  </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_4_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;Character Sheet&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_4_p1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Press &lt;font color=&quot;#c5b14d&quot;&gt;C&lt;/font&gt; to open your character sheet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_4_p2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Assign points to the 4 different attributes. Each attribute affects different aspects of your character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_5_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;Passive Skills&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Svriir_Tuto_5_p1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Press &lt;font color=&quot;#c5b14d&quot;&gt;P&lt;/font&gt; to open your Passive Skill Tree and assign skill points. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Stormfall_Tuto_1_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;The World of Wolcen&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Stormfall_Tuto_1_p1</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Press &lt;font color=&quot;#c5b14d&quot;&gt;M&lt;/font&gt; to access the world map. Select a waypoint to teleport to that location.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Stormfall_Tuto_1_p2</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Press &lt;font color=&quot;#c5b14d&quot;&gt;T&lt;/font&gt; to use the town portal to return to Stormfall. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Stormfall_Tuto_2_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;Merchants&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Stormfall_Tuto_2_p1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;Left-Click&lt;/font&gt; on items in the store to buy them.\n\n&lt;font color=&quot;#c5b14d&quot;&gt;Right-Click&lt;/font&gt; on items in your inventory to sell them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Stormfall_Tuto_2_p2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">New items are available for purchase every 15 minutes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Stormfall_Tuto_3_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;&lt;b&gt;Demetra's Shop&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Stormfall_Tuto_3_p1</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">You can trade an Enneract with Demetra for Primordial Affinity, which is used to level up skills at her shop.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Stormfall_Tuto_3_p2</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Increasing the level of a skill unlocks spell modifiers. Press &lt;font color=&quot;#c5b14d&quot;&gt;S&lt;/font&gt; to open the Active Skills menu.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Stormfall_Tuto_3_p3</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Skills can also level up while being used in combat. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Farmsteads_Tuto_1_Title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">&lt;Font Size=&quot;13&quot; &gt;&lt;b&gt;Enneracts&lt;/b&gt;&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Farmsteads_Tuto_1_p1</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">You have received an Enneract, an ancient magical device.\n\n&lt;font color=&quot;#c5b14d&quot;&gt;Right-Click&lt;/font&gt; the Enneract in your inventory to learn a new skill.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Farmsteads_Tuto_1_p2</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;Right-Click&lt;/font&gt; the Enneract in your inventory to learn a new skill.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_test_tutorial_title</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Dodging and Dashing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_test_tutorial_content</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">&lt;Font Size=&quot;13&quot;&gt;When wielding a melee weapon, you will automatically dash to an enemy when attacking them. This dash has a cooldown.\n\nPress &lt;font color=&quot;#c5b14d&quot;&gt;Space&lt;/font&gt; to dodge roll. Each dodge roll requires a &lt;font color=&quot;#9cba7b&quot;&gt;stamina point&lt;/font&gt;, which are recovered over time.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_1_title</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Basic Movement</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_1_content</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">• &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;LEFT-CLICK&lt;/b&gt;&lt;/font&gt; to walk around. Head North and &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;LEFT-CLICK&lt;/b&gt;&lt;/font&gt; on the ladder to climb up the cliff.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_2_title</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Basic Combat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_2_content</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">• &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;LEFT-CLICK&lt;/b&gt;&lt;/font&gt; enemies to Attack them. When wielding a &lt;font color=&quot;#72c6db&quot;&gt;Melee Weapon&lt;/font&gt;, you will automatically &lt;font color=&quot;#72c6db&quot;&gt;Dash Attack&lt;/font&gt; enemies. This dash has a cooldown.\n\n• Press &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;SPACE&lt;/b&gt;&lt;/font&gt; to &lt;font color=&quot;#72c6db&quot;&gt;Dodge Roll&lt;/font&gt;. &lt;font color=&quot;#72c6db&quot;&gt;Dodge Rolls&lt;/font&gt; have a small window of invulnerability. &lt;font color=&quot;#72c6db&quot;&gt;Dodge Rolls&lt;/font&gt; require &lt;font color=&quot;#9cba7b&quot;&gt;Stamina&lt;/font&gt; points, which are recovered over time.\n\n• Press &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;RIGHT-CLICK&lt;/b&gt;&lt;/font&gt; to unleash a powerful electric attack.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_3_title</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Health and Potions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="104.25">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_3_content</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">• You are low on &lt;font color=&quot;#b22023&quot;&gt;Health&lt;/font&gt;. If you run out of &lt;font color=&quot;#b22023&quot;&gt;Health&lt;/font&gt;, you will go down.\n\n• Press &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Q&lt;/b&gt;&lt;/font&gt; to use your &lt;font color=&quot;#b22023&quot;&gt;Health&lt;/font&gt;  &lt;font color=&quot;#72c6db&quot;&gt;Potion&lt;/font&gt; to heal up. &lt;font color=&quot;#72c6db&quot;&gt;Potions&lt;/font&gt; refill as you defeat enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_4_title</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Skills</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="79.5">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_4_content</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">• To use a &lt;font color=&quot;#72c6db&quot;&gt;Skill&lt;/font&gt;, &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;RIGHT-CLICK&lt;/b&gt;&lt;/font&gt;. &lt;font color=&quot;#72c6db&quot;&gt;Skills&lt;/font&gt; require either &lt;font color=&quot;#948ec6&quot;&gt;Willpower&lt;/font&gt; or &lt;font color=&quot;#cb5316&quot;&gt;Rage&lt;/font&gt; to be cast.\n\n• The types of &lt;font color=&quot;#72c6db&quot;&gt;Skills&lt;/font&gt; you can cast are based on your equipped &lt;font color=&quot;#72c6db&quot;&gt;Weapon&lt;/font&gt;. Consult your &lt;font color=&quot;#72c6db&quot;&gt;Active Skills&lt;/font&gt; by pressing &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;S&lt;/b&gt;&lt;/font&gt;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_5_title</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Levelling Up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="70.5">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_5_content</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">• You have gained a level.\n\n• Press &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;C&lt;/b&gt;&lt;/font&gt; to open your &lt;font color=&quot;#72c6db&quot;&gt;Character Sheet&lt;/font&gt;. Assign points to the 4 different &lt;font color=&quot;#72c6db&quot;&gt;Attributes&lt;/font&gt;. Each &lt;font color=&quot;#72c6db&quot;&gt;Attribute&lt;/font&gt; affects different aspects of your character.\n\n• Press &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;P&lt;/b&gt;&lt;/font&gt; to open your &lt;font color=&quot;#72c6db&quot;&gt;Passive Skill Tree&lt;/font&gt; and assign &lt;font color=&quot;#72c6db&quot;&gt;Skill Points&lt;/font&gt;.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_6_title</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">The World of Wolcen</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="69">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_6_content</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">• Press &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;M&lt;/b&gt;&lt;/font&gt; to access the &lt;font color=&quot;#72c6db&quot;&gt;World Map&lt;/font&gt;. Select a &lt;font color=&quot;#72c6db&quot;&gt;Waypoint&lt;/font&gt; to teleport to that location.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_6_2_title</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Town Portal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="69">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_6_2_content</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">• Press &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;T&lt;/b&gt;&lt;/font&gt; to use the &lt;font color=&quot;#72c6db&quot;&gt;Town Portal&lt;/font&gt; to return to the &lt;font color=&quot;#72c6db&quot;&gt;Stormfall&lt;/font&gt; hub. You can return there whenever you need to and a &lt;font color=&quot;#72c6db&quot;&gt;Portal&lt;/font&gt; will bring you back.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_7_title</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">Merchants</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="69">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_7_content</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">• &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;LEFT-CLICK&lt;/b&gt;&lt;/font&gt; on items in the store to buy them. &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;RIGHT-CLICK&lt;/b&gt;&lt;/font&gt; on items in your &lt;font color=&quot;#72c6db&quot;&gt;Inventory&lt;/font&gt; to sell them.\n\nItems change every 15 minutes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_9_title</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Enneracts and Skills</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60.75">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_9_content</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">• You are about to receive an &lt;font color=&quot;#72c6db&quot;&gt;Enneract&lt;/font&gt;, an ancient magical device. &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;RIGHT-CLICK&lt;/b&gt;&lt;/font&gt; the &lt;font color=&quot;#72c6db&quot;&gt;Enneract&lt;/font&gt; in your &lt;font color=&quot;#72c6db&quot;&gt;Inventory&lt;/font&gt; to learn a new &lt;font color=&quot;#72c6db&quot;&gt;Skill&lt;/font&gt;.\n\n• You can trade &lt;font color=&quot;#72c6db&quot;&gt;Enneracts&lt;/font&gt; with &lt;font color=&quot;#72c6db&quot;&gt;Demetra&lt;/font&gt; for &lt;font color=&quot;#8664aa&quot;&gt;&lt;b&gt;Primordial Affinity&lt;/b&gt;&lt;/font&gt;, which is used to level up &lt;font color=&quot;#72c6db&quot;&gt;Skills&lt;/font&gt; at her shop.\n\n• Increasing the level of a &lt;font color=&quot;#72c6db&quot;&gt;Skill&lt;/font&gt; unlocks &lt;font color=&quot;#72c6db&quot;&gt;Skill Modifiers&lt;/font&gt;. Press &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;S&lt;/b&gt;&lt;/font&gt; to open the &lt;font color=&quot;#72c6db&quot;&gt;Active Skills Menu&lt;/font&gt;.\n\n• &lt;font color=&quot;#72c6db&quot;&gt;Skills&lt;/font&gt; can level up while being used in combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_8_title</Data></Cell>
+    <Cell ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_8_content</Data></Cell>
+    <Cell ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_10_title</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Looting and Items</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="67.5">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ui_Tutorial_10_content</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">• &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;LEFT-CLICK&lt;/b&gt;&lt;/font&gt; to pick up items. Check out your &lt;font color=&quot;#72c6db&quot;&gt;Inventory&lt;/font&gt; by pressing &lt;font color=&quot;#c5b14d&quot;&gt;&lt;b&gt;I&lt;/b&gt;&lt;/font&gt;.\n\n• Equip new weapons and armor by dragging them to their respective slot.\n\n• Compare new items with equipped items by hovering over the new item. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_Tutorial_11_title</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Character Sheet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="61.5">
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ui_Tutorial_11_content</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">• All &lt;font color=&quot;#72c6db&quot;&gt;Attibutes&lt;/font&gt; increase by one when you level up. You are given 10 &lt;font color=&quot;#72c6db&quot;&gt;Attribute Points&lt;/font&gt; to assign freely with every level.\n\n• The 3 &lt;font color=&quot;#72c6db&quot;&gt;Attributes&lt;/font&gt; with the most points increase your overall damage output.\n\n• You can reset your &lt;font color=&quot;#72c6db&quot;&gt;Attribute Points&lt;/font&gt; and &lt;font color=&quot;#72c6db&quot;&gt;Passive Skill Points&lt;/font&gt; using &lt;font color=&quot;#efd373&quot;&gt;Gold&lt;/font&gt; and &lt;font color=&quot;#8664aa&quot;&gt;Primordial Affinity&lt;/font&gt; respectively.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_Tutorial_12_title</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Gate of Fates</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="69">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_Tutorial_12_content</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">• You are given 2 &lt;font color=&quot;#72c6db&quot;&gt;Passive Skill Points&lt;/font&gt; each time you level up, up to a total of 38. Assign your &lt;font color=&quot;#72c6db&quot;&gt;Points&lt;/font&gt; and then &lt;font color=&quot;#72c6db&quot;&gt;Confirm&lt;/font&gt; them.\n\n• You can turn the &lt;font color=&quot;#72c6db&quot;&gt;Gate of Fates&lt;/font&gt; using the ring interface, allowing you to mix and match nodes freely. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="93" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="246"/>
+   <Row ss:Index="375" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="379" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="78"/>
+   <Row ss:Index="458" ss:AutoFitHeight="0" ss:Height="18"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="463" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="466" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="470" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="473" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="477" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="480" ss:AutoFitHeight="0" ss:Height="15" ss:Span="13"/>
+   <Row ss:Index="494" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="51"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25" ss:Span="1"/>
+   <Row ss:Index="499" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="503" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="507" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="47.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="51"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="516" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="519" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="523" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="85.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="537" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="539" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="546" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="4"/>
+   <Row ss:Index="551" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="555" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="3"/>
+   <Row ss:Index="559" ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="561" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="564" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="568" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="570" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25" ss:Span="1"/>
+   <Row ss:Index="574" ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="577" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="6"/>
+   <Row ss:Index="584" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="587" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="6"/>
+   <Row ss:Index="596" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="6"/>
+   <Row ss:Index="603" ss:AutoFitHeight="0" ss:Height="15" ss:Span="73"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.51181102362204722"
+     x:Data="&amp;LTime restriction sample script"/>
+    <Footer x:Margin="0.51181102362204722" x:Data="Page &amp;P"/>
+    <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0"
+     x:Top="0.98425196850393704"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>70</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>70</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>78</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

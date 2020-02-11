@@ -1,0 +1,91 @@
+<MetaData>
+  <AST Name="player_arrowsrain">
+    <SkillModifier XP="0" Level="1" Effect="damage_weapon_percent" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="100" Level="2" Effect="damage_weapon_percent" Param1="10%" Param2="10%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="300" Level="3" Effect="damage_weapon_percent" Param1="10%" Param2="10%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="640" Level="4" Effect="damage_weapon_percent" Param1="10%" Param2="10%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1100" Level="5" Effect="damage_weapon_percent" Param1="10%" Param2="10%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1700" Level="6" Effect="damage_weapon_percent" Param1="10%" Param2="10%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="2500" Level="7" Effect="damage_weapon_percent" Param1="10%" Param2="10%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="3400" Level="8" Effect="damage_weapon_percent" Param1="10%" Param2="10%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="4600" Level="9" Effect="damage_weapon_percent" Param1="10%" Param2="10%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="6000" Level="10" Effect="damage_weapon_percent" Param1="10%" Param2="10%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="7600" Level="11" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="9400" Level="12" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="11600" Level="13" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="14000" Level="14" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="20000" Level="15" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="23600" Level="16" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="27600" Level="17" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="32000" Level="18" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="37200" Level="19" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="43000" Level="20" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="215019" Level="21" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="247021" Level="22" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="282723" Level="23" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="322495" Level="24" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="366745" Level="25" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="415920" Level="26" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="470512" Level="27" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="531063" Level="28" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="598169" Level="29" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="672486" Level="30" Effect="damage_weapon_percent" Param1="20%" Param2="20%" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="754735" Level="31" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="845709" Level="32" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="946280" Level="33" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1057408" Level="34" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1180149" Level="35" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1315664" Level="36" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1465230" Level="37" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1630253" Level="38" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1812278" Level="39" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="2013006" Level="40" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="2234307" Level="41" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="2478238" Level="42" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="2747062" Level="43" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="3043268" Level="44" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="3369595" Level="45" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="3729055" Level="46" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="4124961" Level="47" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="4560957" Level="48" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="5041053" Level="49" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="5569658" Level="50" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="6151624" Level="51" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="6792286" Level="52" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="7497515" Level="53" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="8273767" Level="54" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="9128144" Level="55" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="10068458" Level="56" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="11103304" Level="57" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="12242134" Level="58" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="13495347" Level="59" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="14874382" Level="60" Effect="damage_value" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillVariant Level="5" Mode="Additive" UID="player_arrowsrain_step_1" Cost="4" />
+    <SkillVariant Level="5" Mode="Additive" UID="player_arrowsrain_step_2" Cost="4" />
+    <SkillVariant Level="10" Mode="Additive" UID="player_arrowsrain_step_3" Cost="4" />
+    <SkillVariant Level="10" Mode="Additive" UID="player_arrowsrain_step_4" Cost="8" />
+    <SkillVariant Level="15" Mode="Additive" UID="player_arrowsrain_step_5" Cost="8" />
+    <SkillVariant Level="15" Mode="Additive" UID="player_arrowsrain_step_6" Cost="4" />
+    <SkillVariant Level="20" Mode="Additive" UID="player_arrowsrain_step_7" Cost="4" />
+    <SkillVariant Level="20" Mode="Additive" UID="player_arrowsrain_step_8" Cost="8" />
+    <SkillPoints Level="2" Amount="1" />
+    <SkillPoints Level="3" Amount="1" />
+    <SkillPoints Level="4" Amount="1" />
+    <SkillPoints Level="5" Amount="1" />
+    <SkillPoints Level="6" Amount="1" />
+    <SkillPoints Level="7" Amount="1" />
+    <SkillPoints Level="8" Amount="1" />
+    <SkillPoints Level="9" Amount="1" />
+    <SkillPoints Level="10" Amount="1" />
+    <SkillPoints Level="11" Amount="1" />
+    <SkillPoints Level="12" Amount="1" />
+    <SkillPoints Level="13" Amount="1" />
+    <SkillPoints Level="14" Amount="1" />
+    <SkillPoints Level="15" Amount="1" />
+    <SkillPoints Level="16" Amount="1" />
+    <SkillPoints Level="17" Amount="1" />
+    <SkillPoints Level="18" Amount="1" />
+    <SkillPoints Level="19" Amount="1" />
+    <SkillPoints Level="20" Amount="2" />
+  </AST>
+</MetaData>

@@ -1,0 +1,1555 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>Audio script template</Title>
+  <Author>Maëlenn Lumineau</Author>
+  <LastAuthor>Yidhra</LastAuthor>
+  <LastPrinted>2003-10-30T09:38:41Z</LastPrinted>
+  <Created>2002-06-17T19:14:00Z</Created>
+  <LastSaved>2019-10-24T15:44:24Z</LastSaved>
+  <Company>Electronic Arts</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path>\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\Copy of Dialog_Asset_List_Final_edit.xls</Path>
+   <SheetName>DropDown</SheetName>
+   <SheetName>Conversations</SheetName>
+   <Xct>
+    <Count>-2</Count>
+    <SheetIndex>0</SheetIndex>
+    <Crn>
+     <Row>6</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>4</ColLast>
+     <Text>clean</Text>
+     <Text>TV</Text>
+     <Text>radio (disturbed) </Text>
+     <Text>radio (low)</Text>
+     <Text>radio (heavy)</Text>
+    </Crn>
+    <Crn>
+     <Row>9</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>41</ColLast>
+     <Text>Player</Text>
+     <Text>Barnes</Text>
+     <Text>Hawker</Text>
+     <Text>Sykes</Text>
+     <Text>Johnson</Text>
+     <Text>Cortez</Text>
+     <Text>Beck</Text>
+     <Text>Miller</Text>
+     <Text>Baxter</Text>
+     <Text>American scientist</Text>
+     <Text>Shark</Text>
+     <Text>Chia</Text>
+     <Text>Kirovski</Text>
+     <Text>Michaels</Text>
+     <Text>Chang</Text>
+     <Text>Marine Soldier a</Text>
+     <Text>Marine Soldier b</Text>
+     <Text>Chinese Soldier a</Text>
+     <Text>Chinese Soldier b</Text>
+     <Text>Chinese Soldier c</Text>
+     <Text>Chinese Soldier d</Text>
+     <Text>Chinese Soldier e</Text>
+     <Text>Chinese Soldier f</Text>
+     <Text>Chinese Officer a</Text>
+     <Text>Chinese Officer b</Text>
+     <Text>Chinese Scientist a</Text>
+     <Text>Chinese Scientist b</Text>
+     <Text>Chinese Scientist Female a</Text>
+     <Text>Chinese Scientist Female b</Text>
+     <Text>Filmcrew Member</Text>
+     <Text>Morrison</Text>
+     <Text>C17 Pilot a</Text>
+     <Text>C17 Pilot b</Text>
+     <Text>Submarine Commander Davis</Text>
+     <Text>Pilot (camera)</Text>
+     <Text>Bridge officer 1</Text>
+     <Text>Bridge officer 2</Text>
+     <Text>Carrier deck guide</Text>
+     <Text>Jet Pilot</Text>
+     <Text>VTOL Pilot</Text>
+     <Text>Commander (camera)</Text>
+     <Text>Team Two (camera)</Text>
+    </Crn>
+   </Xct>
+  </SupBook>
+  <WindowHeight>12060</WindowHeight>
+  <WindowWidth>22200</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <TabRatio>274</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s40" ss:Name="40&#160;% - Accent1">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#BDD7EE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s28" ss:Name="Neutre">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#993300"/>
+   <Interior ss:Color="#FFEB9C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26" ss:Name="Satisfaisant">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m619339976" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m619339996" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m619340016" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s80" ss:Parent="s26">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s81" ss:Parent="s26">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Italic="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s85" ss:Parent="s26">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s88" ss:Parent="s28">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Italic="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="characters"
+   ss:RefersTo="='\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\[Copy of Dialog_Asset_List_Final_edit.xls]DropDown'!R10C1:R10C42"/>
+  <NamedRange ss:Name="type"
+   ss:RefersTo="='\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\[Copy of Dialog_Asset_List_Final_edit.xls]DropDown'!R7C1:R7C5"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C2:R1C3"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="826" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="13.3125">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="196.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="555"/>
+   <Column ss:AutoFitWidth="0" ss:Width="555"/>
+   <Column ss:AutoFitWidth="0" ss:Width="160.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5" ss:StyleID="s65">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ORIGINAL TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">TRANSLATED TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell ss:MergeAcross="2" ss:StyleID="m619339976"><Data ss:Type="String">QUESTS INTERFACE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Quest_cannot_replace_item</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">You can't replace a Quest Item</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">You can't replace a Quest Item</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Quest_cannot_replace_skill</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">You can't replace a Quest Skill</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">You can't replace a Quest Skill</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_quest_reward</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Quest Rewards</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Quest Rewards</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_quest_choosereward</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Choose your reward</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Choose your reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_quest_accept</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Accept Quest</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Accept Quest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_quest_decline</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Decline Quest</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Decline Quest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_quest_norewardselected</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">You must choose your reward</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">You must choose your reward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_quest_questcomplete</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Objective Completed!</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Objective Completed!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Quest_warning_title</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">The story ends here… for now!</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">The story ends here… for now!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ui_Quest_warning_content</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Thank you for playing Wolcen : Lords of Mayhem! Due to the alpha state of the game, the main story doesn't go further for now and will be extended and improved with time. </Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Thank you for playing Wolcen : Lords of Mayhem! Due to the alpha state of the game, the main story doesn't go further for now and will be extended and improved with time. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_quest_optional</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">(OPTIONAL) </Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">(OPTIONAL) </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_quest_new</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">NEW</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">NEW</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="2" ss:StyleID="m619339996"><Data ss:Type="String">TUTORIAL MESSAGES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Tutorial</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75">
+    <Cell><Data ss:Type="String">ui_Tutorial_Welcome</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ui_Tutorial_Dodgeroll</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75">
+    <Cell><Data ss:Type="String">ui_Tutorial_Elements</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ui_Tutorial_Skill</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ui_Tutorial_ROS</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75">
+    <Cell><Data ss:Type="String">ui_Tutorial_Warning</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Tutorial_Exploration</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ui_Tutorial_Camera</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="2" ss:StyleID="m619340016"><Data ss:Type="String">QUESTS/STEPS LABELS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">Quest_Generic_Dots</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">…</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">A0_ActLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Prologue</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">A1_ActLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Act 1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Act 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">A2_ActLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Act 2</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Intertitle</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_text_Intertitle1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Grand Inquisitor Heimlock saved you as well as your childhood friends Valeria and Edric when you were five years old. He drafted the three of you into his Republican army of Purifiers.</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_text_Intertitle2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">You were taught to associate all practitioners of the occult with witchcraft and to ‘deal’ with them appropriately.</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_text_Intertitle3</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Over the years your trio earned the nickname of ‘Children of Heimlock’ due to the mentoring you received from the iconic leader.</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_text_Intertitle4</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A month ago, the group of religious zealots known as the Brotherhood of Dawn infiltrated a keep of Purifiers.</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_text_Intertitle5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">In the wake of these events the Republican Senate voted to launch a retaliation campaign against the Brotherhood…</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Intro_Main1</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A0_Q0_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Children of Heimlock</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A0_Q0_QuestDescriptionLabel</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Follow Maëlys</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S1_StepNameLabelUpdate1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to Maëlys</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S1_StepNameLabelUpdate2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach the Ledge</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Clear the Ledge</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Kill the Sapper</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S4_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Fight Through the Phenomenon</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S5_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach the Nearby Ledge</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S6_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Listen to the Surroundings</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S7_EventQuestNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">The Surges from Below</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S7_EventStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Banish the Damned Creatures</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S7_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Question the Scout</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S7_StepNameLabelUpdate1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Defend Valeria</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A0_Q0_S7_StepNameLabelUpdate2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Resist Yudaï</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Act1_Main1</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q1_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Unexpected Saviors</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q1_QuestDescriptionLabel</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q1_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Get out of the Larder</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q1_S1_StepDescriptionLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Listen to the Surroundings</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q1_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Get out of the Larder</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q1_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Escape the Svriir Grotto</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q1_S4_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Listen to the Surroundings</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q1_S4_StepNameLabelUpdate</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Talk to Valeria</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q1_S5_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Talk to the Stormfall Guard</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q1_S6_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enter Stormfall</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Act1_Main2</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q2_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">The Bane of the Storm</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to Mohabi, the Merchant</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to Demetra, the Archivist</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enter into the Farmsteads</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S3_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Listen to the Surroundings</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S3_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to Thunderblade Fäarad</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S4_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach Sandor's Camp</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S5_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to the Stormfall Guard</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S5_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Push Back the Assault from the North</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S5_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Kill the Tunnelers</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S5_UpdateStepNameLabel3</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Resist the Spitter Attack</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S5_UpdateStepNameLabel4</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Hold the Svriir Tide</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S5_UpdateStepNameLabel5</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Face the Alpha</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S5_UpdateStepNameLabel6</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to Thunderblade Sandor</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S6_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Find the Entrance to the Svriir Cave Network</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S7_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enter the Svriir Cave Network</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S8_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Find the Entrance to the next level of the Svriir Cave Network</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S9_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Go deeper into the Svriir Cave Network</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S10_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Find the Den</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S11_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enter the Den</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S11_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Find the Creature</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S11_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Dethrone the Beast</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_EventQuestLabel1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The Bane of the Storm</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_EventStepLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Slay Sirkis</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S12_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Report to Thunderblade Fäarad in Stormfall using your Town Portal</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S13_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enter the Palace</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S14_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach the Throne</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S14_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to Merchant-Prince Damaskus</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q2_S14_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Listen to the Surroundings</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Act1_Main3</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q3_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Meet the Purifiers</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q3_EventQuestLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A Warm Welcome</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach the Laughing Sea Gal'</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enter the Inn</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S2_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Find Valeria</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S2_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to the Innkeeper</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S2_UpdateStepNameLabel3</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Defeat the Alastor</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Find the Flayer Outpost</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S4_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enter the Flayer Outpost</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q3_EventQuestLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Battleborns</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S5_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Journey through the Flayers Territory</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S6_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Leave the Flayer Territory</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S6_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Survive the Flayer Ambush</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S6_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Slay Naärlog</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S7_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Find the Purifiers' Camp</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S8_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Cross the Ravaged Camp</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S8_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to the Wounded Knight</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S9_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Leave the Ravaged Camp</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S10_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach the Purifiers' Camp</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S10_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enter the Purifiers' Camp</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S10_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to Heimlock</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S10_UpdateStepNameLabel3</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Leave the Area</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q3_S11_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Enter the Palace</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Act1_Main4</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q4_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">The Unknown</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q4_QuestDescriptionLabel</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach the Throne</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to Merchant-Prince Damaskus</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach the Smuggler's Path</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S3_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enter the Smuggler's Path</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S4_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Delve Deeper</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S5_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach the Necropolis</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S5_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Explore the Necropolis</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S6_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach the Next Floor</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S6_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Cut Off the Dome's Power Source</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S6_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Banish the Damned Creatures</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S7_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Delve deeper into the Necropolis</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S8_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Find a way to Cross the Rift</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S8_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Open the North Ossuary</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S8_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Open the South Ossuary</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S9_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Explore the Depths</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_EventQuestLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Frozen Bones</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_EventStepLabel2_1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Defeat Vhegguadh</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_EventStepLabel2_2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Slay the Devourer</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S10_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Venture into the Frozen Path</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S10_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Investigate the Ritual</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q4_S10_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Face the Cultist of the Sleeper</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Act1_Main5</Data></Cell>
+    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q5_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Secrets of Anankis</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Open the Gate of Anankis</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enter the Halls of Anankis</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Explore the First Floor</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S4_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Pursue the Cultist</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S5_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach the Next Floor</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S5_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Explore the Area</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S5_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Listen to the Surroundings</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S6_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to the Cultist</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q5_EventQuestLabel1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Fear No Evil</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q5_EventSteptLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Silence the Whisper of Anameterassü</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S6_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Banish Yudaï</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S6_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to the Primordial Guardian</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S7_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Reach the Core</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S8_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Enter the Core</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S8_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Explore the Core</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q5_EventQuestLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">No Matter the Odds</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q5_EventStepNametLabel2_1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Subjugate Justicar Edric</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q5_EventStepNametLabel2_2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Resist Edric</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q5_EventStepNametLabel2_3</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Kill your Brother</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S8_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Face Judgement</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S9_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to the Primordial Guardian Spirit</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S10_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Talk to Merchant-Prince Damaskus</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S11_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Leave the Palace</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S12_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Thrive in the Soldier of Fortune Game Mode</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A1_Q5_S12_Popup_Title</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Congratulations!</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_A1_Q5_S12_Popup_Content</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">&lt;Font Size=&quot;40&quot;&gt;Thank you for playing the Beta of Wolcen: Lords of Mayhem, and congratulations for completing Act I! You can now continue the adventure in Soldier of Fortune mode. Return to the main menu and change game mode. Talk to &quot;Dashing&quot; Eugene or Alexander Ivakin in Stormfall to take on Mandates and Expeditions that will grant you the most awesome rewards!&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Act2_Main1</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q1_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Chasing the Morning Star</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q1_QuestDescriptionLabel</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q1_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Pursue Valeria</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q1_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Leave the Area</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q1_S2_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Kill The Wildlings</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q1_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Valeria</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q1_S3_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to the Dying Shaman</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Act2_Main2</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q2_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Creeping Shadows</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q2_QuestDescriptionLabel</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q2_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for Zima</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q2_S1_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Zima</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q2_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Reach Mercy</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q2_S2_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Zima</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q2_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Enter Mercy's Arena</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q2_S3_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Beat Mercy's Champions</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q2_S3_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Mercy</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q2_S3_UpdateStepNameLabel3</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Challenge Mercy</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_A2_Q2_EventQuestLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Beat the Master of Arena</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q2_S3_EventStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Kill Mercy</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q2_S4_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Reach the Shadow Wall</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q2_S4_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Zima</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Act2_Main3</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q3_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">The Darkest Dusk</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q3_QuestDescriptionLabel</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s83"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q3_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Reach the Templar Camp</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q3_S1_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Valeria</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q3_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Enter into the Camp</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q3_S2_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Clear the Area</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q3_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Valeria</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q3_S3_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Enter the Temple</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q3_S4_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for the Remaining Brothers</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q3_S5_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Father Gernese</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q3_S5_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to the Aurora Knight</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q3_S5_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Hold the Tide</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q3_S5_UpdateStepNameLabel3</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Father Gernese</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Act2_Main4</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q4_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Dawnbringer</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q4_QuestDescriptionLabel</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q4_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Father Gernese</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q4_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Valeria</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q4_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Follow the Trail of Undead</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q4_S4_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to the Cultist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q4_S4_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Banish the Undeads</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q4_EventQuestLabel1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Dawnbringer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q4_EventStepLabel1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Kill the Demon and its Creation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Act2_Main5</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q5_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Journey into Madness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q5_QuestDescriptionLabel</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Father Gernese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for the Brother Squad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S2_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Survive the Ambush</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to the Flesh Creature</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S4_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for the Brotherhood Squad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S4_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Lambach</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S4_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for the Brother Squad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S4_UpdateStepNameLabel3</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Destroy the Hearts of Corruption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S5_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for the Brotherhood Squad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S6_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for the Brotherhood Squad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S6_UpdateStepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Destroy the Hearts of Corruption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S7_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for the Brotherhood Squad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S8_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for the Brotherhood Squad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S9_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for the Brotherhood Squad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S9_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Push Back the Cultist Assault</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S9_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Banish the Demon of Flesh</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q5_S9_UpdateStepNameLabel3</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Valeria</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Act2_Main6</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q6_QuestLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Cordial Invitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ui_A2_Q6_QuestDescriptionLabel</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q6_S1_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Lambach</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q6_S2_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for the Brother Squad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q6_S3_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Lambach</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q6_S3_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Kill Valeria's Clones</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q6_S3_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Leave the Area</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q6_S4_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Look for the Brother Squad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q6_S5_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Delve deeper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q6_S6_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Delve deeper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q6_S6_UpdateStepNameLabel1</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Lambach</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q6_S6_UpdateStepNameLabel2</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Fight the Flesh Creatures</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">ui_A2_Q6_S7_StepNameLabel</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Talk to Father Gernese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="242"/>
+   <Row ss:Index="525" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="529" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="78"/>
+   <Row ss:Index="608" ss:AutoFitHeight="0" ss:Height="18"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="613" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="616" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="620" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="623" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="627" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="630" ss:AutoFitHeight="0" ss:Height="15" ss:Span="13"/>
+   <Row ss:Index="644" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="51"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25" ss:Span="1"/>
+   <Row ss:Index="649" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="653" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="657" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="47.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="51"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="666" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="669" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="673" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="85.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="687" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="689" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="696" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="4"/>
+   <Row ss:Index="701" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="705" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="3"/>
+   <Row ss:Index="709" ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="711" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="714" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="718" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="720" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25" ss:Span="1"/>
+   <Row ss:Index="724" ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="727" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="6"/>
+   <Row ss:Index="734" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="737" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="6"/>
+   <Row ss:Index="746" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="6"/>
+   <Row ss:Index="753" ss:AutoFitHeight="0" ss:Height="15" ss:Span="73"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.51181102362204722"
+     x:Data="&amp;LTime restriction sample script"/>
+    <Footer x:Margin="0.51181102362204722" x:Data="Page &amp;P"/>
+    <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0"
+     x:Top="0.98425196850393704"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>70</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>147</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>162</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

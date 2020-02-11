@@ -1,0 +1,56 @@
+<MetaData>
+  <AST Name="player_frostcomet">
+    <SkillModifier XP="0" Level="1" Effect="damage_base_flat" Param1="0" Param2="0" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="100" Level="2" Effect="damage_base_flat" Param1="2" Param2="2" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="300" Level="3" Effect="damage_base_flat" Param1="4" Param2="4" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="640" Level="4" Effect="damage_base_flat" Param1="6" Param2="6" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1100" Level="5" Effect="damage_base_flat" Param1="8" Param2="8" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1700" Level="6" Effect="damage_base_flat" Param1="10" Param2="10" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="2500" Level="7" Effect="damage_base_flat" Param1="12" Param2="12" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="3400" Level="8" Effect="damage_base_flat" Param1="14" Param2="14" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="4600" Level="9" Effect="damage_base_flat" Param1="16" Param2="16" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="6000" Level="10" Effect="damage_base_flat" Param1="18" Param2="18" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="7600" Level="11" Effect="damage_base_flat" Param1="20" Param2="20" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="9400" Level="12" Effect="damage_base_flat" Param1="22" Param2="22" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="11600" Level="13" Effect="damage_base_flat" Param1="24" Param2="24" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="14000" Level="14" Effect="damage_base_flat" Param1="26" Param2="26" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="20000" Level="15" Effect="damage_base_flat" Param1="28" Param2="28" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="23600" Level="16" Effect="damage_base_flat" Param1="30" Param2="30" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="27600" Level="17" Effect="damage_base_flat" Param1="30" Param2="30" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="32000" Level="18" Effect="damage_base_flat" Param1="30" Param2="30" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="37200" Level="19" Effect="damage_base_flat" Param1="30" Param2="30" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="43000" Level="20" Effect="damage_base_flat" Param1="30" Param2="30" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="51083" Level="21" Effect="damage_base_flat" Param1="40" Param2="40" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="51083" Level="22" Effect="damage_base_flat" Param1="42" Param2="42" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="51083" Level="23" Effect="damage_base_flat" Param1="44" Param2="44" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="51083" Level="24" Effect="damage_base_flat" Param1="46" Param2="46" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="51083" Level="25" Effect="damage_base_flat" Param1="48" Param2="48" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillVariant Level="5" Mode="Additive" UID="player_frostcomet_step_1" Cost="4" />
+    <SkillVariant Level="5" Mode="Additive" UID="player_frostcomet_step_2" Cost="4" />
+    <SkillVariant Level="10" Mode="Additive" UID="player_frostcomet_step_3" Cost="4" />
+    <SkillVariant Level="10" Mode="Additive" UID="player_frostcomet_step_4" Cost="4" />
+    <SkillVariant Level="15" Mode="Additive" UID="player_frostcomet_step_5" Cost="8" />
+    <SkillVariant Level="15" Mode="Additive" UID="player_frostcomet_step_6" Cost="4" />
+    <SkillVariant Level="20" Mode="Additive" UID="player_frostcomet_step_7" Cost="4" />
+    <SkillVariant Level="20" Mode="Additive" UID="player_frostcomet_step_8" Cost="8" />
+    <SkillPoints Level="2" Amount="1" />
+    <SkillPoints Level="3" Amount="1" />
+    <SkillPoints Level="4" Amount="1" />
+    <SkillPoints Level="5" Amount="1" />
+    <SkillPoints Level="6" Amount="1" />
+    <SkillPoints Level="7" Amount="1" />
+    <SkillPoints Level="8" Amount="1" />
+    <SkillPoints Level="9" Amount="1" />
+    <SkillPoints Level="10" Amount="1" />
+    <SkillPoints Level="11" Amount="1" />
+    <SkillPoints Level="12" Amount="1" />
+    <SkillPoints Level="13" Amount="1" />
+    <SkillPoints Level="14" Amount="1" />
+    <SkillPoints Level="15" Amount="1" />
+    <SkillPoints Level="16" Amount="1" />
+    <SkillPoints Level="17" Amount="1" />
+    <SkillPoints Level="18" Amount="1" />
+    <SkillPoints Level="19" Amount="1" />
+    <SkillPoints Level="20" Amount="2" />
+  </AST>
+</MetaData>

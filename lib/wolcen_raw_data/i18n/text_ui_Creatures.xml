@@ -1,0 +1,627 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Cthylla</LastAuthor>
+  <LastSaved>2019-10-18T14:29:15Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17445</WindowHeight>
+  <WindowWidth>26820</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s40" ss:Name="40&#160;% - Accent1">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#BDD7EE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s27" ss:Name="Insatisfaisant">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#800000"/>
+   <Interior ss:Color="#FFC7CE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26" ss:Name="Satisfaisant">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m474813432">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s74" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s75" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#333333"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C2:R1C3"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="98" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:AutoFitWidth="0" ss:Width="225.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="210.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="364.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="160.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s62">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ORIGINAL TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TRANSLATED TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell ss:MergeAcross="2" ss:StyleID="m474813432"><Data ss:Type="String">CREATURES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s72">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Cult of souls : Necromantic</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s72">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_AIName_CoS_Zombie</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Husk</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s72">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_AIName_CoS_FrostZombie</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Frozen Husk</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_ZombieWarrior</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Armored Husk</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_ZombieLancer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Raised Martyr</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_FrostZombieLancer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Frost Martyr</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_Cultist</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Cultist of the Sleeper</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_Fanatic</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Fanatic of the Sleeper</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_Tombearer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Frost Tormentor</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_Lanternbearer_aoe</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Tormentor</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_MiniTombearer</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Forsaken</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_ZombieButcher</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Devourer</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_Cultist_2</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s72">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Cult of souls : Damned</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_DeathCloak</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Deathcloak</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_Lost_Soul</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Lost Soul</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_TaintedPrimordialArmor</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Tainted Primordial Armor</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_HalfBreedOfSoul</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Soul Spawn</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_MiniHalfBreedOfSoul_shadow</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Shadow Spawn</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_MiniHalfBreedOfSoul_physical</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Abyssal Spawn</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_Specter</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Specter</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_Specter_Shadow</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Nightmare</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_Specter_Aether</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Anomaly</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_TaintedPrimordialGuardian</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Tainted Primordial Guardian</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_DemonOfSouls</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Demon of Souls</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s72">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Svriirs</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Baby</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Svriirling</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Omega</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Omega Svriir</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Screecher</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Beta Screecher</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Spitter</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Beta Spitter</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Spawner</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Beta Spawner</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Minispitter</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Noxious Swarmwing</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Omegafemale_1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Omega Female Svriir</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_PoisonAlpha</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Alpha Svriir</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Baby_2</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sea Svriirling</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Omegafemale_2</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sea Omega Female Svriir</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Omega_2</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sea Omega Svriir</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Minispitter_2</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sea Noxious Swarmwing</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Spitter_2</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sea Spitter</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Baby_3</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Caves Svriirling</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Omega_3</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Caves Omega Svriir</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Screecher_3</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Caves Beta Screecher</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Spitter_3</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Caves Beta Spitter</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Spawner_3</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Caves Beta Spawner</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_PoisonAlpha_3</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Caves Alpha Svriir</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Minispitter_3</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Caves Noxious Swarmwing</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Omegafemale_3</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Caves Omega Female Svriir</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Morgon</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Misshapen Svriir</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Morgon_Bleed</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Misshapen Mangler</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Morgon_Poison</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Misshapen Infected</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s72">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Outlaws</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s72">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">ui_AIName_Outlaws_MeleeBandit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Raider</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Outlaws_RangedBandit</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Archer</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Outlaws_Dog</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Bandit Dog</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Outlaws_Dog2</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">War Hound</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Outlaws_Trapper</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sapper</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Outlaws_Trapper_Stun</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Staggerer</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Outlaws_KennelMaster</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Kennel Master</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Outlaws_Wallbreaker</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Wallbreaker</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Outlaws_Thug</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sadistic Thug</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s72">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Republic</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Republic_MeleeSoldier</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Republican Infantry</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Republic_Assassin</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Alastor</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s72">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Primordial</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Primordial_Armor</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Primordial Armor</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Primordial_Guardian</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Primordial Guardian</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Untainted</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Untainted_Eviscerator</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Untainted Shadowblade</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Charger</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Untainted Zealot</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_ChargerClone</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Zealot Clone</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Eviscerator</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Untainted Shadowblade</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ui_AIName_Tracker</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Untainted Mindsealer</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s72">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Bosses</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_FireAlpha_B</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sirkis, Bane of the Storm</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_Yudai_B</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yudaï, Whisper of Anameterassü</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Republic_Edric_B</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Edric, Justicar of the Republic</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_CultistOfSouls_B</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Vhegguad, Seal of Anankis</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_PoisonAlpha_B</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sobok the Untamed</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Outlaws_Trapper_B</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Borok</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_TaintedPrimordialGuardian_B</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Neiddrerym</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Svriirs_Spitter_B</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Noxwing</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Outlaws_Thug_B</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Naärlog</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_Specter_B</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Haaron the Harvester</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_CoS_ZombieButcher_B</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Deteron</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Stormfall</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Stormfall_StormfallGuardMelee</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Stormfall Guard</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Stormfall_StormfallGuardRanged</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Stormfall Archer</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Stormfall_StormfallRefugee</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Conscript</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Wild</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Wild_Bear</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Grizzly Bear</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Wild_Spider_Melee</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Araneïs</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Wild_Spider_Ranged</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Alba Araneïs</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Wild_Spider_Melee_Small</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Parvus Araneïs</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Wild_Spider_Melee_2</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Crystallus Araneïs</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Wild_Spider_Ranged_2</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Minuere Araneïs</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AIName_Wild_Spider_Melee_Small_2</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Vegrandis Araneïs</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.51181102362204722"
+     x:Data="&amp;LTime restriction sample script"/>
+    <Footer x:Margin="0.51181102362204722" x:Data="Page &amp;P"/>
+    <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0"
+     x:Top="0.98425196850393704"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>70</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>57</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>72</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

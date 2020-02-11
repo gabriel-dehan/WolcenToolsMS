@@ -1,0 +1,107 @@
+<MetaData>
+  <MaterialsParams>
+    <Material Type="skill" Category="melee" Mode="0" Path="objects/pst/materials/pst_skill_melee_inactive" />
+    <Material Type="skill" Category="melee" Mode="1" Path="objects/pst/materials/pst_skill_melee_hover" />
+    <Material Type="skill" Category="melee" Mode="2" Path="objects/pst/materials/pst_skill_melee_selected" />
+    <Material Type="skill" Category="magic" Mode="0" Path="objects/pst/materials/pst_skill_magic_inactive" />
+    <Material Type="skill" Category="magic" Mode="1" Path="objects/pst/materials/pst_skill_magic_hover" />
+    <Material Type="skill" Category="magic" Mode="2" Path="objects/pst/materials/pst_skill_magic_selected" />
+    <Material Type="skill" Category="defense" Mode="0" Path="objects/pst/materials/pst_skill_tank_inactive" />
+    <Material Type="skill" Category="defense" Mode="1" Path="objects/pst/materials/pst_skill_tank_hover" />
+    <Material Type="skill" Category="defense" Mode="2" Path="objects/pst/materials/pst_skill_tank_selected" />
+    <Material Type="skill" Category="range" Mode="0" Path="objects/pst/materials/pst_skill_range_inactive" />
+    <Material Type="skill" Category="range" Mode="1" Path="objects/pst/materials/pst_skill_range_hover" />
+    <Material Type="skill" Category="range" Mode="2" Path="objects/pst/materials/pst_skill_range_selected" />
+    <Material Type="skill" Category="sneak" Mode="0" Path="objects/pst/materials/pst_skill_sneak_inactive" />
+    <Material Type="skill" Category="sneak" Mode="1" Path="objects/pst/materials/pst_skill_sneak_hover" />
+    <Material Type="skill" Category="sneak" Mode="2" Path="objects/pst/materials/pst_skill_sneak_selected" />
+    <Material Type="skill" Category="utility" Mode="0" Path="objects/pst/materials/pst_skill_utility_inactive" />
+    <Material Type="skill" Category="utility" Mode="1" Path="objects/pst/materials/pst_skill_utility_hover" />
+    <Material Type="skill" Category="utility" Mode="2" Path="objects/pst/materials/pst_skill_utility_selected" />
+    <Material Type="link" Mode="0" Path="objects/pst/materials/pst_link_inactive_flat" />
+    <Material Type="link" Mode="1" Path="objects/pst/materials/pst_link_reachable_flat" />
+    <Material Type="link" Mode="2" Path="objects/pst/materials/pst_link_active_flat" />
+    <Material Type="link" Mode="3" Path="objects/pst/materials/pst_link_notconnected_flat" />
+    <Material Type="ring" Mode="0" Path="Objects/PST/Materials/pst_ring_new_inactive" />
+    <Material Type="ring" Mode="1" Path="Objects/PST/Materials/pst_ring_new_inactive" />
+    <Material Type="ring" Mode="2" Path="Objects/PST/Materials/pst_ring_new_selected" />
+    <Material Type="edge" Mode="0" Path="objects/pst/materials/pst_edgelink_inactive_flat" />
+    <Material Type="edge" Mode="1" Path="objects/pst/materials/pst_edgelink_reachable_flat" />
+    <Material Type="edge" Mode="2" Path="objects/pst/materials/pst_edgelink_active_flat" />
+    <Material Type="edgeLink" Mode="0" Path="objects/pst/materials/pst_socleedge_inactive" />
+    <Material Type="edgeLink" Mode="1" Path="objects/pst/materials/pst_socleedge_hover" />
+    <Material Type="edgeLink" Mode="2" Path="objects/pst/materials/pst_socleedge_selected" />
+    <Material Type="base" Rarity="0" Mode="0" Path="objects/pst/materials/pst_socle0_inactive" />
+    <Material Type="base" Rarity="0" Mode="1" Path="objects/pst/materials/pst_socle0_hover" />
+    <Material Type="base" Rarity="0" Mode="2" Path="objects/pst/materials/pst_socle0_selected" />
+    <Material Type="base" Rarity="1" Mode="0" Path="objects/pst/materials/pst_socle1_inactive" />
+    <Material Type="base" Rarity="1" Mode="1" Path="objects/pst/materials/pst_socle1_hover" />
+    <Material Type="base" Rarity="1" Mode="2" Path="objects/pst/materials/pst_socle1_selected" />
+    <Material Type="base" Rarity="2" Mode="0" Path="objects/pst/materials/pst_socle2_inactive" />
+    <Material Type="base" Rarity="2" Mode="1" Path="objects/pst/materials/pst_socle2_hover" />
+    <Material Type="base" Rarity="2" Mode="2" Path="objects/pst/materials/pst_socle2_selected" />
+    <Material Type="base" Rarity="3" Mode="0" Path="objects/pst/materials/pst_socle_signature_inactive" />
+    <Material Type="base" Rarity="3" Mode="1" Path="objects/pst/materials/pst_socle_signature_hover" />
+    <Material Type="base" Rarity="3" Mode="2" Path="objects/pst/materials/pst_socle_signature_selected" />
+  </MaterialsParams>
+  <GeometryParams>
+    <Object Type="skill" Path="objects/pst/pstskill.cgf" />
+    <Object Type="base" Rarity="0" Path="objects/pst/pstsocle0.cgf" />
+    <Object Type="base" Rarity="1" Path="objects/pst/pstsocle1.cgf" />
+    <Object Type="base" Rarity="2" Path="objects/pst/pstsocle2.cgf" />
+    <Object Type="base" Rarity="3" Path="objects/pst/PSTSocle_signature.cgf" />
+    <Object Type="edge" Ring="0" Path="objects/pst/pstlinkedge0_flat.cgf" />
+    <Object Type="edge" Ring="1" Path="objects/pst/pstlinkedge1_flat.cgf" />
+    <Object Type="edge" Ring="2" Path="objects/pst/pstlinkedge2_flat.cgf" />
+    <Object Type="link" Path="objects/pst/PSTLink_flat.cgf" />
+    <Object Type="edgeLink" Ring="0" Path="objects/pst/pstsocleedge0.cgf" />
+    <Object Type="edgeLink" Ring="1" Path="objects/pst/pstsocleedge1.cgf" />
+    <Object Type="edgeLink" Ring="2" Path="objects/pst/pstsocleedge2.cgf" />
+    <Object Type="deco" Ring="0" Path="PSTOrnement0_1" />
+    <Object Type="deco" Ring="0" Path="PSTOrnement0_2" />
+    <Object Type="deco" Ring="1" Path="PSTOrnement1_1" />
+    <Object Type="deco" Ring="1" Path="PSTOrnement1_2" />
+    <Object Type="deco" Ring="2" Path="PSTOrnement2_1" />
+    <Object Type="deco" Ring="2" Path="PSTOrnement2_2" />
+  </GeometryParams>
+  <EffectsParams>
+    <Effect Type="skill" Category="melee" Mode="0" Path="U_Flow.PassiveSkills.Active_2" />
+    <Effect Type="skill" Category="melee" Mode="1" Path="U_Flow.PassiveSkills.Unlock_melee" />
+    <Effect Type="skill" Category="magic" Mode="0" Path="U_Flow.PassiveSkills.Active_2" />
+    <Effect Type="skill" Category="magic" Mode="1" Path="U_Flow.PassiveSkills.Unlock_magic" />
+    <Effect Type="skill" Category="defense" Mode="0" Path="U_Flow.PassiveSkills.Active_2" />
+    <Effect Type="skill" Category="defense" Mode="1" Path="U_Flow.PassiveSkills.Unlock_tank" />
+    <Effect Type="skill" Category="sneak" Mode="0" Path="U_Flow.PassiveSkills.Active_2" />
+    <Effect Type="skill" Category="sneak" Mode="1" Path="U_Flow.PassiveSkills.Unlock_sneak" />
+    <Effect Type="skill" Category="range" Mode="0" Path="U_Flow.PassiveSkills.Active_2" />
+    <Effect Type="skill" Category="range" Mode="1" Path="U_Flow.PassiveSkills.Unlock_range" />
+    <Effect Type="skill" Category="utility" Mode="0" Path="U_Flow.PassiveSkills.Active_2" />
+    <Effect Type="skill" Category="utility" Mode="1" Path="U_Flow.PassiveSkills.Unlock_utility" />
+    <Effect Type="ring" Ring="0" Mode="2" Path="U_Flow.PassiveSkills.Smoke_turn_0" />
+    <Effect Type="ring" Ring="0" Mode="3" Path="" />
+    <Effect Type="ring" Ring="1" Mode="2" Path="U_Flow.PassiveSkills.Smoke_turn_1" />
+    <Effect Type="ring" Ring="1" Mode="3" Path="" />
+    <Effect Type="ring" Ring="2" Mode="2" Path="U_Flow.PassiveSkills.Smoke_turn_2" />
+    <Effect Type="ring" Ring="2" Mode="3" Path="" />
+  </EffectsParams>
+  <HUDParams>
+    <TextColor Name="PST_white" Color="#fff6e5" />
+    <TextColor Name="Loot_blue" Color="#509FFF" />
+    <TextColor Name="Loot_yellow" Color="#f0f891" />
+    <TextColor Name="Loot_orange" Color="#ff6600" />
+    <TextColor Name="Loot_green" Color="#99FF00" />
+    <TextColor Name="Loot_grey" Color="#aaaaaa" />
+    <TextColor Name="Loot_greyred" Color="#c19595" />
+    <TextColor Name="Loot_pink" Color="#ffcccc" />
+    <TextColor Name="Loot_red" Color="#ff0000" />
+    <TextColor Name="Loot_unique" Color="#BA71F0" />
+    <TextColor Name="Loot_quest" Color="#E8C1AB" />
+    <TextColor Name="WARNING_GOLD" Color="#ffefd8" />
+    <TextColor Name="WARNING_RED" Color="#FF4444" />
+    <TextColor Name="BONUS" Color="#63FF63" />
+    <TextColor Name="MALUS" Color="#FF4444" />
+    <TextColor Name="VALUEBASE" Color="#FFF3E8" />
+    <TextColor Name="WHITE" Color="#FFFFFF" />
+    <TextColor Name="GOLD" Color="#ffefd8" />
+  </HUDParams>
+</MetaData>

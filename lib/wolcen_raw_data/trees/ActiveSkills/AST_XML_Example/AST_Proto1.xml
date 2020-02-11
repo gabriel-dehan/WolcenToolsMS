@@ -1,0 +1,29 @@
+<MetaData>
+  <AST Name="_SKILL_NAME_">
+    <SkillModifier XP="0" Level="1" Effect="damage_percent" Param1="1" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="200" Level="2" Effect="damage_percent" Param1="2" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="300" Level="3" Effect="damage_percent" Param1="3" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="400" Level="4" Effect="damage_percent" Param1="4" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillVariant XP="500" Level="5" Mode="Additive" Variant1="_SKILL_VARIANT_1_" Variant2="_SKILL_VARIANT_2_" />
+    <SkillModifier XP="600" Level="6" Effect="damage_percent" Param1="1" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="700" Level="7" Effect="damage_percent" Param1="2" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="800" Level="8" Effect="damage_percent" Param1="3" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="900" Level="9" Effect="damage_percent" Param1="4" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillVariant XP="1000" Level="10" Mode="Additive" Variant1="_SKILL_VARIANT_3_" Variant2="_SKILL_VARIANT_4_" />
+    <SkillModifier XP="1100" Level="11" Effect="damage_percent" Param1="1" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1200" Level="12" Effect="damage_percent" Param1="2" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1300" Level="13" Effect="damage_percent" Param1="3" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1400" Level="14" Effect="damage_percent" Param1="4" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillVariant XP="1500" Level="15" Mode="Additive" Variant1="_SKILL_VARIANT_5_" Variant2="_SKILL_VARIANT_6_" />
+    <SkillModifier XP="1600" Level="16" Effect="damage_percent" Param1="1" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1700" Level="17" Effect="damage_percent" Param1="2" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1800" Level="18" Effect="damage_percent" Param1="3" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="1900" Level="19" Effect="damage_percent" Param1="4" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillVariant XP="2000" Level="20" Mode="Additive" Variant1="_SKILL_VARIANT_7_" Variant2="_SKILL_VARIANT_8_" />
+    <SkillModifier XP="2100" Level="21" Effect="damage_percent" Param1="1" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="2200" Level="22" Effect="damage_percent" Param1="2" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="2300" Level="23" Effect="damage_percent" Param1="3" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillModifier XP="2400" Level="24" Effect="damage_percent" Param1="4" UIDesc="@ui_AST_ParamBonus_Damage" />
+    <SkillVariant XP="2500" Level="25" Mode="Additive" Variant1="_SKILL_VARIANT_9_" Variant2="_SKILL_VARIANT_10_" />
+  </AST>
+</MetaData>

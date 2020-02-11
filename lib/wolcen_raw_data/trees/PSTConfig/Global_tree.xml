@@ -1,0 +1,16 @@
+<Tree>
+  <Ring Number="0">
+    <Section Name="Agility" Number="0" />
+    <Section Name="Ferocity" Number="1" />
+    <Section Name="Willpower" Number="2" />
+  </Ring>
+  <Ring Number="1">
+    <Section Name="Distance" Number="0" />
+    <Section Name="Warrior" Number="1" />
+    <Section Name="Elementalist" Number="2" />
+    <Section Name="Melee" Number="3" />
+    <Section Name="Tank" Number="4" />
+    <Section Name="Master" Number="5" />
+  </Ring>
+  <Ring Number="2" />
+</Tree>

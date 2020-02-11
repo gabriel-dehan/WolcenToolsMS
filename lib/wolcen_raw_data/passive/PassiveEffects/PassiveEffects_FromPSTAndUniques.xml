@@ -1,0 +1,37 @@
+<MetaData>
+  <Spell Name="DefenseUp_OnBlock" MaxStack="1">
+    <MagicEffects>
+      <EIM Name="all_resistance_score_percent" Permanent="0">
+        <Semantics CharacteristicScorePercentInt="20" />
+      </EIM>
+    </MagicEffects>
+  </Spell>
+  <Spell Name="DefenseUp_OnGlobePickup" MaxStack="1">
+    <MagicEffects>
+      <EIM Name="all_resistance_score_percent" Permanent="0">
+        <Semantics CharacteristicScorePercentInt="40" />
+      </EIM>
+    </MagicEffects>
+  </Spell>
+  <Spell Name="DodgeChance_OnBeingHit" MaxStack="1">
+    <MagicEffects>
+      <EIM Name="dodgechance_score_percent" Permanent="0">
+        <Semantics CharacteristicScorePercentInt="50" />
+      </EIM>
+    </MagicEffects>
+  </Spell>
+  <Spell Name="HealthRegen_OnLowHealth" MaxStack="1">
+    <MagicEffects>
+      <EIM Name="health_regen_true_percent" Permanent="0">
+        <Semantics ResourcePercentInt="500" />
+      </EIM>
+    </MagicEffects>
+  </Spell>
+  <Spell Name="Slow_Aoe_OnActiveDodge" MaxStack="1">
+    <MagicEffects>
+      <EIM Name="movespeed" Permanent="0">
+        <Semantics SpeedPercentInt="-90" />
+      </EIM>
+    </MagicEffects>
+  </Spell>
+</MetaData>

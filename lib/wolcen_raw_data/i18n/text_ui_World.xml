@@ -1,0 +1,891 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>Audio script template</Title>
+  <Author>Maëlenn Lumineau</Author>
+  <LastAuthor>Abhoth2</LastAuthor>
+  <LastPrinted>2003-10-30T09:38:41Z</LastPrinted>
+  <Created>2002-06-17T19:14:00Z</Created>
+  <LastSaved>2019-08-06T14:06:37Z</LastSaved>
+  <Company>Electronic Arts</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path>\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\Copy of Dialog_Asset_List_Final_edit.xls</Path>
+   <SheetName>DropDown</SheetName>
+   <SheetName>Conversations</SheetName>
+   <Xct>
+    <Count>-2</Count>
+    <SheetIndex>0</SheetIndex>
+    <Crn>
+     <Row>6</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>4</ColLast>
+     <Text>clean</Text>
+     <Text>TV</Text>
+     <Text>radio (disturbed) </Text>
+     <Text>radio (low)</Text>
+     <Text>radio (heavy)</Text>
+    </Crn>
+    <Crn>
+     <Row>9</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>41</ColLast>
+     <Text>Player</Text>
+     <Text>Barnes</Text>
+     <Text>Hawker</Text>
+     <Text>Sykes</Text>
+     <Text>Johnson</Text>
+     <Text>Cortez</Text>
+     <Text>Beck</Text>
+     <Text>Miller</Text>
+     <Text>Baxter</Text>
+     <Text>American scientist</Text>
+     <Text>Shark</Text>
+     <Text>Chia</Text>
+     <Text>Kirovski</Text>
+     <Text>Michaels</Text>
+     <Text>Chang</Text>
+     <Text>Marine Soldier a</Text>
+     <Text>Marine Soldier b</Text>
+     <Text>Chinese Soldier a</Text>
+     <Text>Chinese Soldier b</Text>
+     <Text>Chinese Soldier c</Text>
+     <Text>Chinese Soldier d</Text>
+     <Text>Chinese Soldier e</Text>
+     <Text>Chinese Soldier f</Text>
+     <Text>Chinese Officer a</Text>
+     <Text>Chinese Officer b</Text>
+     <Text>Chinese Scientist a</Text>
+     <Text>Chinese Scientist b</Text>
+     <Text>Chinese Scientist Female a</Text>
+     <Text>Chinese Scientist Female b</Text>
+     <Text>Filmcrew Member</Text>
+     <Text>Morrison</Text>
+     <Text>C17 Pilot a</Text>
+     <Text>C17 Pilot b</Text>
+     <Text>Submarine Commander Davis</Text>
+     <Text>Pilot (camera)</Text>
+     <Text>Bridge officer 1</Text>
+     <Text>Bridge officer 2</Text>
+     <Text>Carrier deck guide</Text>
+     <Text>Jet Pilot</Text>
+     <Text>VTOL Pilot</Text>
+     <Text>Commander (camera)</Text>
+     <Text>Team Two (camera)</Text>
+    </Crn>
+   </Xct>
+  </SupBook>
+  <WindowHeight>11430</WindowHeight>
+  <WindowWidth>15825</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <TabRatio>274</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s40" ss:Name="40&#160;% - Accent1">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#BDD7EE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s28" ss:Name="Neutre">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#993300"/>
+   <Interior ss:Color="#FFEB9C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26" ss:Name="Satisfaisant">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m616055816" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s76" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s82" ss:Parent="s26">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s83" ss:Parent="s28">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#993300"/>
+   <Interior ss:Color="#FFEB9C" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="characters"
+   ss:RefersTo="='\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\[Copy of Dialog_Asset_List_Final_edit.xls]DropDown'!R10C1:R10C42"/>
+  <NamedRange ss:Name="type"
+   ss:RefersTo="='\DOCUME~1\jack\LOCALS~1\Temp\p4v\PC025 perforce 1666\data\Game02\Game\Languages\[Copy of Dialog_Asset_List_Final_edit.xls]DropDown'!R7C1:R7C5"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C2:R1C3"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="658" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:AutoFitWidth="0" ss:Width="312"/>
+   <Column ss:AutoFitWidth="0" ss:Width="281.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="329.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="160.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s62">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ORIGINAL TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TRANSLATED TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="2" ss:StyleID="m616055816"><Data ss:Type="String">WORLD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">NPC Names</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76" ss:Formula="=IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-1],&quot;&quot;)"><Data
+      ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_StormfallMerchant_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Mohabi</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Mohabi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AdventureCharacter1_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">&quot;Dashing&quot; Eugene</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">&quot;Dashing&quot; Eugene</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AdventureCharacter2_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Alexander Ivakin</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Alexander Ivakin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_StormfallArchivist_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Demetra</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Demetra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_StormfallJeweler_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Zanafer Stark</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Zanafer Stark</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Valeria_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Valeria</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Valeria</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Edric_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Edric</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Edric</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Maelys_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Justicar Maëlys</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Justicar Maëlys</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ThunderBlade_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Thunderblade</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Thunderblade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ThunderBladeFaarad_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Thunderblade Faärad</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Thunderblade Faärad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_ThunderBladeSandor_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Thunderblade Sandor</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Thunderblade Sandor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FlayerWarrior_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Flayer Warrior</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Flayer Warrior</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FlayerArcher_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Flayer Archer</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Flayer Archer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FlayerSapper_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Flayer Sapper</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Flayer Sapper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Yudai_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Yudaï</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Yudaï</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_StormfallGuard_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Stormfall Guard</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Stormfall Guard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_StormfallConscript_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Stormfall Conscript</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Stormfall Conscript</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_StormfallNoble_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Stormfall Noble</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Stormfall Noble</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Refugee_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Refugee</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Refugee</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Damaskus_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Merchant Prince Damaskus</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Merchant Prince Damaskus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Alastor_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Alastor</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Alastor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Naarlog_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Naärlog</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Naärlog</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Cultist_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Cultist of the Sleeper</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Cultist of the Sleeper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AuroraKnightCalahad_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Aurora Knight Calahad</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Aurora Knight Calahad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_GrandInquisitorHeimlock_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Grand Inquisitor Heimlock</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Grand Inquisitor Heimlock</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Vhegguad_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Vhegguad, Seal of Anankis</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Vhegguad, Seal of Anankis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Neiddrerym_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Neiddrerym</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Neiddrerym</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Nazim_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Nazim</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Nazim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_Mizzeonth_CharacterNameLabel</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Mizzeonth</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Mizzeonth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">NPC Interactions</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">World Waypoints</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ui_WaypointUnlocked</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">%1 waypoint unlocked</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">%1 waypoint unlocked</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">ui_reset_dungeon</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Interact to generate a new dungeon</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Interact to generate a new dungeon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Signposts</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Sleeping</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_sleep</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sleep</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sleep</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_sleepingmenu_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Rest</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Rest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_currenttime</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Current time: </Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Current time: </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_sleepuntil</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sleep until: </Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sleep until: </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Environments</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_PlayerChest</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Personal Chest</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Personal Chest</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">World Map Name</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s76"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">The Coast of Wrecks</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">The Coast of Wrecks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_worldmap_you_are_here</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Your Position</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Your Position</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_worldmap_quest_objective</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Quest Objective</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Quest Objective</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_worldmap_explored_dungeon</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Explored Area</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Explored Area</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_worldmap_unexplored_dungeon</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Unexplored Area</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Unexplored Area</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_worldmap_waypoint</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Waypoint</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Waypoint</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_worldmap_act_hub</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">City Hub</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">City Hub</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_worldmap_camp</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Safe Area</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Safe Area</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_worldmap_locked_path</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Locked Area</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Locked Area</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_coast_of_wrecks_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Svriir Grotto</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Svriir Grotto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_highlands_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Highlands</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Highlands</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_stormfall_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Stormfall - Palace District</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Stormfall - Palace District</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_stormfall_farmlands_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Farmlands</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Farmlands</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_svriir_network_1_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Svriir Cave Network 1</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Svriir Cave Network 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_svriir_tributes_storage_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Tributes Chamber</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Tributes Chamber</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_svriir_network_2_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Svriir Cave Network 2</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Svriir Cave Network 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_flayer_outpost_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Flayers Outpost</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Flayers Outpost</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_ravaged_camp_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Ravaged Brotherhood Camp</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Ravaged Brotherhood Camp</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_green_bluffs_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Green Bluffs</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Green Bluffs</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_smuggler_path_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Smuggler’s Path</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Smuggler’s Path</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_necropolis_1_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Urhan Necropolis 1</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Urhan Necropolis 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_necropolis_2_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Urhan Necropolis 2</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Urhan Necropolis 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_necropolis_3_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Urhan Necropolis 3</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Urhan Necropolis 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_gates_of_anankis_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Gate of Anankis</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Gate of Anankis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_halls_1_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Anankis’ Halls 1</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Anankis’ Halls 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_halls_2_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Anankis’ Halls 2</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Anankis’ Halls 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_core_overlook_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Anankis’ Core Overlook</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Anankis’ Core Overlook</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_halls_3_name</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Anankis’ Halls 3</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Anankis’ Halls 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">World Map Desc</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_coast_of_wrecks_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;These caves were carved by millennia of rough weather. This climate inspired the name of the &lt;b&gt;Sea of Torment&lt;/b&gt; northwest from here. Countless ships were lost to it, only to be washed up on the shore. &lt;b&gt;Sea Svriir&lt;/b&gt; have recently swum up from the depths to invade them.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;These caves were carved by millenias of rough weather. This climate inspired the name of the &lt;b&gt;Sea of Torment&lt;/b&gt; northwest from here. Countless ships were lost to it, only to be washed up on the shore. &lt;b&gt;Sea Svriir&lt;/b&gt; have recently swum up from the depths to invade them.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_highlands_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The &lt;b&gt;Svriirs&lt;/b&gt; are quickly overwhelming the nearby lands. The city watch of Stormfall is unable to contain their savagery and ordered a full retreat, hoping to regroup and push them back. This once peaceful shore road is now littered with bodies of refugees flocking toward the city-walls.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The &lt;b&gt;Svriirs&lt;/b&gt; are quickly overwhelming the nearby lands. The city watch of Stormfall is unable to contain their savagery and ordered a full retreat, hoping to regroup and push them back. This once peaceful shore road is now littered with bodies of refugees flocking toward the city-walls.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_stormfall_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The city state of &lt;b&gt;Stormfall&lt;/b&gt; is nicknamed the Jewel of the Sea. Its reputation is built on its legendary shipyards and cartographers, but its wealth comes from the bustling Diamond Exchange. It maintained its sovereignty against the expanding &lt;b&gt;Republic&lt;/b&gt; thanks to its defensive alliance known as the &lt;b&gt;Jeweled Concordat&lt;/b&gt;. Furthermore, the neighbouring &lt;b&gt;Salt Deserts of Morkaï&lt;/b&gt; provide a natural, deadly barrier to dissuade invading forces.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The city state of &lt;b&gt;Stormfall&lt;/b&gt; is nicknamed the Jewel of the Sea. Its reputation is built on its legendary shipyards and cartographers, but its wealth comes from the bustling Diamond Exchange. It maintained its sovereignty against the expanding &lt;b&gt;Republic&lt;/b&gt; thanks to its defensive alliance known as the &lt;b&gt;Jeweled Concordat&lt;/b&gt;. Furthermore, the neighbouring &lt;b&gt;Salt Deserts of Morkaï&lt;/b&gt; provide a natural, deadly barrier to dissuade invading forces.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_stormfall_farmlands_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The merchant road is the official way through which caravans can reach &lt;b&gt;Stormfall&lt;/b&gt; by land. It winds through the &lt;b&gt;farmlands&lt;/b&gt; before splitting into several paths which connect it to the &lt;b&gt;Republic&lt;/b&gt;, the allied city-state of &lt;b&gt;Vulkaïn&lt;/b&gt; and the septentrional road leading to &lt;b&gt;Greyharbour&lt;/b&gt; far to the North. However with the ongoing crisis, no-one dares to travel through this war-torn countryside by fear of being raided by Svriirs or Flayers Wildlings.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The merchant road is the official way through which caravans can reach &lt;b&gt;Stormfall&lt;/b&gt; by land. It winds through the &lt;b&gt;farmlands&lt;/b&gt; before splitting into several paths which connect it to the &lt;b&gt;Republic&lt;/b&gt;, the allied city-state of &lt;b&gt;Vulkaïn&lt;/b&gt; and the septentrional road leading to &lt;b&gt;Greyharbour&lt;/b&gt; far to the North. However with the ongoing crisis, no-one dares to travel through this war-torn countryside by fear of being raided by Svriirs or Flayers Wildlings.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_svriir_network_1_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;These underground caverns were carved by the &lt;b&gt;Svriirs&lt;/b&gt; to reach the surface. They form a network which connects several lairs into a singular supercluster ruled by a single &lt;b&gt;Alpha Male&lt;/b&gt;. The countless eggs and the fact that they wouldn’t normally risk bringing their &lt;b&gt;beta females&lt;/b&gt; to the frontline indicates that they came here out of desperation and have no plan on going back.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;These underground caverns were carved by the &lt;b&gt;Svriirs&lt;/b&gt; to reach the surface. They form a network which connects several lairs into a singular supercluster ruled by only one &lt;b&gt;Alpha Male&lt;/b&gt;. The countless eggs and the fact that they wouldn’t normally risk bringing their &lt;b&gt;beta females&lt;/b&gt; to the frontline indicates that they came here out of desperation and have no plan on going back.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_svriir_tributes_storage_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;A surprising arrangement of stolen items dragged from the surface is amassed here. Bodies too. Anything that is perceived as having value is a candidate to be brought back in their &lt;b&gt;tributes chamber&lt;/b&gt;, from a shiny fork to an actual diamond.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;A surprising arrangement of stolen items dragged from the surface is amassed here. Bodies too. Anything that is perceived as having value is a candidate to be brought back in their &lt;b&gt;tributes chamber&lt;/b&gt;, from a shiny fork to an actual diamond.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_svriir_network_2_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Soul Surges&lt;/b&gt; from the depths are weakening the structure of these tunnels. The &lt;b&gt;Svriirs&lt;/b&gt; are either flocking to the surface or busy defending the eggs against the &lt;b&gt;tormented souls&lt;/b&gt;, which might explain why the network’s heart is under-defended.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Soul Surges&lt;/b&gt; from the depths are weakening the structure of these tunnels. The &lt;b&gt;Svriirs&lt;/b&gt; are either flocking to the surface or busy defending the eggs against the &lt;b&gt;tormented souls&lt;/b&gt;, which might explain why the network’s heart is under-defended.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_flayer_outpost_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The shore was already shaped in a hostile way, dotted with wrecks that accumulated over the years, but since the &lt;b&gt;Soul Surges&lt;/b&gt; began its grimness reached a whole new level. One can only wonder why &lt;b&gt;wildlings&lt;/b&gt; are still fighting for their nearby outpost.&#10;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The shore was already shaped in a hostile way, dotted with wrecks that accumulated over the years, but since the &lt;b&gt;Soul Surges&lt;/b&gt; began its grimness reached a whole new level. One can only wonder why &lt;b&gt;wildlings&lt;/b&gt; are still fighting for their nearby outpost.&#10;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_ravaged_camp_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The target of Operation Dawnbane. &lt;b&gt;Brothers of Dawn&lt;/b&gt; got flanked in the the middle of the night by &lt;b&gt;Republican forces&lt;/b&gt; moving along the shore. From the battle only blood and embers remain.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The target of Operation Dawnbane. &lt;b&gt;Brothers of Dawn&lt;/b&gt; got flanked in the the middle of the night by &lt;b&gt;Republican forces&lt;/b&gt; moving along the shore. From the battle only blood and embers remain.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_green_bluffs_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;The Green Bluffs&lt;/b&gt; have a microclimate, as is often the case coastside. This is by far the sunniest place within the city state’s territory. Maybe that explains why the &lt;b&gt;Flayers&lt;/b&gt; chose this forest to hide until an opportunity to strike &lt;b&gt;Stormfall’s farmlands&lt;/b&gt; presented itself.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;The Green Bluffs&lt;/b&gt; have a microclimate, as is often the case coastside. This is by far the sunniest place within the city state’s territory. Maybe that explains why the &lt;b&gt;Flayers&lt;/b&gt; chose this forest to hide until an opportunity to strike &lt;b&gt;Stormfall’s farmlands&lt;/b&gt; presented itself.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_smuggler_path_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;An ancient natural network of caves which connects &lt;b&gt;Stormfall's&lt;/b&gt; rings to the sea level. It used to be a hide-and-seek playground for &lt;b&gt; Stormfall guards&lt;/b&gt; and smugglers until &lt;b&gt;Sea Svriirs&lt;/b&gt; started climbing their way up.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;An ancient natural network of caves which connects &lt;b&gt;Stormfall's&lt;/b&gt; rings to the sea level. It used to be a hide-and-seek playground for &lt;b&gt; Stormfall guards&lt;/b&gt; and smugglers until &lt;b&gt;Sea Svriirs&lt;/b&gt; started climbing their way up.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_necropolis_1_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The grim halls of a civilization long gone. It was dug and buried before the idea of &lt;b&gt;Stormfall&lt;/b&gt; was even conceived. It remained undisturbed for centuries but now that the &lt;b&gt;Cult of the Sleeper&lt;/b&gt;’s procession went through it, the dead roam in every corner.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The grim halls of a civilization long gone. It was dug and buried before the idea of &lt;b&gt;Stormfall&lt;/b&gt; was even conceived. It remained undisturbed for centuries but now that the &lt;b&gt;Cult of the Sleeper&lt;/b&gt;’s procession went through it, the dead roam in every corner.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_necropolis_2_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;Bottomless pits, suffocating darkness, paralyzing cold... there is no question that this place belongs to the dead. &lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;Bottomless pits, suffocating darkness, paralyzing cold... there is no question that this place belongs to the dead. &lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_necropolis_3_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;This massive &lt;b&gt;Necropolis&lt;/b&gt; is filled with hidden sculptures and tablets, as if those building it wanted to tell their own story. Among these concealed testimonies, many terrifying beasts made of both light and shadow  are depicted oppressing the human creators of these halls. Truth or myth, these craftsmen have risen back to haunt the &lt;b&gt;necropolis&lt;/b&gt; in the wake of the &lt;b&gt;Sleeper&lt;/b&gt;'s unholy procession.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;This massive &lt;b&gt;Necropolis&lt;/b&gt; is filled with hidden sculptures and tablets, as if those building it wanted to tell their own story. Among these concealed testimonies, many terrifying beasts made of both light and shadow  are depicted oppressing the human creators of these halls. Truth or myth, these craftsmen have risen back to haunt the &lt;b&gt;necropolis&lt;/b&gt; in the wake of the &lt;b&gt;Sleeper&lt;/b&gt;'s unholy procession.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_gates_of_anankis_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;A timeless gate was excavated by those building the &lt;b&gt;Necropolis&lt;/b&gt;. Apparently its discovery spelled the end of the underground construction. Their last deed was to fill the mausoleum's chambers with their own bones.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;A timeless gate was excavated by those building the &lt;b&gt;Necropolis&lt;/b&gt;. Apparently its discovery spelled the end of the underground construction. Their last deed was to fill the mausoleum's chambers with their own bones.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_halls_1_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The most extraordinary feats of Creation are legacies made by these networks of gigantic catalysts. Without them, even the &lt;b&gt;Primordials&lt;/b&gt; would have been unable to perform their greatest deeds. Such power might be what the &lt;b&gt;Cult of the Sleeper&lt;/b&gt; is after.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The most extraordinary feats of Creation are legacies made by these networks of gigantic catalysts. Without them, even the &lt;b&gt;Primordials&lt;/b&gt; would have been unable to perform their greatest deeds. Such power might be what the &lt;b&gt;Cult of the Sleeper&lt;/b&gt; is after.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_halls_2_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;The Primordial Guardians&lt;/b&gt; that tried to keep the &lt;b&gt;Halls of Anankis&lt;/b&gt; from the grasp of the &lt;b&gt;Cult of the Sleeper&lt;/b&gt; are all that remains of the superstructure’s memory. If they disappear, their knowledge will vanish with them.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;The Primordial Guardians&lt;/b&gt; that tried to keep the &lt;b&gt;Halls of Anankis&lt;/b&gt; from the grasp of the &lt;b&gt;Cult of the Sleeper&lt;/b&gt; are all that remains of the superstructure’s memory. If they disappear, their knowledge will vanish with them.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_core_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Primordial superstructures&lt;/b&gt; were meant to reap faith and funnel it to the center of the catalytic network. With the &lt;b&gt;Cult of the Sleeper&lt;/b&gt;’s invasion, its purpose was tainted.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Primordial superstructures&lt;/b&gt; were meant to reap faith and funnel it to the center of the catalytic network. With the &lt;b&gt;Cult of the Sleeper&lt;/b&gt;’s invasion, its purpose was tainted.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_core_overlook_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Primordial superstructures&lt;/b&gt; were meant to reap faith and funnel it to the center of the catalytic network. With the &lt;b&gt;Cult of the Sleeper&lt;/b&gt;’s invasion, its purpose was tainted.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Primordial superstructures&lt;/b&gt; were meant to reap faith and funnel it to the center of the catalytic network. With the &lt;b&gt;Cult of the Sleeper&lt;/b&gt;’s invasion, its purpose was tainted.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_halls_3_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The Phenomenons on the surface are a ripple effect of the core passing its power threshold. Creating a feedback loop, the population’s terror empowers the core even more. If this does not stop, this loop can only end in the city being entirely destroyed. Even without Yudaï, the &lt;b&gt;Cult of the Sleeper&lt;/b&gt; will not let anyone near the core unchallenged.&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;18&quot; Color=&quot;#FFFFFF&quot;&gt;The Phenomenons on the surface are a ripple effect of the core passing its power threshold. Creating a feedback loop, the population’s terror empowers the core even more. If this does not stop, this loop can only end in the city being entirely destroyed. Even without Yudaï, the &lt;b&gt;Cult of the Sleeper&lt;/b&gt; will not let anyone near the core unchallenged.&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">World Map Lore</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_coast_of_wrecks_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;Merchants around the world will go to great lengths to avoid sailing the &lt;b&gt;Sea of Torment&lt;/b&gt;. Yet, whenever they have to hire a crew to make their way through it, they always turn to us. We know its treacherous streams better than the back of our hands.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt; &lt;b&gt;Sataë, 12th Captain of Stormfall's Merchant Fleet&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;Merchants around the world will go to great lengths to avoid sailing the &lt;b&gt;Sea of Torment&lt;/b&gt;. Yet, whenever they have to hire a crew to make their way through it, they always turn to us. We know its treacherous streams better than the back of our hands.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt; &lt;b&gt;Sataë, 12th Captain of Stormfall's Merchant Fleet&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_highlands_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;I lost my mom’s hand in the enormous crowd that amassed in front of the city gates. I saw her be pushed in a stream of panicked refugees forcing their way into the city. When I finally reached the gates, the guards were ordered to close the gates in front of us. Now we have all resigned ourselves to our fate: death in the crossfire.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt; &lt;b&gt;Ebira, Stormfall Refugee&lt;/b&gt; &lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;I lost my mom’s hand in the enormous crowd that amassed in front of the city gates. I saw her be pushed in a stream of panicked refugees forcing their way into the city. When I finally reached the gates, the guards were ordered to close the gates in front of us. Now we have all resigned ourselves to our fate: death in the crossfire.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt; &lt;b&gt;Ebira, Stormfall Refugee&lt;/b&gt; &lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_stormfall_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;Closing the gates on my people was by far the hardest decision of my time. We accepted as many people as we could behind the walls, but now the two lower rings are packed with refugees... famine and sickness are around the corner, accepting more of them would be suicide. &lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Merchant-Prince Damaskus of Stormfall, Keeper of the Sea Jewel&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;Closing the gates on my people was by far the hardest decision of my time. We accepted as many people as we could behind the walls, but now the two lower rings are packed with refugees... famine and sickness are around the corner, accepting more of them would be suicide. &lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Merchant-Prince Damaskus of Stormfall, Keeper of the Sea Jewel&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_stormfall_farmlands_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;The Merchant-Prince has rented our war fleet on the other side of the world for what I expect to be a juicy pay-out! But now we are caught totally unprepared... The city watch is not equipped to deal with an assault of this magnitude! Sending us conscripts won’t save the day: we need real soldiers! Damn him and his greed!&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Sandor, Thunderblade of Stormfall&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;The Merchant-Prince has rented our war fleet on the other side of the world for what I expect to be a juicy pay-out! But now we are caught totally unprepared... The city watch is not equipped to deal with an assault of this magnitude! Sending us conscripts won’t save the day: we need real soldiers! Damn him and his greed!&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Sandor, Thunderguard of Stormfall&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_svriir_network_1_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;A &lt;b&gt;Svriir&lt;/b&gt; egg has two and only two possible outcomes when hatching: a male or a female. Aside from that difference, all &lt;b&gt;Svriirs&lt;/b&gt; are perfect clones at birth, it’s only after that they might mutate into anything the nest needs… Adaptation at its finest. I cannot help but to make parallels with how schools can turn children into whatever the community needs… almost.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Achemid, Advisor of Merchant-Prince Damaskus on the Svriir crisis&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;A &lt;b&gt;Svriir&lt;/b&gt; egg has two and only two possible outcomes when hatching: a male or a female. Aside from that difference, all &lt;b&gt;Svriirs&lt;/b&gt; are perfect clones at birth, it’s only after that they might mutate into anything the nest needs… Adaptation at its finest. I cannot help but to make parallels with how schools can turn children into whatever the community needs… almost.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Achemid, Advisor of Merchant-Prince Damaskus on the Svriir crisis&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_svriir_tributes_storage_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;&lt;b&gt;Svriir&lt;/b&gt; societies are truly formidable in many ways. The &lt;b&gt;omega males&lt;/b&gt; are cowardly creatures hunting in packs for things to steal and occasionally abduct victims. They will then offer their tribute to &lt;b&gt;beta females&lt;/b&gt; who will cover them in spit should they accept the tribute. The dominating theory is that this spit is filled with mutagens which trigger on contact with other &lt;b&gt;Svriirs’&lt;/b&gt; skin. And so, the worthy &lt;b&gt;omega males&lt;/b&gt; will rise in the hierarchy by becoming specific &lt;b&gt;beta males&lt;/b&gt;. A virtuous selective process.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Achemid, Advisor of Merchant-Prince Damaskus on the Svriirs crisis&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;&lt;b&gt;Svriir&lt;/b&gt; societies are truly formidable in many ways. The &lt;b&gt;omega males&lt;/b&gt; are cowardly creatures hunting in packs for things to steal and occasionally abduct victims. They will then offer their tribute to &lt;b&gt;beta females&lt;/b&gt; which  will cover them in spit should they accept the tribute. The dominating theory is that this spit is filled with mutagens which trigger on contact with other &lt;b&gt;Svriirs’&lt;/b&gt; skin. And so, the worthy &lt;/b&gt;omega males&lt;/b&gt; will rise in the hierarchy by becoming specific &lt;b&gt;beta males&lt;/b&gt;. A virtuous selective process.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Achemid, Advisor of Merchant-Prince Damaskus on the Svriirs crisis&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_svriir_network_2_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;People routinely mistake &lt;b&gt;Svriirs&lt;/b&gt; for reptilian beasts while in fact they are more akin to a primitive society: why would they hide their genitals otherwise? Beasts do not burden themselves with such modesty.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt; &lt;b&gt;Achemid, Advisor of Merchant-Prince Damaskus on the Svriir crisis&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;People routinely mistake &lt;b&gt;Svriirs&lt;/b&gt; for reptilian beasts while in fact they are more akin to a primitive society: why would they hide their genitals otherwise? Beasts do not burden themselves with such modesty.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt; &lt;b&gt;Achemid, Advisor of Merchant-Prince Damaskus on the Svriir crisis&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_flayer_outpost_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;&lt;b&gt;The Flayers&lt;/b&gt; took the opportunity of the &lt;b&gt;Svriir&lt;/b&gt; crisis to raid the &lt;b&gt;farmlands&lt;/b&gt;. Now, they’re the ones being raided by these &lt;b&gt;souls&lt;/b&gt;. Sweet irony. Maybe the ghosts of the innocents they slaughtered are taking revenge on their sorry asses, who knows?&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Edric, Veteran Purifier of the Republic&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;&lt;b&gt;The Flayers&lt;/b&gt; took the opportunity of the &lt;b&gt;Svriir&lt;/b&gt; crisis to raid the &lt;b&gt;farmlands&lt;/b&gt;. Now, they’re the ones being raided by these &lt;b&gt;souls&lt;/b&gt;. Sweet irony. Maybe the ghosts of the innocents they slaughtered are taking revenge on their sorry asses, who knows?&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Edric, Veteran Purifier of the Republic&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_ravaged_camp_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;&lt;b&gt;Crimson Keep&lt;/b&gt; has been lost to the occult corruption of the &lt;b&gt;Brotherhood of Dawn&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;We shall not be tarnished.&lt;br/&gt;We shall not stand down.&lt;br/&gt;&lt;br/&gt;An army of &lt;b&gt;Purifiers&lt;/b&gt; is to be sent North to retake what is ours.&lt;br/&gt;All known locations of the &lt;b&gt;Brotherhood of Dawn&lt;/b&gt; are to be attacked in retaliation and purified at once.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt; &lt;b&gt;Edict 3.3.3.4.6. from the United Republic of Mankind’s Senate&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;&lt;b&gt;Crimson Keep&lt;/b&gt; has been lost to the occult corruption of the &lt;b&gt;Brotherhood of Dawn&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;We shall not be tarnished.&lt;br/&gt;We shall not stand down.&lt;br/&gt;&lt;br/&gt;An army of &lt;b&gt;Purifiers&lt;/b&gt; is to be sent North to retake what is ours.&lt;br/&gt;All known locations of the &lt;b&gt;Brotherhood of Dawn&lt;/b&gt; are to be attacked in retaliation and purified at once.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt; &lt;b&gt;Edict 3.3.3.4.6. from the United Republic of Mankind’s Senate&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_green_bluffs_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;It used to be a place for romantic ballads and weddings. But with recent events, I start to realize: should we survive, there won’t be any celebration for my people, only grief and sorrow.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Merchant-Prince Damaskus of Stormfall, Keeper of the Sea Jewel&lt;/b&gt; &lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;It used to be a place for romantic ballads and weddings. But with recent events, I start to realize: should we survive, there won’t be any celebration for my people, only grief and sorrow.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Merchant-Prince Damaskus of Stormfall, Keeper of the Sea Jewel&lt;/b&gt; &lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_smuggler_path_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;&lt;b&gt;Thunderblade Odao&lt;/b&gt; asked the &lt;b&gt;Merchant-Prince&lt;/b&gt; to blow up the caves below &lt;b&gt;Stormfall&lt;/b&gt; to help the city watch cope up with the black market undermining our economy. I had to step in to explain that if we were to do that, the whole city would collapse on itself. Odao hasn’t talked to me since…&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Lord Arkan, Engineering Counselor in Merchant-Prince Damaskus’s court&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;&lt;b&gt;Thunderguard Odao&lt;/b&gt; asked the &lt;b&gt;Merchant-Prince&lt;/b&gt; to blow up the caves below &lt;b&gt;Stormfall&lt;/b&gt; to help the city watch cope up with the black market undermining our economy. I had to step in to explain that if we were to do that, the whole city would collapse on itself.  Odao hasn’t talked to me since…&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Lord Arkan, Engineering Counselor at Merchant-Prince Damaskus’ court&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_necropolis_1_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;We tracked down the procession of the &lt;b&gt;Cult of the Sleeper&lt;/b&gt;. Apparently they knew of the &lt;b&gt;Necropolis&lt;/b&gt;’s existence and location… I’m concerned that they might be led by an entity from another era. May the &lt;b&gt;Searing Song&lt;/b&gt; have mercy on us all.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Calahad, Aurora Knight of the Brotherhood of Dawn&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;We tracked down the procession of the &lt;b&gt;Cult of the Sleeper&lt;/b&gt;. Apparently they knew of the &lt;b&gt;Necropolis&lt;/b&gt;’ existence and location… I’m concerned that they might be led by an entity from another era. May the &lt;b&gt;Searing Song&lt;/b&gt; have mercy on us all.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Calahad, Aurora Knight of the Brotherhood of Dawn&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_necropolis_2_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;There are similar &lt;b&gt;Necropolises&lt;/b&gt; buried deep within the ground all across the four realms. They all shelter human bones with a similar level of preservation and share a near identical iconography. You have to wonder, what could have possibly happened simultaneously around the world eons ago?&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt; &lt;b&gt;Xil'Sarei, famous historian&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt;&quot;&lt;i&gt;There are similar  &lt;b&gt;Necropolises&lt;/b&gt; buried deep within the ground all across the four realms. They all shelter human bones with a similar level of preservation and share a near identical iconography. You have to wonder, what could have possibly happened simultaneously around the world eons ago?&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt; &lt;b&gt;Xil'Sarei, famous historian&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_necropolis_3_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;We humans, are forgetful creatures. Our history is accented with the rise and fall of civilizations. We are so self-centered that we think our daily tragedies matter in the grand scheme of things. But the &lt;b&gt;Sleeper&lt;/b&gt; opened our eyes, forever.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Vhegguad, Seal of Anankis&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;We humans, are forgetful creatures. Our history is accented with the rise and fall of civilizations. We are so self-centered that we think our daily tragedies matter in the grand scheme of things. But the &lt;b&gt;Sleeper&lt;/b&gt; opened our eyes, forever.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Vhegguad, Seal of Anankis&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_gates_of_anankis_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;The power of &lt;b&gt;Anankis&lt;/b&gt; slumbers deep into the earth, forgotten by most. But &lt;b&gt;The Sleeper&lt;/b&gt; remembers. &lt;b&gt;The Sleeper&lt;/b&gt; knows its location and shared it with me. I will convert this catalyst to our cause, harnessing its power to fuel his ambitions.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Yudaï, Whisper of Anameterassü&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;The power of &lt;b&gt;Anankis&lt;/b&gt; slumbers deep into the earth, forgotten by most. But &lt;b&gt;The Sleeper&lt;/b&gt; remembers. &lt;b&gt;The Sleeper&lt;/b&gt; knows its location and shared it with me. I will convert this catalyst to our cause, harnessing its power to fuel his ambitions.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Yudaï, Whisper of Anameterassü&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_halls_1_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;The earthquakes and the &lt;b&gt;Soul Surges&lt;/b&gt; are spreading throughout the lands. This is a reality for more and more people: &lt;b&gt;Svriirs&lt;/b&gt; were a threat we could have endured, but what can we do here? If we leave the city, we’ll be torn apart, if we stay, we are contemplating a slow, horrible death...&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Faärad, Thunderblade of Stormfall&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;The earthquakes and the &lt;b&gt;Soul Surges&lt;/b&gt; are spreading throughout the lands. This is a reality for more and more people: &lt;b&gt;Svriirs&lt;/b&gt; were a threat we could have endured, but what can we do here? If we leave the city, we’ll be torn apart, if we stay, we are contemplating a slow, horrible death...&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Faärad, Thunderblade of Stormfall&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_halls_2_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;Several &lt;b&gt;Primordials&lt;/b&gt; had to find new heights of power out of desperation. The extreme measures they took would one day become their downfall. And so many of them became &lt;b&gt;Abbathus&lt;/b&gt;, twisted shadows of their former glory.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Mizzeonth, Primordial Guardian of Anankis&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;Several &lt;b&gt;Primordials&lt;/b&gt; had to find new heights of power out of desperation. The extreme measures they took would one day become their downfall. And so many of them became &lt;b&gt;Abbathus&lt;/b&gt;, twisted shadows of their former glory.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Mizzeonth, Primordial Guardian of Anankis&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_core_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;A new era awaits. One without &lt;b&gt;Primordials&lt;/b&gt;, one of peace, free of the trivial conflicts that plagued Creation since the world came to be. &lt;b&gt;The Covenant of the Blind&lt;/b&gt; will provide.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Yudaï, Whisper of Anameterassü&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;A new era awaits. One without &lt;b&gt;Primordials&lt;/b&gt;, one of peace, free of the trivial conflicts that plagued Creation since the world came to be. &lt;b&gt;The Covenant of the Blind&lt;/b&gt; will provide.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Yudaï, Whisper of Anameterassü&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_core_overlook_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;A new era awaits. One without &lt;b&gt;Primordials&lt;/b&gt;, one of peace, free of the trivial conflicts that plagued Creation since the world came to be. &lt;b&gt;The Covenant of the Blind&lt;/b&gt; will provide.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Yudaï, Whisper of Anameterassü&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;A new era awaits. One without &lt;b&gt;Primordials&lt;/b&gt;, one of peace, free of the trivial conflicts that plagued Creation since the world came to be. &lt;b&gt;The Covenant of the Blind&lt;/b&gt; will provide.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Yudaï, Whisper of Anameterassü&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_halls_3_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;Once you get a taste of reaping faith through fear… There is no going back. The power generated is unparalleled. &lt;b&gt;Stormfall&lt;/b&gt; shall quake with fear and we shall feed on it.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Yudaï, Whisper of Anameterassü&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;Font Size=&quot;15&quot; Color=&quot;#E6C138&quot;&gt; &quot;&lt;i&gt;Once you get a taste of reaping faith through fear… there is no going back. The power generated is unparalleled. &lt;b&gt;Stormfall&lt;/b&gt; shall quake with fear and we shall feed on it.&lt;/i&gt;&quot;&lt;/Font&gt;&lt;br/&gt;&lt;br/&gt;&lt;Font Size=&quot;17&quot; Color=&quot;#E6C138&quot;&gt;&lt;b&gt;Yudaï, Whisper of Anameterassü&lt;/b&gt;&lt;/Font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Area Name</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_anankis_core_name</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Anankis' Core</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Anankis' Core</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_tavern_name</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Stormfall - The Laughing Sea Gal</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Stormfall - The Laughing Sea Gal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_palace_name</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Stormfall - Palace</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Stormfall - Palace</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_act_1_sirkiss_lair_name</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Sirkis's Lair</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Sirkis's Lair</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="203"/>
+   <Row ss:Index="357" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="361" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="78"/>
+   <Row ss:Index="440" ss:AutoFitHeight="0" ss:Height="18"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="445" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="448" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="452" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="455" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="459" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="462" ss:AutoFitHeight="0" ss:Height="15" ss:Span="13"/>
+   <Row ss:Index="476" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="51"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25" ss:Span="1"/>
+   <Row ss:Index="481" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="485" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="489" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="47.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="51"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="498" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="501" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="505" ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="85.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="519" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="521" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="528" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="4"/>
+   <Row ss:Index="533" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="537" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="3"/>
+   <Row ss:Index="541" ss:AutoFitHeight="0" ss:Height="15" ss:Span="1"/>
+   <Row ss:Index="543" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="2"/>
+   <Row ss:Index="546" ss:AutoFitHeight="0" ss:Height="15" ss:Span="3"/>
+   <Row ss:Index="550" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="552" ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25" ss:Span="1"/>
+   <Row ss:Index="556" ss:AutoFitHeight="0" ss:Height="15" ss:Span="2"/>
+   <Row ss:Index="559" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="6"/>
+   <Row ss:Index="566" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="1"/>
+   <Row ss:Index="569" ss:AutoFitHeight="0" ss:Height="38.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="6"/>
+   <Row ss:Index="578" ss:AutoFitHeight="0" ss:Height="25.5" ss:Span="6"/>
+   <Row ss:Index="585" ss:AutoFitHeight="0" ss:Height="15" ss:Span="73"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.51181102362204722"
+     x:Data="&amp;LTime restriction sample script"/>
+    <Footer x:Margin="0.51181102362204722" x:Data="Page &amp;P"/>
+    <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0"
+     x:Top="0.98425196850393704"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>70</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>81</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>99</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,2761 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Yidhra</Author>
+  <LastAuthor>Abhoth2</LastAuthor>
+  <Created>2019-03-07T15:38:39Z</Created>
+  <LastSaved>2019-10-03T14:36:33Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11670</WindowHeight>
+  <WindowWidth>12390</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s40" ss:Name="40&#160;% - Accent1">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#BDD7EE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s28" ss:Name="Neutre">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#993300"/>
+   <Interior ss:Color="#FFEB9C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26" ss:Name="Satisfaisant">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m492939408">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m492939428">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m492939448">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C5D9F1" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s77" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s78" ss:Parent="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s81" ss:Parent="s28">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s82" ss:Parent="s26">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s83" ss:Parent="s26">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C2:R1C3"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="664" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:AutoFitWidth="0" ss:Width="225.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="364.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="528.75" ss:Span="1"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s62">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KEY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ORIGINAL TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TRANSLATED TEXT</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5" ss:StyleID="s65">
+    <Cell ss:MergeAcross="2" ss:StyleID="m492939408"><Data ss:Type="String">PST USER INTERFACE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_cant_reach_this_skill_yet</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You can't reach this skill yet</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_pst_title</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Gate of Fates</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_pst_remainingpoints</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Remaining points</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_confirm</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Confirm</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_popup_title_savePSTChanges</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Closing the Gate of Fates</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_popup_content_savePSTChanges</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You have invested points pending confirmation. Would you like to confirm them?</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_popup_title_resetPST</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Reset specialization</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_popup_content_resetPST</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Would you like to reset your progression in the Gate of Fates? You will get all you passive skills points and attribute points back.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_PST_not_impl_yet</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">This Passive Skill has not been implemented yet. Taking it won't cost you any skill points.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_PST_need_to_stand_next_to_props</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Need to select a ring before rotating.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_PST_need_to_select_a_ring_before_rotating</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Need to select a ring before rotating.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_PST_NotEnoughPoints</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">You don't have enough skill points.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_pst_cannot_rotate_rings_while_pending_nodes</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Rings can't be moved while nodes are pending.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5" ss:StyleID="s65">
+    <Cell ss:MergeAcross="2" ss:StyleID="m492939428"><Data ss:Type="String">PASSIVE SKILLS NAMES AND LORE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_Section_Ferocity</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Soldier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_1_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Heavy Blows</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_1_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_2_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Heavy Blows</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_2_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_3_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Dauntless</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_3_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_4_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Zealous Might</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_4_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_5_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Zealous Might</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_5_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_6_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Stylish Execution</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_6_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_7_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Deadly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_7_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_8_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Supernatural Insights</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_8_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_9_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The Wild Card</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_9_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Chop! Chop! It's time for some killing boys! Show me what your guts are made of!&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Almarik, Shock Infantryman&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Most armies create their own mythos, populated with larger-than-life heroes that give troops examples to look-up to. Detractors often dismiss them as artificial myths created to fuel the war propaganda that surrounds them. Yet, the one known as &quot;Soldier Almarik&quot; is very real. Despite his prowess, he made his name by willingly keeping the lowest rank in the Purifiers' army. Burdening himself with anything other than the art of killing would not fit his style. His home is the battlefield.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_9_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Attacks and spells are more likely to be critical hits.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_10_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Quick Draw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_10_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_11_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Celerity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_11_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_12_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Tenacious</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_12_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_13_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Disciplined</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_13_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_14_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">The Heat of Battle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_14_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;If you take a hit, you hit 'em back twice. One to take 'em out, and the other to fuck up their corpse.&quot;&lt;/i&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Almarik, Shock Infantryman&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Most armies create their own mythos, populated with larger-than-life heroes that give troops examples to look-up to. Detractors often dismiss them as artificial myths created to fuel the war propaganda that surrounds them. Yet, the one known as &quot;Soldier Almarik&quot; is very real. Despite his prowess, he made his name by willingly keeping the lowest rank in the Purifiers' army. Burdening himself with anything other than the art of killing would not fit his style. His home is the battlefield.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_14_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Taking damage gives you more rage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_15_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Disciplined</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_15_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_16_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Capable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_16_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_17_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Capable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_17_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_18_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Pain Resistance Program</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_18_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_19_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Stalwart</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_19_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_20_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enduring</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_20_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_21_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Chemically Empowered Skin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_21_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_22_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Second Wind</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_22_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5B14D&quot;&gt;&lt;i&gt;&quot;Purifiers protect mankind from the supernatural evils of the world... tsk, bunch of pompous twats! I merely play along that rubbish as long as they let me slaugther stuff for them!&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Almarik, Shock Infantryman&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Most armies create their own mythos, populated with larger-than-life heroes that give troops examples to look-up to. Detractors often dismiss them as artificial myths created to fuel the war propaganda that surrounds them. Yet, the one known as &quot;Soldier Almarik&quot; is very real. Despite his prowess, he made his name by willingly keeping the lowest rank in the Purifiers' army. Burdening himself with anything other than the art of killing would not fit his style. His home is the battlefield.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_22_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">When below a certain threshold of health, gain a burst of Health Regen. This ability has a cooldown.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_23_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unyielding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_23_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_24_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Pain Resistance Program</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_FERO_24_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_Section_Warrior</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Warmonger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_1_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Master of the Frontline</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_1_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_2_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Cruelty</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_2_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_3_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Primal Power</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_3_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_4_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Mystic Potential</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_4_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_5_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Gods amongst Men</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_5_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;The strong dominate the weak. No negotiation, no compromise. The mightiest of warriors deserve the greatest wealth, and we will take it by force.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Einjar, Thane of the Blood Tear Clan&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Every civilization has horrendous tales of barbarian hordes murdering, pillaging and raiding innocent people. Most of the time these exaggerated stories are meant to give shivers during the long winter nights. But these nightmarish depictions of violence caught up with fiction when the Ravagers of the Blood Tear stormed the lands of Varg. A terrifying warrior depicted as a whirlwind of iron and gore has risen as their new warlord. In his aura they seem to have reached new depths of savagery: cannibalism, blood rituals, dismemberments... the madness knows no bounds.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_5_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Physical, poison and rend damage are increased. You cannot inflict other types of damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_6_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Marked Flesh</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_6_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_7_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Bestial Frenzy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_7_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Mortal danger brings out the best in a warrior. Being surrounded by an overwhelming number of enemies will turn you into a creature of war, an unstoppable being of death. If you survive that is.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Einjar, Thane of the Blood Tear Clan&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Every civilization has horrendous tales of barbarian hordes murdering, pillaging and raiding innocent people. Most of the time these exaggerated stories are meant to give shivers during the long winter nights. But these nightmarish depictions of violence caught up with fiction when the Ravagers of the Blood Tear stormed the lands of Varg. A terrifying warrior depicted as a whirlwind of iron and gore has risen as their new warlord. In his aura they seem to have reached new depths of savagery: cannibalism, blood rituals, dismemberments... the madness knows no bounds.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_7_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Increased damage for each enemy within melee range. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_8_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Battlefield Predator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_8_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_9_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Take All Challengers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_9_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_10_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Blood Rush</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_10_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_11_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unleashed Power</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_11_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_12_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unleashed Power</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_12_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_13_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unleashed Power</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_13_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_14_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Strike like Lightning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_14_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_15_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Brutality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_15_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_16_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Feast for the Crows</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_16_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;We do not sow but we harvest. We join the crows for a feast. Our table is the battlefield!&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Einjar, Thane of the Blood Tear Clan&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Every civilization has horrendous tales of barbarian hordes murdering, pillaging and raiding innocent people. Most of the time these exaggerated stories are meant to give shivers during the long winter nights. But these nightmarish depictions of violence caught up with fiction when the Ravagers of the Blood Tear stormed the lands of Varg. A terrifying warrior depicted as a whirlwind of iron and gore has risen as their new warlord. In his aura they seem to have reached new depths of savagery: cannibalism, blood rituals, dismemberments... the madness knows no bounds.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_16_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Give all forms of damage Life Leech. Life Leech heals you on the next tick of Health Regeneration.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_17_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Blood Offering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_17_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_18_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Tearer of Flesh</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_18_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_19_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Whirlwind of Steel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_19_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_20_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Whirlwind of Steel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_20_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_21_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Whirlwind of Steel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_21_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_22_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Swiftness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_22_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_23_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Impervious</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_23_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_24_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Manic Slaughter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_24_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;No more weapons from the Republic! No more bribes from Varg! Now they die, they all die in an endless requiem of gore and laments! My axe thirsts!&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Einjar, Thane of the Blood Tear Clan&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Every civilization has horrendous tales of barbarian hordes murdering, pillaging and raiding innocent people. Most of the time these exaggerated stories are meant to give shivers during the long winter nights. But these nightmarish depictions of violence caught up with fiction when the Ravagers of the Blood Tear stormed the lands of Varg. A terrifying warrior depicted as a whirlwind of iron and gore has risen as their new warlord. In his aura they seem to have reached new depths of savagery: cannibalism, blood rituals, dismemberments... the madness knows no bounds.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_24_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">The more rage you have, the more damage you deal. This applies to all forms of damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_25_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Appetite for Bloodshed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_25_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_26_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unbridled Rage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_26_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_27_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Deadly Physicality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_27_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_28_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Cannibalistic Savagery</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_28_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_29_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Shredder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_29_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_30_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Blood Reaper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_30_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Stop running, boy. Your blood goes to waste on the ground.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Einjar, Thane of the Blood Tear Clan&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Every civilization has horrendous tales of barbarian hordes murdering, pillaging and raiding innocent people. Most of the time these exaggerated stories are meant to give shivers during the long winter nights. But these nightmarish depictions of violence caught up with fiction when the Ravagers of the Blood Tear stormed the lands of Varg. A terrifying warrior depicted as a whirlwind of iron and gore has risen as their new warlord. In his aura they seem to have reached new depths of savagery: cannibalism, blood rituals, dismemberments... the madness knows no bounds.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_WARR_30_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">A percentage of Physical damage becomes Rend damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_Section_Tank</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Praetorian</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_TANK_1_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Impervious Wall</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_TANK_1_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_2_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Mighty</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_2_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_3_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">None Shall Pass</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_3_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_4_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Perfect Defense</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_4_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_5_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Selfless Courage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_5_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;The Kingless are supposed to protect Laibon. Yet, criminality runs amok throughout the kingdom, and the Kingless refuse to intervene. I would rather die searching for a dead man than waste my life following hollow principles.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Mah'alam, fifth shield of the Kingless&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;The kingdom of Laibon has a strong history of assigning their best warriors to the protection of their ruler. Yet, a few decades ago their king disappeared following a series of tragic events. Since then, these warriors became &quot;The Kingless&quot;, training day and night purposelessly but ever ready to fulfill their oath should the crown return. One of them however chose not to wait any longer: he left the realm to track down clues of his sovereign's whereabouts. Should there be nothing left to protect then he would avenge him, and bring back the crown for a new king to take the throne.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_5_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Blocking a hit provides you and your allies increased defenses.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_6_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Immortal Blood</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_6_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_7_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Retaliator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_7_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;The first shield of the Kingless used to tell us: 'Should one of us fall, do not mourn. Do not offer that to your foe. Instead, pick up the shield of the fallen, and bash the skull of your enemy with it.' If my king died, I dare not think of the pain I will unleash on the murderer.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Mah'alam, fifth shield of the Kingless&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;The kingdom of Laibon has a strong history of assigning their best warriors to the protection of their ruler. Yet, a few decades ago their king disappeared following a series of tragic events. Since then, these warriors became &quot;The Kingless&quot;, training day and night purposelessly but ever ready to fulfill their oath should the crown return. One of them however chose not to wait any longer: he left the realm to track down clues of his sovereign's whereabouts. Should there be nothing left to protect then he would avenge him, and bring back the crown for a new king to take the throne.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_7_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Each point of physical resistance increases all forms of damage output at the cost of reduced chance to land critical hits.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_8_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Rightful Vengeance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_8_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_9_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Rightful Vengeance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_9_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_10_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Perseverance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_10_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_11_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Iron Skin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_11_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_12_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Iron Skin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_12_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_13_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Iron Skin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_13_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_14_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Strike like Lightning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_14_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_15_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Brutality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_15_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_16_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Kingless Aegis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_16_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;The heart of my king still beats, I can feel its drumming deep in my bones like a call to action. I cannot rest until he is safe, and thus, my journey begins.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Mah'alam, fifth shield of the Kingless&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;The kingdom of Laibon has a strong history of assigning their best warriors to the protection of their ruler. Yet, a few decades ago their king disappeared following a series of tragic events. Since then, these warriors became &quot;The Kingless&quot;, training day and night purposelessly but ever ready to fulfill their oath should the crown return. One of them however chose not to wait any longer: he left the realm to track down clues of his sovereign's whereabouts. Should there be nothing left to protect then he would avenge him, and bring back the crown for a new king to take the throne.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_16_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Gain block chance no matter what weapon is being used.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_17_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unorthodox Technique</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_17_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_18_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Regal Blessing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_18_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_19_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Robust</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_19_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_20_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Robust</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_20_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_21_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Robust</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_21_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_22_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Weak Spot Focus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_22_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_23_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Regenerative Body</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_23_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_24_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sacred Oath</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_24_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Our ruler is a man-god, a beacon of light gifted with secrets of creation! His lineage kept our realm safe from the long night for centuries... but now that he disappeared with no descendants, we can only fear the worse for our lands.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Mah'alam, fifth shield of the Kingless&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;The kingdom of Laibon has a strong history of assigning their best warriors to the protection of their ruler. Yet, a few decades ago their king disappeared following a series of tragic events. Since then, these warriors became &quot;The Kingless&quot;, training day and night purposelessly but ever ready to fulfill their oath should the crown return. One of them however chose not to wait any longer: he left the realm to track down clues of his sovereign's whereabouts. Should there be nothing left to protect then he would avenge him, and bring back the crown for a new king to take the throne.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_24_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Blocking an enemy's attack applies Weakness, makes that enemy weaker and more vulnerable.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_25_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Faith of the Kingless</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_25_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_26_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Laibonite Discipline</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_26_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_27_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">One Man Crusade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_27_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_28_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Holy Gift</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_28_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_29_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Divine Alms</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_29_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_30_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Blessed Manna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_30_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;The bounty of our holy ruler was limitless. No-one went hungry and the silos were full. When his divine inspiration departed, so too did our resources. Now that we are at our most desperate, it's a small miracle that we survive at all.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Mah'alam, fifth shield of the Kingless&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&lt;font color=&quot;#c5b14d&quot;&gt;The kingdom of Laibon has a strong history of assigning their best warriors to the protection of their ruler. Yet, a few decades ago their king disappeared following a series of tragic events. Since then, these warriors became &quot;The Kingless&quot;, training day and night purposelessly but ever ready to fulfill their oath should the crown return. One of them however chose not to wait any longer: he left the realm to track down clues of his sovereign's whereabouts. Should there be nothing left to protect then he would avenge him, and bring back the crown for a new king to take the throne.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_TANK_30_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Health globes will now offer increased resistances for a short time as well as heal you.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_Section_Agility</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Sentinel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_1_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Refined Technique</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_1_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_2_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Refined Technique</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_2_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_3_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Nimble</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_3_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_4_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Precise Strikes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_4_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_5_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Precise Strikes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_5_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_6_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Celerity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_6_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_7_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Quick-Minded</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_7_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_8_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Blitz Fighting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_8_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_9_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Backline Raider</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_9_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;We move on horseback but we strike on foot. They should never hear us coming, for if they do we face certain death. By the time they realize they are getting flanked, we should already be back to our mounts and going. I don't want anyone playing hero on this squad.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Triss, The Flying Dragoon&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&lt;font color=&quot;#c5b14d&quot;&gt;Intelligence gathering is the key to successful warfare. Such a pretty sentence is a staple taught in Republican military academies, yet those few words have very real implications on the field. There is an ever growing need for discrete and fast soldiers able to track opposing forces' positions, work behind enemy lines or even infiltrate them for sabotage. They are the backbone that allows Inquisitors to make sound strategic decisions. One of them made a name for herself among Republican troops: The Flying Dragoon, a scout from a squad of light cavalry dedicated to harassing the enemy's supply chain. Her reputation states that she is so effective that her sabotages alone are enough to shatter opposing troops' morale.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_9_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Attacks and spells go off faster.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_10_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Quick Draw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_10_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_11_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Slippery</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_11_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_12_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Endurance Training</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_12_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_13_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Calculated Skirmish</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_13_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_14_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Pinch Runner</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_14_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Many generals say that fear is the enemy. They sit comfortably, directing units miles away from the bloodshed. When you are discovered in enemy territory and you have to run for your life, fear may be the only thing that keeps you alive.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Triss, The Flying Dragoon&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Intelligence gathering is the key to successful warfare. Such a pretty sentence is a staple taught in Republican military academies, yet those few words have very real implications on the field. There is an ever growing need for discrete and fast soldiers able to track opposing forces' positions, work behind enemy lines or even infiltrate them for sabotage. They are the backbone that allows Inquisitors to make sound strategic decisions. One of them made a name for herself among Republican troops: The Flying Dragoon, a scout from a squad of light cavalry dedicated to harassing the enemy's supply chain. Her reputation states that she is so effective that her sabotages alone are enough to shatter opposing troops' morale.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_14_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Gain additional stamina points to use dodge rolls at low health. This ability has a cooldown.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_15_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">High Adrenaline</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_15_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_16_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Resilient</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_16_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_17_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Resilient</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_17_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_18_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Chemically Empowered Metabolism</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_18_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_19_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enduring</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_19_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_20_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Evasive Manoeuvers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_20_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_21_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Flexible</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_21_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_22_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Covert Operative</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_22_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;If you want to get a feel of the enemy, join him. Standing armies or evil cults, it matters not. You have to think and move like one of them if you want to survive. The hardest part still, will always be to break character and slip out for a report.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Triss, The Flying Dragoon&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Intelligence gathering is the key to successful warfare. Such a pretty sentence is a staple taught in Republican military academies, yet those few words have very real implications on the field. There is an ever growing need for discrete and fast soldiers able to track opposing forces' positions, work behind enemy lines or even infiltrate them for sabotage. They are the backbone that allows Inquisitors to make sound strategic decisions. One of them made a name for herself among Republican troops: The Flying Dragoon, a scout from a squad of light cavalry dedicated to harassing the enemy's supply chain. Her reputation states that she is so effective that her sabotages alone are enough to shatter opposing troops' morale.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_22_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">More likely to avoid taking damage after being hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_23_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unyielding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_23_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_24_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Chemically Empowered Metabolism</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_AGIL_24_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_Section_Melee</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Assassin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_1_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Elaborate Flurry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_1_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">ui_MELEE_2_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Equipment Maintenance</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_2_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_3_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Serpentine Affinity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_3_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_4_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Concentrated Toxins</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_4_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_5_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Blessing of the Jade Legion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_5_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;A thousand poisons for a thousand purposes.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Li-Wei, Master of the Jade Legion&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Most of the Kuei Empire's territory is covered in jungle. Its cities are connected by a network of traderoads regularly patrolled by imperial troops. But for the past fifteen years, the Jade Legion has been harassing caravans with ambushes all over the empire.\nTheir elusive nature has shrouded them in myths concerning their motives and habits. To this day, one of the best kept secrets of the emperor is that the current Jade Legion's leader is an imperial agent working for him. He infiltrated them, assassinated the previous leader and took his place. Now, the emperor puppets the Jade Legion to justify exuberant taxes over all the cities under his dominion.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_5_desc</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">A percentage of Physical damage becomes Poison damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_6_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Physical Conditioning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_6_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_7_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Slipping Shadow</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_7_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;No jade legionnary has ever been interrogated. Our evasive manoeuvers are unparalleled, as for those that do get caught, their will never falter when comes the time of their ultimate sacrifice. The toxin in their hidden tooth is very effective, for death is preferable to failure.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Li-Wei, Master of the Jade Legion&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Most of the Kuei Empire's territory is covered in jungle. Its cities are connected by a network of traderoads regularly patrolled by imperial troops. But for the past fifteen years, the Jade Legion has been harassing caravans with ambushes all over the empire.\nTheir elusive nature has shrouded them in myths concerning their motives and habits. To this day, one of the best kept secrets of the emperor is that the current Jade Legion's leader is an imperial agent working for him. He infiltrated them, assassinated the previous leader and took his place. Now, the emperor puppets the Jade Legion to justify exuberant taxes over all the cities under his dominion.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_7_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Dodge rolls can go through enemies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_8_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Escape Artist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_8_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_9_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unstoppable Tracker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_9_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_10_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Body and Mind</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_10_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_11_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Elusive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_11_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_12_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_13_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_14_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Strike like Lightning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_14_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_15_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Lithe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_15_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_16_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Clandestine Execution</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_16_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Assassination is a peculiar trade. A price for a life, it seems simple on the surface. But the preparation, the circumstances and the execution itself each have their own intricacies. And there can never be any witnesses.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Li-Wei, Master of the Jade Legion&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Most of the Kuei Empire's territory is covered in jungle. Its cities are connected by a network of traderoads regularly patrolled by imperial troops. But for the past fifteen years, the Jade Legion has been harassing caravans with ambushes all over the empire.\nTheir elusive nature has shrouded them in myths concerning their motives and habits. To this day, one of the best kept secrets of the emperor is that the current Jade Legion's leader is an imperial agent working for him. He infiltrated them, assassinated the previous leader and took his place. Now, the emperor puppets the Jade Legion to justify exuberant taxes over all the cities under his dominion.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_16_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Deal more damage when only one enemy is nearby.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_17_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">A Worthy Adversary</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_17_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_18_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Paranoia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_18_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_19_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Swiftness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_19_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_20_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Swiftness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_20_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_21_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Swiftness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_21_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_22_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Weak Spot Focus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_22_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_23_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Mental Fortitude</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_23_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_24_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Phantom Strike</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_24_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Make your movement unpredictable, for the unseen strike is the deadliest.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Li-Wei, Master of the Jade Legion&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Most of the Kuei Empire's territory is covered in jungle. Its cities are connected by a network of traderoads regularly patrolled by imperial troops. But for the past fifteen years, the Jade Legion has been harassing caravans with ambushes all over the empire.\nTheir elusive nature has shrouded them in myths concerning their motives and habits. To this day, one of the best kept secrets of the emperor is that the current Jade Legion's leader is an imperial agent working for him. He infiltrated them, assassinated the previous leader and took his place. Now, the emperor puppets the Jade Legion to justify exuberant taxes over all the cities under his dominion.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_24_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Dash attacks are now twice as likely to be critical hits.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_25_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Hunter's Vigor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_25_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_26_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Killing Lunge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_26_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_27_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Impeccable Aim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_27_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_28_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Killer Instinct</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_28_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_29_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Killer Instinct</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_29_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_30_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Merciless Lethality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_30_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;If you do not have the intent to kill, do not aim.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Li-Wei, Master of the Jade Legion&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Most of the Kuei Empire's territory is covered in jungle. Its cities are connected by a network of traderoads regularly patrolled by imperial troops. But for the past fifteen years, the Jade Legion has been harassing caravans with ambushes all over the empire.\nTheir elusive nature has shrouded them in myths concerning their motives and habits. To this day, one of the best kept secrets of the emperor is that the current Jade Legion's leader is an imperial agent working for him. He infiltrated them, assassinated the previous leader and took his place. Now, the emperor puppets the Jade Legion to justify exuberant taxes over all the cities under his dominion.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MELEE_30_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Critical hits deal more damage, non-critical hits deal less damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_Section_Distance</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Ranger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_1_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unstoppable Flurry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_1_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_2_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Swiftness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_2_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_3_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Deadly Aim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_3_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_4_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Deadly Aim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_4_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_5_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Come What May</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_5_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;I've seen so many Departed die from the treachery of these lands. Warning them of the horrors they will face does not change their fate... you have to be there. You have to see for yourself. If you survive them once, you might survive them twice and eventually you might call yourself prepared for anything.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Blue, Ranger of the Departed and most secluded known human&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Like a migratory bird, the flying city of Archion follows a nomadic lifestyle. It has three anchorage points, its easternmost is above a lagoon on the coast of one of the two unexplored continents, making it the most exposed city to the exotic evils of the unknown. Once a year, the Departed, a troop made of brave rangers, are sent out to map these frontier lands. Few return, and those that do often come back with mental diseases festering in their mind. All know that they should never stay longer than a night out there... except for &quot;Blue&quot;, a lone wolf which learned how to survive on his own for weeks. To this day, Blue hasn't shared his secret nor the wonders that he discovered out there.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_5_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Projectiles that hit an enemy at close range pierce them and can deal damage to other enemies behind them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_6_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Physical Conditioning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_6_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_7_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Persistence Hunting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_7_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&quot;Tracking an animal is like getting to know them. Beyond the curled teeth and barbed tail, you see where they eat, where they sleep, where they hunt. Pursuing them until they collapse, you finally take the life you know so well.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Blue, Ranger of the Departed and most secluded known human&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Like a migratory bird, the flying city of Archion follows a nomadic lifestyle. It has three anchorage points, its easternmost is above a lagoon on the coast of one of the two unexplored continents, making it the most exposed city to the exotic evils of the unknown. Once a year, the Departed, a troop made of brave rangers, are sent out to map these frontier lands. Few return, and those that do often come back with mental diseases festering in their mind. All know that they should never stay longer than a night out there... except for &quot;Blue&quot;, a lone wolf which learned how to survive on his own for weeks. To this day, Blue hasn't shared his secret nor the wonders that he discovered out there.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_7_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Enemies who have impairment movement (slowed, in stasis, stunned or frozen) take increased damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_8_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Crippling Assault</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_8_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_9_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Overwhelming Barrage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_9_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_10_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Body and Mind</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_10_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_11_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Elusive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_11_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_12_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Elusive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_12_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_13_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Elusive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_13_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_14_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Strike like Lightning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_14_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_15_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Lithe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_15_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_16_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Archion's Teachings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_16_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Whenever I'm home, younglings ask me what should they do to be like me... I simply tell them to listen to their militia instructor, after all, we have the best ranged warfare of the world. But the truth is: I don't want them to follow my path. These lands are best untouched, left alone. I just go there to find solace, not to conquer them.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Blue, Ranger of the Departed and most secluded known human&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Like a migratory bird, the flying city of Archion follows a nomadic lifestyle. It has three anchorage points, its easternmost is above a lagoon on the coast of one of the two unexplored continents, making it the most exposed city to the exotic evils of the unknown. Once a year, the Departed, a troop made of brave rangers, are sent out to map these frontier lands. Few return, and those that do often come back with mental diseases festering in their mind. All know that they should never stay longer than a night out there... except for &quot;Blue&quot;, a lone wolf which learned how to survive on his own for weeks. To this day, Blue hasn't shared his secret nor the wonders that he discovered out there.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_16_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Attacks and spells that launch projectiles now launch an additional projectile. The damage of each projectile is reduced.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_17_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Bullseye</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_17_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_18_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Deadly Aim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_18_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_19_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Shoot to Kill</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_19_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_20_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Shoot to Kill</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_20_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_21_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Shoot to Kill</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_21_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_22_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Puncturing Shot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_22_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_23_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Mental Fortitude</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_23_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_24_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Meditative Focus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_24_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Killing another living creature should never be done lightly. When possible, I take my time with each arrow, recognizing their deadly potential. If that potential is aligned with my intent, I can be certain that it will land true.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Blue, Ranger of the Departed and most secluded known human&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Like a migratory bird, the flying city of Archion follows a nomadic lifestyle. It has three anchorage points, its easternmost is above a lagoon on the coast of one of the two unexplored continents, making it the most exposed city to the exotic evils of the unknown. Once a year, the Departed, a troop made of brave rangers, are sent out to map these frontier lands. Few return, and those that do often come back with mental diseases festering in their mind. All know that they should never stay longer than a night out there... except for &quot;Blue&quot;, a lone wolf which learned how to survive on his own for weeks. To this day, Blue hasn't shared his secret nor the wonders that he discovered out there.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_24_desc</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Deal increased damage when far away from enemies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_25_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Death from Afar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_25_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_26_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Personal Space</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_26_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_27_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Swiftness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_27_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_28_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Swift Death</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_28_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_29_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Swift Death</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_29_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_30_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Safe From Afar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_30_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;First rule of survival: Curiosity kills. If something comes your way and you are unsure of its intentions, shoot or run, but don't stand there wondering.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Blue, Ranger of the Departed and most secluded known human&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;Like a migratory bird, the flying city of Archion follows a nomadic lifestyle. It has three anchorage points, its easternmost is above a lagoon on the coast of one of the two unexplored continents, making it the most exposed city to the exotic evils of the unknown. Once a year, the Departed, a troop made of brave rangers, are sent out to map these frontier lands. Few return, and those that do often come back with mental diseases festering in their mind. All know that they should never stay longer than a night out there... except for &quot;Blue&quot;, a lone wolf which learned how to survive on his own for weeks. To this day, Blue hasn't shared his secret nor the wonders that he discovered out there.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_DIST_30_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">The further away an enemy is, the more damage they take from projectiles up to a limit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_Section_Willpower</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Scholar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_1_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Heightened Concentration</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_1_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_2_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Heightened Concentration</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_2_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_3_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Determined</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_3_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_4_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Adept</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_4_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_5_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Adept</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_5_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_6_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Physician</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_6_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_7_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Witchcraft Consultant</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_7_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_8_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Anatomical Expert</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_8_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_9_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Attrition Strategist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_9_lore</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Patience, Inquisitor. Stay your hand. Our foes are cornered and not going anywhere. Our best move might be not to move at all... let them slowly wither. Force them into a desperate charge to break our lines. Only then, shall they be crushed.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Jeremiah, Battle Counselor of the 4th Purifier Legion&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&lt;font color=&quot;#c5b14d&quot;&gt;One needs foresight, strategy and knowledge to efficiently lead a battalion. That's why Inquisitors and Justicars of the Republic surround themselves with specialists that know the terrain, culture and anatomy of their enemies. For the Purifiers, those enemies belong to the supernatural which forces their scholars to study witchcraft even though they are strictly forbidden from ever practicing it. A thin line that drove many to madness or even to the stake. Yet, Counselor Jeremiah successfully mastered those forbidden arts in secrecy, using them to become one of the best battle masterminds in history. Of course he has declined all opportunities of advancement, being more than happy to stay in the shadow of ambitious Inquisitors while he delves deeper into forbidden knowledge.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_9_desc</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Every hit is more likely to inflict an ailment on its target.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_10_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Quick Draw</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_10_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_11_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Emotional Intelligence</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_11_lore</Data></Cell>
+    <Cell ss:StyleID="s81"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_12_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Increased Awareness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_12_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_13_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unwavering Dedication</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_13_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_14_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Thirst for Knowledge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_14_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Soldiers are told to be willing to lay down their lives in the Republic. Not on my watch. A Purifier's life must be protected, so that they may uncover the cultists' mysteries. The more we know, the stronger we become.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Jeremiah, Battle Counselor of the 4th Purifier Legion&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;One needs foresight, strategy and knowledge to efficiently lead a battalion. That's why Inquisitors and Justicars of the Republic surround themselves with specialists that know the terrain, culture and anatomy of their enemies. For the Purifiers, those enemies belong to the supernatural which forces their scholars to study witchcraft even though they are strictly forbidden from ever practicing it. A thin line that drove many to madness or even to the stake. Yet, Counselor Jeremiah successfully mastered those forbidden arts in secrecy, using them to become one of the best battle masterminds in history. Of course he has declined all opportunities of advancement, being more than happy to stay in the shadow of ambitious Inquisitors while he delves deeper into forbidden knowledge.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_14_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Health globes now both heal your health and recharge your force shield.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_15_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unwavering Dedication</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_15_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_16_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Hardy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_16_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_17_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Hardy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_17_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_18_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Steadfast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_18_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_19_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Chemically Empowered Brain</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_19_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_20_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Heroic Resolve</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_20_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_21_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Propaganda Fueled Zeal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_21_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_22_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Purifier's Will</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_22_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;If they knew of my powers, I would be branded a traitor. Purifiers do not see the world in shades of grey: anything magical is considered witchcraft and consorting with demons. Sometimes I wish I could teach them of my findings, bring the republic to new heights of power by making the occult an ally rather than a foe. Yet, they are far from ready.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Jeremiah, Battle Counselor of the 4th Purifier Legion&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;One needs foresight, strategy and knowledge to efficiently lead a battalion. That's why Inquisitors and Justicars of the Republic surround themselves with specialists that know the terrain, culture and anatomy of their enemies. For the Purifiers, those enemies belong to the supernatural which forces their scholars to study witchcraft even though they are strictly forbidden from ever practicing it. A thin line that drove many to madness or even to the stake. Yet, Counselor Jeremiah successfully mastered those forbidden arts in secrecy, using them to become one of the best battle masterminds in history. Of course he has declined all opportunities of advancement, being more than happy to stay in the shadow of ambitious Inquisitors while he delves deeper into forbidden knowledge.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_22_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">When your Force Shield is full, your damage taken is reduced.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_23_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unyielding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_23_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_24_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Steadfast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_WILL_24_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_Section_Elementalist</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Cabalist</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_1_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Clarity of Mind</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_1_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_2_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Tormentor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_2_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_3_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Master of Curses</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_3_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_4_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Master of Curses</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_4_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_5_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Insidious Decay</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_5_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Since I was young, I have felt a constant pressing urgency. As I have grown older, I have realized that death itself is a consequence of inaction. When faced with enemies of great power, cripple them until their inaction finishes them.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;The Augur, Messiah of Illumination&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;The greatest collection of Enneracts known to date is hoarded by a single man: an augur leading the seclusive Cabal of Illumination. Deep into the subterranean city of Salander, he built an academy for his students to train into the manipulations of the precious ancient artefacts. However this augur is a cautious one; he keeps his most powerful Enneracts in a vault at the core of a labyrinth from which only he knows the exit. If his reputation is to be believed, he has learned to master all the spells and secrets that came in his possession.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_5_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">When applying ailments, more stacks are applied to the enemy. Other forms of damage are less potent.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_6_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Ancient Trinket</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_6_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_7_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Primordial Insights</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_7_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Most men have even forgotten the existence of Primordials. But I did not. They may have turned silent, but echoes of their lessons are everywhere for those that understand creation.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;The Augur, Messiah of Illumination&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;The greatest collection of Enneracts known to date is hoarded by a single man: an augur leading the seclusive Cabal of Illumination. Deep into the subterranean city of Salander, he built an academy for his students to train into the manipulations of the precious ancient artefacts. However this augur is a cautious one; he keeps his most powerful Enneracts in a vault at the core of a labyrinth from which only he knows the exit. If his reputation is to be believed, he has learned to master all the spells and secrets that came in his possession.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_7_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Ailment stacks applied with critical hits can deal critical damage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_8_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Ancient Knowledge</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_8_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_9_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Otherworldly Techniques</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_9_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_10_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Protective Aura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_10_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_11_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sharp Insight</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_11_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_12_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sharp Insight</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_12_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_13_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sharp Insight</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_13_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_14_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Strike like Lightning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_14_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_15_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Focused</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_15_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_16_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Grievous Afflictions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_16_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;They used to be one. As much as they try to be different, they remain bonded by their shared origin. Rare are those who understand that Ice, Lightning and Fire ought to be mastered together.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;The Augur, Messiah of Illumination&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;The greatest collection of Enneracts known to date is hoarded by a single man: an augur leading the seclusive Cabal of Illumination. Deep into the subterranean city of Salander, he built an academy for his students to train into the manipulations of the precious ancient artefacts. However this augur is a cautious one; he keeps his most powerful Enneracts in a vault at the core of a labyrinth from which only he knows the exit. If his reputation is to be believed, he has learned to master all the spells and secrets that came in his possession.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_16_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Hits can usually only apply one ailment type. Now 2 different ailments can be applied with the same hit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_17_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Crippling Decrepitude</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_17_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_18_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Tormentor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_18_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_19_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Crippling Decrepitude</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_19_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_20_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Lethal Certainty</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_20_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_21_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Incessant Infirmity</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_21_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_22_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Tenacious Afflictions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_22_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_23_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Strong-Willed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_23_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_24_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Power of the First Men</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_24_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Pride and stupidity are the mettle of modern men. How dare they think that we are at the peak of our evolution? In fact, that peak happened eons ago! The Enneracts that they use for energy are a painful reminder that we are but an afterthought of our former glory.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;The Augur, Messiah of Illumination&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;The greatest collection of Enneracts known to date is hoarded by a single man: an augur leading the seclusive Cabal of Illumination. Deep into the subterranean city of Salander, he built an academy for his students to train into the manipulations of the precious ancient artefacts. However this augur is a cautious one; he keeps his most powerful Enneracts in a vault at the core of a labyrinth from which only he knows the exit. If his reputation is to be believed, he has learned to master all the spells and secrets that came into his possession.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_24_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">When applying an ailment, there is a chance to double the number of ailment stacks that are applied.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_25_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Artefact Analysis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_25_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_26_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enneract Expert</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_26_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_27_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Enfeebling Energy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_27_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_28_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Magical Mastery</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_28_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_29_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Magical Mastery</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_29_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_30_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Immortal Offering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_30_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;With the correct ritual, ending a life with witchcraft can transfer the dead's lifeforce to the Fallen whose power was channeled. The Fallen constantly hunger for this energy and will try to convince you to feed them further by offering you great power. My students are trained to resist their temptations, as everyone should be.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;The Augur, Messiah of Illumination&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;The greatest collection of Enneracts known to date is hoarded by a single man: an augur leading the seclusive Cabal of Illumination. Deep into the subterranean city of Salander, he built an academy for his students to train into the manipulations of the precious ancient artefacts. However this augur is a cautious one; he keeps his most powerful Enneracts in a vault at the core of a labyrinth from which only he knows the exit. If his reputation is to be believed, he has learned to master all the spells and secrets that came in his possession.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_ELEM_30_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Killing an enemy afflicted with ailments gives you a temporary damage boost.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_Section_Master</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Warlock</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_1_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Dominator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_1_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_2_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Spellslinger</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_2_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_3_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Elemental Manipulation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_3_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_4_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Witchcraft Adept</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_4_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_5_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Residual Energy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_5_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Magic is unpredictable. Taking the energy of a Fallen is imprecise and it can escape your body unexpectedly. Weaker cultists often struggle with this; they bite off more they can chew and are consumed by their own magic.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Kardis, The Blackstaff&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;There's a city cursed with a unique ecosystem. Far away from busy civilizations, Gomora welcomes every and any cult on its island indiscriminately, no matter how evil and insidious. Powerful Arbiters keep most of the madness in check. But still, repeated bloodsheds in the darkest corners of this twisted city has created the space for a vigilante to rise. She is known as the Blackstaff of Gomora, a warlock as devious as the evil she is fighting. She mastered witchcraft and became a faith leech, which might explain why the cultists dread her so much.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_5_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Casting an spell empowers your next attacks with additional damage of the spell's type for a short period of time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_6_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Hyper Self-Awareness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_6_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_7_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Duty to Exterminate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_7_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Gomora is overrun with cultists; filthy, scheming rodents who exist solely to do harm unto others. However, with so many of them in one place, killing them becomes sport.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Kardis, The Blackstaff&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;There's a city cursed with a unique ecosystem. Far away from busy civilizations, Gomora welcomes every and any cult on its island indiscriminately, no matter how evil and insidious. Powerful Arbiters keep most of the madness in check. But still, repeated bloodsheds in the darkest corners of this twisted city has created the space for a vigilante to rise. She is known as the Blackstaff of Gomora, a warlock as devious as the evil she is fighting. She mastered witchcraft and became a faith leech, which might explain why the cultists dread her so much.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_7_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Increased maximum Rage and Willpower, allowing you to cast more spells and attack skills.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_8_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Twisted Obligation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_8_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_9_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Twisted Obligation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_9_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_10_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Self-Preservation Instinct</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_10_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ui_MAST_11_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sharp Insight</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_11_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_12_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sharp Insight</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_12_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_13_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Sharp Insight</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_13_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_14_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Strike like Lightning</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_14_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_15_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Focused</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_15_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_16_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Reining In the Darkness</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_16_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Be careful, they say. Be careful, for when you gaze into the abyss, it gazes right back at you. The line sometimes gets blurred: am I surrounded by darkness? Or am I the darkness?&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Kardis, The Blackstaff&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;There's a city cursed with a unique ecosystem. Far away from busy civilizations, Gomora welcomes every and any cult on its island indiscriminately, no matter how evil and insidious. Powerful Arbiters keep most of the madness in check. But still, repeated bloodsheds in the darkest corners of this twisted city has created the space for a vigilante to rise. She is known as the Blackstaff of Gomora, a warlock as devious as the evil she is fighting. She mastered witchcraft and became a faith leech, which might explain why the cultists dread her so much.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_16_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Spells are more likely to deal critical damage when above a certain threshold of Willpower.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_17_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Dark Calling</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_17_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_18_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Self-Restraint</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_18_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_19_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Magical Mastery</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_19_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_20_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Magical Mastery</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_20_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_21_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Magical Mastery</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_21_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_22_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Self-Restraint</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_22_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_23_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Impatient</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_23_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_24_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Resilience to Corruption</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_24_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;Morality will get you killed in Gomora. No-one is &quot;good&quot;, there is only power. Here, you are measured by the strength of your conviction alone.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Kardis, The Blackstaff&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;There's a city cursed with a unique ecosystem. Far away from busy civilizations, Gomora welcomes every and any cult on its island indiscriminately, no matter how evil and insidious. Powerful Arbiters keep most of the madness in check. But still, repeated bloodsheds in the darkest corners of this twisted city has created the space for a vigilante to rise. She is known as the Blackstaff of Gomora, a warlock as devious as the evil she is fighting. She mastered witchcraft and became a faith leech, which might explain why the cultists dread her so much.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_24_desc</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">When you are afflicted with damage over time, ailment damage affects your Force Shield before your Health.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_25_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Ancient Trinket</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_25_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_26_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Strong-Willed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_26_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_27_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Unholy Dominion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_27_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_28_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Ravenous Magic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_28_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_29_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Ravenous Magic</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_29_lore</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_30_name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Faith Leech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_30_lore</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">&lt;font color=&quot;#c5b14d&quot;&gt;&lt;i&gt;&quot;When these mongrels are cut off from the power of their master, their world is turned upside down. Alone, powerless, frightened. But unlike orphans, they deserve no mercy. None at all.&quot;&lt;/i&gt;&lt;/font&gt;\n\n&lt;font size=&quot;24&quot; color=&quot;#c5b14d&quot;&gt;&lt;b&gt;Kardis, The Blackstaff&lt;/b&gt;&lt;/font&gt;\n_________________________________________________________   \n&#10;&lt;font color=&quot;#c5b14d&quot;&gt;There's a city cursed with a unique ecosystem. Far away from busy civilizations, Gomora welcomes every and any cult on its island indiscriminately, no matter how evil and insidious. Powerful Arbiters keep most of the madness in check. But still, repeated bloodsheds in the darkest corners of this twisted city has created the space for a vigilante to rise. She is known as the Blackstaff of Gomora, a warlock as devious as the evil she is fighting. She mastered witchcraft and became a faith leech, which might explain why the cultists dread her so much.&lt;/font&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_MAST_30_desc</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Dealing damage will now allow you to recover Force Shield instead of Health with Life Leech.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="2" ss:StyleID="m492939448"><Data ss:Type="String">BUFFS FROM ELEM 30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:StyleID="s78"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_FireBuff_title</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Immortal Offering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_FireBuff_desc</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Bonus Fire Damage gained from killing Burning enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_FrostBuff_title</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Immortal Offering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_FrostBuff_desc</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Bonus Frost Damage gained from killing Frozen enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_LightningBuff_title</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Immortal Offering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_LightningBuff_desc</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Bonus Lightning Damage gained from killing Shocked enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_PhysicalBuff_title</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Immortal Offering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_PhysicalBuff_desc</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Bonus Physical Damage gained from killing Stunned enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_RendBuff_title</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Immortal Offering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_RendBuff_desc</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Bonus Rend Damage gained from killing Bleeding enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_SacredBuff_title</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Immortal Offering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_SacredBuff_desc</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Bonus Sacred Damage gained from killing Weakened enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_ShadowBuff_title</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Immortal Offering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_ShadowBuff_desc</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Bonus Shadow Damage gained from killing Cursed enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_ToxicBuff_title</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Immortal Offering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_ToxicBuff_desc</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Bonus Toxic Damage gained from killing Poisoned enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_UmbraBuff_title</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Immortal Offering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">ui_AilmentsStacks_UmbraBuff_desc</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Bonus Aether Damage gained from killing enemies in Stasis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s28"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.51181102362204722"
+     x:Data="&amp;LTime restriction sample script"/>
+    <Footer x:Margin="0.51181102362204722" x:Data="Page &amp;P"/>
+    <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0"
+     x:Top="0.98425196850393704"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>70</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

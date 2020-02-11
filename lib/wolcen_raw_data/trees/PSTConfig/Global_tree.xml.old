@@ -1,0 +1,33 @@
+<Tree>
+  <Ring Number="0">
+    <Section Name="Hunter" Number="0" />
+    <Section Name="Thief" Number="1" />
+    <Section Name="Guardian" Number="2" />
+    <Section Name="Arcanist" Number="3" />
+    <Section Name="Legionary" Number="4" />
+  </Ring>
+
+  <Ring Number="1">
+    <Section Name="Warden" Number="0" />
+    <Section Name="Maleficient" Number="1" />
+    <Section Name="Gladiator" Number="2" />
+    <Section Name="Trickster" Number="3" />
+    <Section Name="Elementalist" Number="4" />
+  </Ring>
+
+  <Ring Number="2">
+    <!-- <Section Name="Gunner" Number="0" /> 
+    <Section Name="Paladin" Number="1" /> -->
+   <Section Name="Assassin" Number="2" />
+    <!-- <Section Name="Summoner" Number="3" /> 
+    <Section Name="UmbralKnight" Number="4" /> -->
+  </Ring>
+
+  <Ring Number="3">
+    <!--<Section Name="Shadow" Number="0" />
+    <Section Name="Conjurer" Number="1" />
+    <Section Name="Engineer" Number="2" />
+    <Section Name="Berserkr" Number="3" />
+    <Section Name="Necromancer" Number="4" /> -->
+  </Ring>
+</Tree>

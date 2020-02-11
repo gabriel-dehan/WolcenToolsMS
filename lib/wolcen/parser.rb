@@ -56,7 +56,7 @@ class Wolcen::Parser
               eims_utils = Wolcen::Utils::Eims.new
               skill_eims = eims_utils.find_skill_eims(section_eims, skill[:id])
 
-              skill[:modifiers] = skill_eims.map do |eim_data|
+              skill[:eims] = skill_eims.map do |eim_data|
                 description = eims_utils.inject_semantics(eim_data[:name], eim_data[:semantics])
 
                 {

@@ -1,70 +1,33 @@
-require_relative '../wolcen_toolbox'
 
 namespace :wolcen do
   desc ""
-  task :parse_modifiers => :environment do
-    tools = WolcenToolbox.new
-    # p tools.i18n[:modifiers].
-    # ui_eim
-    eims = []
-    tools.i18n[:modifiers].xpath("//Row[.//*[contains(text(), 'ui_eim')]]").each do |row|
-      nameNode, descriptionNode = row.search("Cell/Data")
-
-      name = nameNode.text().gsub(/^ui_eim_/, '')
-      if nameNode 
-        name = nameNode.text().gsub(/^ui_eim_/, '')
-        eims.push << {
-          id: name,
-          description: descriptionNode ? descriptionNode.text() : name.humanize(),
-        }
-      end
-    end
-    tools.write_to_file('modifiers', eims)
-    
-    puts "Done !"
+  task :parse_eims => :environment do
+    puts "Parsing eims..."
+    tools = Wolcen::Tools.new
+    data  = Wolcen::Parser::parse_eim!
+    tools.write_as_json('eims', data)
+    puts "Done!"
   end
 
   desc "Parses XML tree data from Wolcen"
   # PST === Passive Skill Tree ;)
   task :parse_trees => :environment do
-    tools = WolcenToolbox.new
-
-    # = Parses global tree information =
-    hash = tools.open_and_parse(tools.global_tree_path)
-    # Swapping names so it has coherence vs client app
-    base = { tree: { wheels: hash[:tree][:ring]} }
-
-    # = Parse each tree and extract data = 
-    base[:tree][:wheels].each do |wheel|
-      if wheel[:section] 
-        wheel[:section].each do |section|
-          section[:id] = section[:name]
-          section[:name] = tools.t(:passives, "ui_Section_#{section[:id]}")
-
-          section_path = File.join(tools.trees_path, "PassiveSkills", "#{section[:id]}_tree.xml" )
-          hash = tools.open_and_parse(section_path)
-          
-          category = hash[:meta_data][:tree][:category]
-          section[:skills] = hash[:meta_data][:tree][:skill].map do |skill|
-            # Bit of renaming
-            skill[:id] = skill[:name]
-            skill.delete(:name)
-            
-            skill[:position] = skill[:pos]
-            skill.delete(:pos)
-
-            skill[:name] = tools.t(:passives, "ui_#{skill[:id]}_name")
-            skill[:description] = tools.t(:passives, "ui_#{skill[:id]}_desc")
-            skill[:lore] = tools.t(:passives, "ui_#{skill[:id]}_lore")
-
-            skill
-          end
-          pp section
-        end
-      end
-      # pp wheel
-      
-    end
-    
+    Wolcen::Parser::parse_pst!
   end
 end
+
+=begin
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s78"><Data ss:Type="String">ui_eim_ailment_stacks_multiplier</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">%1 Chance to multiply the number of Ailment Stacks applied by %2</Data></Cell>
+   </Row>
+   + 
+   <Spell Name="ELEM_24" UIName="@ui_ELEM_24_name" HUDLoreDesc="@ui_ELEM_24_lore" GameplayDesc="@ui_ELEM_24_desc">
+    <MagicEffects>
+      <EIM Name="ailment_stacks_multiplier" HUDDesc="@ui_eim_ailment_stacks_multiplier" Permanent="1">
+        <Semantics ChancePercentInt="50" MultiplierFloat="2" />
+      </EIM>
+    </MagicEffects>
+  </Spell>
+
+=end

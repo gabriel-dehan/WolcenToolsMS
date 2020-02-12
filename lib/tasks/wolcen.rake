@@ -1,6 +1,7 @@
 
 namespace :wolcen do
   desc ""
+  # EIMs = Entity Internal Modifiers ;)
   task :parse_eims => :environment do
     puts "Parsing eims..."
     tools = Wolcen::Tools.new
@@ -12,7 +13,11 @@ namespace :wolcen do
   desc "Parses XML tree data from Wolcen"
   # PST === Passive Skill Tree ;)
   task :parse_trees => :environment do
-    Wolcen::Parser::parse_pst!
+    puts "Parsing passive skill trees..."
+    tools = Wolcen::Tools.new
+    data = Wolcen::Parser::parse_pst!
+    tools.write_as_json('pst', data)
+    puts "Done!"
   end
 end
 

@@ -4,11 +4,13 @@ class Wolcen::ParsedManager
   def initialize
     @base_path = Rails.root.join("lib", "wolcen_parsed_data")
     @eims_path = File.join(base_path, 'eims.json')
+    @pst_path = File.join(base_path, 'pst.json')
 
     # PARSED PATHS    
     @parsed = {
       trees: {
-        eims: ParsedFile.new(:eims, @eims_path, default: [])
+        eims: ParsedFile.new(:eims, @eims_path, default: []),
+        pst: ParsedFile.new(:wheels, @pst_path, default: {})
       }
     }
   end

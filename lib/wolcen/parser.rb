@@ -68,10 +68,10 @@ class Wolcen::Parser
               end
               skill
             end
-            pp section
+            # pp section
           end
         end
-        # pp wheel
+        wheel
       end
     end
   end

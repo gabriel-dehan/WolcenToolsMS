@@ -1,17 +1,16 @@
 class ApplicationController < ActionController::API
   class AuthenticationError < StandardError; end
+  before_action :authenticate!
 
-  before_action :authenticate
-
-  def current_user 
-    @poe_auth_user
-  end
+  # def current_user 
+  #   @auth_user
+  # end
 
   private
-  def authenticate
-    if params[:poe_auth_token]
-      @poe_auth_user = User.where(token: params[:poe_auth_token]).first
-      raise AuthenticationError.new("Invalid auth token") unless @poe_auth_user
+  def authenticate!
+    if params[:api_key]
+      # @auth_user = ...
+      raise AuthenticationError.new("Invalid auth token") unless params[:api_key] == ENV['API_KEY']
     else
       raise AuthenticationError.new("Need to provide auth token")
     end

@@ -8,7 +8,7 @@
     <Skill Name="DIST_3" Rarity="1" Category="range" MaxLevel="1" Angle="0.73" Pos="0.15" Unlock="DIST_4" />
     <Skill Name="DIST_4" Rarity="1" Category="range" MaxLevel="1" Angle="0.80" Pos="0.15" Unlock="DIST_5" />
     <Skill Name="DIST_5" Rarity="3" Category="range" MaxLevel="1" Angle="0.89" Pos="0.15" Unlock="" />
-    <Skill Name="DIST_10" Rarity="1" Category="range" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp" />
+    <Skill Name="DIST_10" Rarity="1" Category="range" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp,endRight" />
     <Skill Name="DIST_1" Rarity="1" Category="range" MaxLevel="1" Angle="0.50" Pos="0.15" Unlock="begin,DIST_2,DIST_22,DIST_11,DIST_14,DIST_19" />
     <Skill Name="DIST_11" Rarity="1" Category="range" MaxLevel="1" Angle="0.55" Pos="0.30" Unlock="DIST_12" />
     <Skill Name="DIST_12" Rarity="1" Category="range" MaxLevel="1" Angle="0.60" Pos="0.45" Unlock="DIST_10,DIST_13,DIST_14" />
@@ -29,6 +29,6 @@
     <Skill Name="DIST_28" Rarity="1" Category="range" MaxLevel="1" Angle="0.27" Pos="0.15" Unlock="DIST_29" />
     <Skill Name="DIST_29" Rarity="1" Category="range" MaxLevel="1" Angle="0.20" Pos="0.15" Unlock="DIST_30" />
     <Skill Name="DIST_30" Rarity="3" Category="range" MaxLevel="1" Angle="0.11" Pos="0.15" Unlock="" />
-    <Skill Name="DIST_27" Rarity="1" Category="range" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp" />
+    <Skill Name="DIST_27" Rarity="1" Category="range" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp,endLeft" />
   </Tree>
 </MetaData>

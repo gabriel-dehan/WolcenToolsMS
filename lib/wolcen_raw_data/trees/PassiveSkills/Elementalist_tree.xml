@@ -8,7 +8,7 @@
     <Skill Name="ELEM_3" Rarity="1" Category="magic" MaxLevel="1" Angle="0.65" Pos="0.30" Unlock="ELEM_4" />
     <Skill Name="ELEM_4" Rarity="1" Category="magic" MaxLevel="1" Angle="0.70" Pos="0.40" Unlock="ELEM_5" />
     <Skill Name="ELEM_5" Rarity="3" Category="magic" MaxLevel="1" Angle="0.76" Pos="0.53" Unlock="" />
-    <Skill Name="ELEM_10" Rarity="1" Category="magic" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp" />
+    <Skill Name="ELEM_10" Rarity="1" Category="magic" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp,endRight" />
     <Skill Name="ELEM_1" Rarity="1" Category="magic" MaxLevel="1" Angle="0.50" Pos="0.15" Unlock="begin,ELEM_2,ELEM_22,ELEM_11,ELEM_14,ELEM_19" />
     <Skill Name="ELEM_11" Rarity="1" Category="magic" MaxLevel="1" Angle="0.54" Pos="0.30" Unlock="ELEM_12" />
     <Skill Name="ELEM_12" Rarity="1" Category="magic" MaxLevel="1" Angle="0.58" Pos="0.45" Unlock="ELEM_10,ELEM_13,ELEM_14" />
@@ -29,6 +29,6 @@
     <Skill Name="ELEM_28" Rarity="1" Category="magic" MaxLevel="1" Angle="0.35" Pos="0.30" Unlock="ELEM_29" />
     <Skill Name="ELEM_29" Rarity="1" Category="magic" MaxLevel="1" Angle="0.30" Pos="0.40" Unlock="ELEM_30" />
     <Skill Name="ELEM_30" Rarity="3" Category="magic" MaxLevel="1" Angle="0.24" Pos="0.53" Unlock="" />
-    <Skill Name="ELEM_27" Rarity="1" Category="magic" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp" />
+    <Skill Name="ELEM_27" Rarity="1" Category="magic" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp,endLeft" />
   </Tree>
 </MetaData>

@@ -2,17 +2,17 @@
   <Spell Name="WARR_1" UIName="@ui_WARR_1_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="damage_percent_melee_weapon" HUDDesc="@ui_eim_damage_percent_melee_weapon" Permanent="1">
-        <Semantics DamagePercentInt="20" />
+        <Semantics DamagePercentInt="8" />
       </EIM>
       <EIM Name="damage_percent_attack" HUDDesc="@ui_eim_damage_percent_attack" Permanent="1">
-        <Semantics DamagePercentInt="5" />
+        <Semantics DamagePercentInt="6" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="WARR_2" UIName="@ui_WARR_2_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="material_damage_percent" HUDDesc="@ui_eim_material_damage_percent" Permanent="1">
-        <Semantics DamagePercentInt="10" />
+        <Semantics DamagePercentInt="15" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -45,7 +45,7 @@
   <Spell Name="WARR_5" UIName="@ui_WARR_5_name" HUDLoreDesc="@ui_WARR_5_lore" GameplayDesc="@ui_WARR_5_desc">
     <MagicEffects>
       <EIM Name="material_damage_percent" HUDDesc="@ui_eim_material_damage_percent" Permanent="1">
-        <Semantics DamagePercentInt="80" />
+        <Semantics DamagePercentInt="50" />
       </EIM>
       <EIM Name="material_damage_only" HUDDesc="@ui_eim_material_damage_only" Permanent="1">
         <Semantics PossibilityInt="1" />
@@ -58,14 +58,14 @@
         <Semantics HealthFlatInt="100" />
       </EIM>
       <EIM Name="health_percent" HUDDesc="@ui_eim_health_percent" Permanent="1">
-        <Semantics HealthPercentInt="10" />
+        <Semantics HealthPercentInt="8" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="WARR_7" UIName="@ui_WARR_7_name" HUDLoreDesc="@ui_WARR_7_lore" GameplayDesc="@ui_WARR_7_desc">
     <MagicEffects>
       <EIM Name="damage_percent_per_enemy_in_range" HUDDesc="@ui_eim_damage_percent_per_enemy_in_range" Permanent="1">
-        <Semantics DamagePercentFloat_Max="20" DamagePercentFloat="4" RadiusFloat="4" />
+        <Semantics DamagePercentFloat_Max="25" DamagePercentFloat="4" RadiusFloat="4" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -89,28 +89,28 @@
         <Semantics HealthPercentInt="10" />
       </EIM>
       <EIM Name="health_regen_true_percent" HUDDesc="@ui_eim_health_regen_true_percent" Permanent="1">
-        <Semantics ResourcePercentInt="35" />
+        <Semantics ResourcePercentInt="12" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="WARR_11" UIName="@ui_WARR_11_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="damage_percent_attack" HUDDesc="@ui_eim_damage_percent_attack" Permanent="1">
-        <Semantics DamagePercentInt="15" />
+        <Semantics DamagePercentInt="10" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="WARR_12" UIName="@ui_WARR_12_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="damage_percent_attack" HUDDesc="@ui_eim_damage_percent_attack" Permanent="1">
-        <Semantics DamagePercentInt="15" />
+        <Semantics DamagePercentInt="16" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="WARR_13" UIName="@ui_WARR_13_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="damage_percent_attack" HUDDesc="@ui_eim_damage_percent_attack" Permanent="1">
-        <Semantics DamagePercentInt="15" />
+        <Semantics DamagePercentInt="10" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -123,7 +123,7 @@
         <Semantics CharacteristicScorePercentInt="5" />
       </EIM>
       <EIM Name="spellcastingspeed_score_percent" HUDDesc="@ui_eim_spellcastingspeed_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="5" />
+        <Semantics CharacteristicScorePercentInt="9" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -158,21 +158,21 @@
   <Spell Name="WARR_19" UIName="@ui_WARR_19_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="damage_percent_melee_weapon" HUDDesc="@ui_eim_damage_percent_melee_weapon" Permanent="1">
-        <Semantics DamagePercentInt="15" />
+        <Semantics DamagePercentInt="10" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="WARR_20" UIName="@ui_WARR_20_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="damage_percent_melee_weapon" HUDDesc="@ui_eim_damage_percent_melee_weapon" Permanent="1">
-        <Semantics DamagePercentInt="15" />
+        <Semantics DamagePercentInt="16" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="WARR_21" UIName="@ui_WARR_21_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="damage_percent_melee_weapon" HUDDesc="@ui_eim_damage_percent_melee_weapon" Permanent="1">
-        <Semantics DamagePercentInt="15" />
+        <Semantics DamagePercentInt="10" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -189,7 +189,7 @@
         <Semantics CharacteristicScoreInt="5" />
       </EIM>
       <EIM Name="all_resistance_score_percent" HUDDesc="@ui_eim_all_resistance_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="5" />
+        <Semantics CharacteristicScorePercentInt="12" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -234,14 +234,14 @@
   <Spell Name="WARR_29" UIName="@ui_WARR_29_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="bleedchance_on_rend_damage_score_percent" HUDDesc="@ui_eim_bleedchance_on_rend_damage_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="10" />
+        <Semantics CharacteristicScorePercentInt="15" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="WARR_30" UIName="@ui_WARR_30_name" HUDLoreDesc="@ui_WARR_30_lore" GameplayDesc="@ui_WARR_30_desc">
     <MagicEffects>
       <EIM Name="convert_physical_to_rend" HUDDesc="@ui_eim_convert_physical_to_rend" Permanent="1">
-        <Semantics DamagePercentFloat="30" />
+        <Semantics DamagePercentFloat="50" />
       </EIM>
     </MagicEffects>
   </Spell>

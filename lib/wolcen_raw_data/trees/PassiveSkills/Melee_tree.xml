@@ -8,7 +8,7 @@
     <Skill Name="MELEE_3" Rarity="1" Category="range" MaxLevel="1" Angle="0.73" Pos="0.15" Unlock="MELEE_4" />
     <Skill Name="MELEE_4" Rarity="1" Category="range" MaxLevel="1" Angle="0.80" Pos="0.15" Unlock="MELEE_5" />
     <Skill Name="MELEE_5" Rarity="3" Category="range" MaxLevel="1" Angle="0.89" Pos="0.15" Unlock="" />
-    <Skill Name="MELEE_10" Rarity="1" Category="range" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp" />
+    <Skill Name="MELEE_10" Rarity="1" Category="range" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp,endRight" />
     <Skill Name="MELEE_1" Rarity="1" Category="range" MaxLevel="1" Angle="0.50" Pos="0.15" Unlock="begin,MELEE_2,MELEE_22,MELEE_11,MELEE_14,MELEE_19" />
     <Skill Name="MELEE_11" Rarity="1" Category="range" MaxLevel="1" Angle="0.55" Pos="0.30" Unlock="MELEE_12" />
     <Skill Name="MELEE_12" Rarity="1" Category="range" MaxLevel="1" Angle="0.60" Pos="0.45" Unlock="MELEE_10,MELEE_13,MELEE_14" />
@@ -29,6 +29,6 @@
     <Skill Name="MELEE_28" Rarity="1" Category="range" MaxLevel="1" Angle="0.27" Pos="0.15" Unlock="MELEE_29" />
     <Skill Name="MELEE_29" Rarity="1" Category="range" MaxLevel="1" Angle="0.20" Pos="0.15" Unlock="MELEE_30" />
     <Skill Name="MELEE_30" Rarity="3" Category="range" MaxLevel="1" Angle="0.11" Pos="0.15" Unlock="" />
-    <Skill Name="MELEE_27" Rarity="1" Category="range" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp" />
+    <Skill Name="MELEE_27" Rarity="1" Category="range" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp,endLeft" />
   </Tree>
 </MetaData>

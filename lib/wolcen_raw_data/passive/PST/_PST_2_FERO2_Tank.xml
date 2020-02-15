@@ -2,17 +2,17 @@
   <Spell Name="TANK_1" UIName="@ui_TANK_1_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="all_resistance_score_percent" HUDDesc="@ui_eim_all_resistance_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="10" />
+        <Semantics CharacteristicScorePercentInt="12" />
       </EIM>
       <EIM Name="health_percent" HUDDesc="@ui_eim_health_percent" Permanent="1">
-        <Semantics HealthPercentInt="10" />
+        <Semantics HealthPercentInt="8" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="TANK_2" UIName="@ui_TANK_2_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="damage_percent_attack" HUDDesc="@ui_eim_damage_percent_attack" Permanent="1">
-        <Semantics DamagePercentInt="10" />
+        <Semantics DamagePercentInt="12" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -26,21 +26,21 @@
   <Spell Name="TANK_4" UIName="@ui_TANK_4_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="blockefficiency_percent" HUDDesc="@ui_eim_blockefficiency_percent" Permanent="1">
-        <Semantics ResourcePercentFloat="10" />
+        <Semantics ResourcePercentFloat="20" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="TANK_5" UIName="@ui_TANK_5_name" HUDLoreDesc="@ui_TANK_5_lore" GameplayDesc="@ui_TANK_5_desc">
     <MagicEffects>
       <EIM Name="defense_up_on_block" HUDDesc="@ui_eim_defense_up_on_block" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="20" />
+        <Semantics CharacteristicScorePercentInt="25" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="TANK_6" UIName="@ui_TANK_6_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="health_regen_true_percent" HUDDesc="@ui_eim_health_regen_true_percent" Permanent="1">
-        <Semantics ResourcePercentInt="10" />
+        <Semantics ResourcePercentInt="25" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -71,31 +71,31 @@
   <Spell Name="TANK_10" UIName="@ui_TANK_10_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="health_regen_true_percent" HUDDesc="@ui_eim_health_regen_true_percent" Permanent="1">
-        <Semantics ResourcePercentInt="10" />
+        <Semantics ResourcePercentInt="12" />
       </EIM>
       <EIM Name="health_regen_frequency" HUDDesc="@ui_eim_health_regen_frequency" Permanent="1">
-        <Semantics ResourcePercentFloat="15" />
+        <Semantics ResourcePercentFloat="10" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="TANK_11" UIName="@ui_TANK_11_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="all_resistance_score_percent" HUDDesc="@ui_eim_all_resistance_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="15" />
+        <Semantics CharacteristicScorePercentInt="18" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="TANK_12" UIName="@ui_TANK_12_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="all_resistance_score_percent" HUDDesc="@ui_eim_all_resistance_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="15" />
+        <Semantics CharacteristicScorePercentInt="18" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="TANK_13" UIName="@ui_TANK_13_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="all_resistance_score_percent" HUDDesc="@ui_eim_all_resistance_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="15" />
+        <Semantics CharacteristicScorePercentInt="18" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -108,7 +108,7 @@
         <Semantics CharacteristicScorePercentInt="5" />
       </EIM>
       <EIM Name="spellcastingspeed_score_percent" HUDDesc="@ui_eim_spellcastingspeed_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="5" />
+        <Semantics CharacteristicScorePercentInt="9" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -122,21 +122,21 @@
   <Spell Name="TANK_16" UIName="@ui_TANK_16_name" HUDLoreDesc="@ui_TANK_16_lore" GameplayDesc="@ui_TANK_16_desc">
     <MagicEffects>
       <EIM Name="blockchance_unconditional_flat" HUDDesc="@ui_eim_blockchance_unconditional_flat" Permanent="1">
-        <Semantics ChanceFlatFloat="10" />
+        <Semantics ChanceFlatFloat="6" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="TANK_17" UIName="@ui_TANK_17_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="blockchance_unconditional_flat" HUDDesc="@ui_eim_blockchance_unconditional_flat" Permanent="1">
-        <Semantics ChanceFlatFloat="5" />
+        <Semantics ChanceFlatFloat="3" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="TANK_18" UIName="@ui_TANK_18_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="blockefficiency_percent" HUDDesc="@ui_eim_blockefficiency_percent" Permanent="1">
-        <Semantics ResourcePercentFloat="10" />
+        <Semantics ResourcePercentFloat="20" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -164,14 +164,14 @@
   <Spell Name="TANK_22" UIName="@ui_TANK_22_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="criticaldamage_pts" HUDDesc="@ui_eim_criticaldamage_pts" Permanent="1">
-        <Semantics DamagePercentInt="20" />
+        <Semantics DamagePercentInt="12" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="TANK_23" UIName="@ui_TANK_23_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="health_regen_frequency" HUDDesc="@ui_eim_health_regen_frequency" Permanent="1">
-        <Semantics ResourcePercentFloat="10" />
+        <Semantics ResourcePercentFloat="20" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -199,17 +199,17 @@
   <Spell Name="TANK_27" UIName="@ui_TANK_27_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="damage_percent_attack" HUDDesc="@ui_eim_damage_percent_attack" Permanent="1">
-        <Semantics DamagePercentInt="5" />
+        <Semantics DamagePercentInt="12" />
       </EIM>
       <EIM Name="criticaldamage_pts" HUDDesc="@ui_eim_criticaldamage_pts" Permanent="1">
-        <Semantics DamagePercentInt="20" />
+        <Semantics DamagePercentInt="12" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="TANK_28" UIName="@ui_TANK_28_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="healthglobe_drop_chance_on_hit" HUDDesc="@ui_eim_healthglobe_drop_chance_on_hit" Permanent="1">
-        <Semantics ChanceFlatFloat="5" />
+        <Semantics ChanceFlatFloat="4" />
       </EIM>
     </MagicEffects>
   </Spell>

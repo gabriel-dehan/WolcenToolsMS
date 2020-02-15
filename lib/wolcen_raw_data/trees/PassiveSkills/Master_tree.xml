@@ -8,7 +8,7 @@
     <Skill Name="MAST_3" Rarity="1" Category="magic" MaxLevel="1" Angle="0.65" Pos="0.30" Unlock="MAST_4" />
     <Skill Name="MAST_4" Rarity="1" Category="magic" MaxLevel="1" Angle="0.70" Pos="0.40" Unlock="MAST_5" />
     <Skill Name="MAST_5" Rarity="3" Category="magic" MaxLevel="1" Angle="0.76" Pos="0.53" Unlock="" />
-    <Skill Name="MAST_10" Rarity="1" Category="magic" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp" />
+    <Skill Name="MAST_10" Rarity="1" Category="magic" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp,endRight" />
     <Skill Name="MAST_1" Rarity="1" Category="magic" MaxLevel="1" Angle="0.50" Pos="0.15" Unlock="begin,MAST_2,MAST_22,MAST_11,MAST_14,MAST_19" />
     <Skill Name="MAST_11" Rarity="1" Category="magic" MaxLevel="1" Angle="0.54" Pos="0.30" Unlock="MAST_12" />
     <Skill Name="MAST_12" Rarity="1" Category="magic" MaxLevel="1" Angle="0.58" Pos="0.45" Unlock="MAST_10,MAST_13,MAST_14" />
@@ -29,6 +29,6 @@
     <Skill Name="MAST_28" Rarity="1" Category="magic" MaxLevel="1" Angle="0.35" Pos="0.30" Unlock="MAST_29" />
     <Skill Name="MAST_29" Rarity="1" Category="magic" MaxLevel="1" Angle="0.30" Pos="0.40" Unlock="MAST_30" />
     <Skill Name="MAST_30" Rarity="3" Category="magic" MaxLevel="1" Angle="0.24" Pos="0.53" Unlock="" />
-    <Skill Name="MAST_27" Rarity="1" Category="magic" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp" />
+    <Skill Name="MAST_27" Rarity="1" Category="magic" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp,endLeft" />
   </Tree>
 </MetaData>

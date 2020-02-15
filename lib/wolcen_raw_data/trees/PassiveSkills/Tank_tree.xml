@@ -8,7 +8,7 @@
     <Skill Name="TANK_3" Rarity="1" Category="melee" MaxLevel="1" Angle="0.88" Pos="0.20" Unlock="TANK_4" />
     <Skill Name="TANK_4" Rarity="1" Category="melee" MaxLevel="1" Angle="0.95" Pos="0.35" Unlock="TANK_5" />
     <Skill Name="TANK_5" Rarity="3" Category="melee" MaxLevel="1" Angle="0.92" Pos="0.55" Unlock="" />
-    <Skill Name="TANK_10" Rarity="1" Category="melee" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp" />
+    <Skill Name="TANK_10" Rarity="1" Category="melee" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp,endRight" />
     <Skill Name="TANK_1" Rarity="1" Category="melee" MaxLevel="1" Angle="0.50" Pos="0.15" Unlock="begin,TANK_2,TANK_22,TANK_11,TANK_14,TANK_19" />
     <Skill Name="TANK_11" Rarity="1" Category="melee" MaxLevel="1" Angle="0.60" Pos="0.30" Unlock="TANK_12" />
     <Skill Name="TANK_12" Rarity="1" Category="melee" MaxLevel="1" Angle="0.60" Pos="0.45" Unlock="TANK_10,TANK_13,TANK_14" />
@@ -29,6 +29,6 @@
     <Skill Name="TANK_28" Rarity="1" Category="melee" MaxLevel="1" Angle="0.12" Pos="0.20" Unlock="TANK_29" />
     <Skill Name="TANK_29" Rarity="1" Category="melee" MaxLevel="1" Angle="0.05" Pos="0.35" Unlock="TANK_30" />
     <Skill Name="TANK_30" Rarity="3" Category="melee" MaxLevel="1" Angle="0.08" Pos="0.55" Unlock="" />
-    <Skill Name="TANK_27" Rarity="1" Category="melee" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp" />
+    <Skill Name="TANK_27" Rarity="1" Category="melee" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp,endLeft" />
   </Tree>
 </MetaData>

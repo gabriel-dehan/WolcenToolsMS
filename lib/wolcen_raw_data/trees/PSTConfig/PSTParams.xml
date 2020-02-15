@@ -31,24 +31,24 @@
     <Material Type="edgeLink" Mode="0" Path="objects/pst/materials/pst_socleedge_inactive" />
     <Material Type="edgeLink" Mode="1" Path="objects/pst/materials/pst_socleedge_hover" />
     <Material Type="edgeLink" Mode="2" Path="objects/pst/materials/pst_socleedge_selected" />
-    <Material Type="base" Rarity="0" Mode="0" Path="objects/pst/materials/pst_socle0_inactive" />
-    <Material Type="base" Rarity="0" Mode="1" Path="objects/pst/materials/pst_socle0_hover" />
-    <Material Type="base" Rarity="0" Mode="2" Path="objects/pst/materials/pst_socle0_selected" />
-    <Material Type="base" Rarity="1" Mode="0" Path="objects/pst/materials/pst_socle1_inactive" />
-    <Material Type="base" Rarity="1" Mode="1" Path="objects/pst/materials/pst_socle1_hover" />
-    <Material Type="base" Rarity="1" Mode="2" Path="objects/pst/materials/pst_socle1_selected" />
-    <Material Type="base" Rarity="2" Mode="0" Path="objects/pst/materials/pst_socle2_inactive" />
-    <Material Type="base" Rarity="2" Mode="1" Path="objects/pst/materials/pst_socle2_hover" />
-    <Material Type="base" Rarity="2" Mode="2" Path="objects/pst/materials/pst_socle2_selected" />
+    <Material Type="base" Rarity="0" Mode="0" Path="objects/pst/materials/pst_socle0_inactive_new" />
+    <Material Type="base" Rarity="0" Mode="1" Path="objects/pst/materials/pst_socle0_hover_new" />
+    <Material Type="base" Rarity="0" Mode="2" Path="objects/pst/materials/pst_socle0_selected_new" />
+    <Material Type="base" Rarity="1" Mode="0" Path="objects/pst/materials/pst_socle1_inactive_new" />
+    <Material Type="base" Rarity="1" Mode="1" Path="objects/pst/materials/pst_socle1_hover_new" />
+    <Material Type="base" Rarity="1" Mode="2" Path="objects/pst/materials/pst_socle1_selected_new" />
+    <Material Type="base" Rarity="2" Mode="0" Path="objects/pst/materials/pst_socle2_inactive_new" />
+    <Material Type="base" Rarity="2" Mode="1" Path="objects/pst/materials/pst_socle2_hover_new" />
+    <Material Type="base" Rarity="2" Mode="2" Path="objects/pst/materials/pst_socle2_selected_new" />
     <Material Type="base" Rarity="3" Mode="0" Path="objects/pst/materials/pst_socle_signature_inactive" />
     <Material Type="base" Rarity="3" Mode="1" Path="objects/pst/materials/pst_socle_signature_hover" />
     <Material Type="base" Rarity="3" Mode="2" Path="objects/pst/materials/pst_socle_signature_selected" />
   </MaterialsParams>
   <GeometryParams>
     <Object Type="skill" Path="objects/pst/pstskill.cgf" />
-    <Object Type="base" Rarity="0" Path="objects/pst/pstsocle0.cgf" />
-    <Object Type="base" Rarity="1" Path="objects/pst/pstsocle1.cgf" />
-    <Object Type="base" Rarity="2" Path="objects/pst/pstsocle2.cgf" />
+    <Object Type="base" Rarity="0" Path="objects/pst/pstsocle0_new.cgf" />
+    <Object Type="base" Rarity="1" Path="objects/pst/pstsocle1_new.cgf" />
+    <Object Type="base" Rarity="2" Path="objects/pst/pstsocle2_new.cgf" />
     <Object Type="base" Rarity="3" Path="objects/pst/PSTSocle_signature.cgf" />
     <Object Type="edge" Ring="0" Path="objects/pst/pstlinkedge0_flat.cgf" />
     <Object Type="edge" Ring="1" Path="objects/pst/pstlinkedge1_flat.cgf" />

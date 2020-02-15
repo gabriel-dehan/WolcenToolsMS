@@ -12,5 +12,18 @@
     <Section Name="Tank" Number="4" />
     <Section Name="Master" Number="5" />
   </Ring>
-  <Ring Number="2" />
+  <Ring Number="2">
+    <Section Name="Repurgator" Number="0" />
+    <Section Name="Berserker" Number="1" />
+    <Section Name="Oracle" Number="2" />
+    <Section Name="Assassin" Number="3" />
+    <Section Name="Siegebreaker" Number="4" />
+    <Section Name="Necromancer" Number="5" />
+    <Section Name="Shadow" Number="6" />
+    <Section Name="Paladin" Number="7" />
+    <Section Name="Spellblade" Number="8" />
+    <Section Name="Sniper" Number="9" />
+    <Section Name="Champion" Number="10" />
+    <Section Name="TimeMaster" Number="11" />
+  </Ring>
 </Tree>

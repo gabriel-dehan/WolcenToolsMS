@@ -8,7 +8,7 @@
     <Skill Name="WARR_3" Rarity="1" Category="melee" MaxLevel="1" Angle="0.88" Pos="0.20" Unlock="WARR_4" />
     <Skill Name="WARR_4" Rarity="1" Category="melee" MaxLevel="1" Angle="0.95" Pos="0.35" Unlock="WARR_5" />
     <Skill Name="WARR_5" Rarity="3" Category="melee" MaxLevel="1" Angle="0.92" Pos="0.55" Unlock="" />
-    <Skill Name="WARR_10" Rarity="1" Category="melee" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp" />
+    <Skill Name="WARR_10" Rarity="1" Category="melee" MaxLevel="1" Angle="0.75" Pos="0.80" Unlock="rightUp,endRight" />
     <Skill Name="WARR_1" Rarity="1" Category="melee" MaxLevel="1" Angle="0.50" Pos="0.15" Unlock="begin,WARR_2,WARR_22,WARR_11,WARR_14,WARR_19" />
     <Skill Name="WARR_11" Rarity="1" Category="melee" MaxLevel="1" Angle="0.60" Pos="0.30" Unlock="WARR_12" />
     <Skill Name="WARR_12" Rarity="1" Category="melee" MaxLevel="1" Angle="0.60" Pos="0.45" Unlock="WARR_10,WARR_13,WARR_14" />
@@ -29,6 +29,6 @@
     <Skill Name="WARR_28" Rarity="1" Category="melee" MaxLevel="1" Angle="0.12" Pos="0.20" Unlock="WARR_29" />
     <Skill Name="WARR_29" Rarity="1" Category="melee" MaxLevel="1" Angle="0.05" Pos="0.35" Unlock="WARR_30" />
     <Skill Name="WARR_30" Rarity="3" Category="melee" MaxLevel="1" Angle="0.08" Pos="0.55" Unlock="" />
-    <Skill Name="WARR_27" Rarity="1" Category="melee" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp" />
+    <Skill Name="WARR_27" Rarity="1" Category="melee" MaxLevel="1" Angle="0.25" Pos="0.80" Unlock="leftUp,endLeft" />
   </Tree>
 </MetaData>

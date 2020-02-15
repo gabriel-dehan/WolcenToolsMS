@@ -2,17 +2,17 @@
   <Spell Name="ELEM_1" UIName="@ui_ELEM_1_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="umbracosts_percent" HUDDesc="@ui_eim_umbracost_percent" Permanent="1">
-        <Semantics ResourcePercentFloat="10" />
+        <Semantics ResourcePercentFloat="8" />
       </EIM>
       <EIM Name="damage_percent_spell" HUDDesc="@ui_eim_damage_percent_spell" Permanent="1">
-        <Semantics DamagePercentInt="10" />
+        <Semantics DamagePercentInt="8" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="ELEM_2" UIName="@ui_ELEM_2_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="statusailment_inflict_score_percent" HUDDesc="@ui_eim_statusailment_inflict_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="10" />
+        <Semantics CharacteristicScorePercentInt="18" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -43,7 +43,7 @@
   <Spell Name="ELEM_6" UIName="@ui_ELEM_6_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="statusailment_resist_score_percent" HUDDesc="@ui_eim_statusailment_resist_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="20" />
+        <Semantics CharacteristicScorePercentInt="18" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -57,31 +57,31 @@
   <Spell Name="ELEM_8" UIName="@ui_ELEM_8_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="criticalchance_magicspell_score_percent" HUDDesc="@ui_eim_criticalchance_magicspell_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="15" />
+        <Semantics CharacteristicScorePercentInt="18" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="ELEM_9" UIName="@ui_ELEM_9_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="criticalchance_attackskill_score_percent" HUDDesc="@ui_eim_criticalchance_attackskill_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="15" />
+        <Semantics CharacteristicScorePercentInt="18" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="ELEM_10" UIName="@ui_ELEM_10_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="statusailment_resist_score_percent" HUDDesc="@ui_eim_statusailment_resist_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="10" />
+        <Semantics CharacteristicScorePercentInt="12" />
       </EIM>
       <EIM Name="all_resistance_score_percent" HUDDesc="@ui_eim_all_resistance_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="10" />
+        <Semantics CharacteristicScorePercentInt="9" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="ELEM_11" UIName="@ui_ELEM_11_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="forceshield_percent" HUDDesc="@ui_eim_forceshield_percent" Permanent="1">
-        <Semantics ArmorPercentFloat="20" />
+        <Semantics ArmorPercentFloat="12" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -95,7 +95,7 @@
   <Spell Name="ELEM_13" UIName="@ui_ELEM_13_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="forceshield_percent" HUDDesc="@ui_eim_forceshield_percent" Permanent="1">
-        <Semantics ArmorPercentFloat="20" />
+        <Semantics ArmorPercentFloat="12" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -105,10 +105,10 @@
         <Semantics SpeedPercentInt="5" />
       </EIM>
       <EIM Name="attackspeed_score_percent" HUDDesc="@ui_eim_attackspeed_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="5" />
+        <Semantics CharacteristicScorePercentInt="9" />
       </EIM>
       <EIM Name="spellcastingspeed_score_percent" HUDDesc="@ui_eim_spellcastingspeed_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="5" />
+        <Semantics CharacteristicScorePercentInt="9" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -129,7 +129,7 @@
   <Spell Name="ELEM_17" UIName="@ui_ELEM_17_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="dotdamage_percent_global" HUDDesc="@ui_eim_dotdamage_percent_global" Permanent="1">
-        <Semantics DamagePercentFloat="30" />
+        <Semantics DamagePercentFloat="50" />
       </EIM>
       <EIM Name="non_dot_damage_percent" HUDDesc="@ui_eim_non_dot_damage_percent" Permanent="1">
         <Semantics DamagePercentFloat="-15" />
@@ -139,14 +139,14 @@
   <Spell Name="ELEM_18" UIName="@ui_ELEM_18_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="statusailment_inflict_score_percent" HUDDesc="@ui_eim_statusailment_inflict_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="20" />
+        <Semantics CharacteristicScorePercentInt="18" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="ELEM_19" UIName="@ui_ELEM_19_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="dotdamage_percent_global" HUDDesc="@ui_eim_dotdamage_percent_global" Permanent="1">
-        <Semantics DamagePercentFloat="30" />
+        <Semantics DamagePercentFloat="50" />
       </EIM>
       <EIM Name="non_dot_damage_percent" HUDDesc="@ui_eim_non_dot_damage_percent" Permanent="1">
         <Semantics DamagePercentFloat="-15" />
@@ -156,14 +156,14 @@
   <Spell Name="ELEM_20" UIName="@ui_ELEM_20_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="dotdamage_percent_global" HUDDesc="@ui_eim_dotdamage_percent_global" Permanent="1">
-        <Semantics DamagePercentFloat="15" />
+        <Semantics DamagePercentFloat="12" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="ELEM_21" UIName="@ui_ELEM_21_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="dotdamage_percent_global" HUDDesc="@ui_eim_dotdamage_percent_global" Permanent="1">
-        <Semantics DamagePercentFloat="25" />
+        <Semantics DamagePercentFloat="30" />
       </EIM>
       <EIM Name="non_dot_damage_percent" HUDDesc="@ui_eim_non_dot_damage_percent" Permanent="1">
         <Semantics DamagePercentFloat="-10" />
@@ -173,14 +173,14 @@
   <Spell Name="ELEM_22" UIName="@ui_ELEM_22_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="anystack_duration_percent" HUDDesc="@ui_eim_anystack_duration_percent" Permanent="1">
-        <Semantics DurationPercentInt="75" />
+        <Semantics DurationPercentInt="50" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="ELEM_23" UIName="@ui_ELEM_23_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="all_resistance_score_percent" HUDDesc="@ui_eim_all_resistance_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="20" />
+        <Semantics CharacteristicScorePercentInt="18" />
       </EIM>
     </MagicEffects>
   </Spell>
@@ -193,14 +193,14 @@
   </Spell>
   <Spell Name="ELEM_25" UIName="@ui_ELEM_25_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
-      <EIM Name="ailment_stacks_multiplier" HUDDesc="@ui_eim_ailment_stacks_multiplier_chance" Permanent="1">
+      <EIM Name="ailment_stacks_multiplier" HUDDesc="@ui_eim_ailment_stacks_multiplier_increase" Permanent="1">
         <Semantics ChancePercentInt="25" MultiplierFloat="0" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="ELEM_26" UIName="@ui_ELEM_26_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
-      <EIM Name="ailment_stacks_multiplier" HUDDesc="@ui_eim_ailment_stacks_multiplier_chance" Permanent="1">
+      <EIM Name="ailment_stacks_multiplier" HUDDesc="@ui_eim_ailment_stacks_multiplier_increase" Permanent="1">
         <Semantics ChancePercentInt="25" MultiplierFloat="0" />
       </EIM>
     </MagicEffects>
@@ -208,7 +208,7 @@
   <Spell Name="ELEM_27" UIName="@ui_ELEM_27_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="statusailment_inflict_score_percent" HUDDesc="@ui_eim_statusailment_inflict_score_percent" Permanent="1">
-        <Semantics CharacteristicScorePercentInt="10" />
+        <Semantics CharacteristicScorePercentInt="12" />
       </EIM>
       <EIM Name="anystack_duration_percent" HUDDesc="@ui_eim_anystack_duration_increase" Permanent="1">
         <Semantics DurationPercentInt="75" />
@@ -218,14 +218,14 @@
   <Spell Name="ELEM_28" UIName="@ui_ELEM_28_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="damage_percent_spell" HUDDesc="@ui_eim_damage_percent_spell" Permanent="1">
-        <Semantics DamagePercentInt="15" />
+        <Semantics DamagePercentInt="12" />
       </EIM>
     </MagicEffects>
   </Spell>
   <Spell Name="ELEM_29" UIName="@ui_ELEM_29_name" HUDLoreDesc="" GameplayDesc="">
     <MagicEffects>
       <EIM Name="damage_percent_spell" HUDDesc="@ui_eim_damage_percent_spell" Permanent="1">
-        <Semantics DamagePercentInt="15" />
+        <Semantics DamagePercentInt="12" />
       </EIM>
     </MagicEffects>
   </Spell>
